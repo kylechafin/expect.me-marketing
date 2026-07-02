@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram Follow Helper</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+      --bg: #ffffff;
+      --bg-secondary: #f5f4f1;
+      --bg-warning: #faeeda;
+      --text: #1a1a18;
+      --text-secondary: #6b6a66;
+      --text-success: #3b6d11;
+      --text-info: #185fa5;
+      --text-warning: #854f0b;
+      --border: rgba(0,0,0,0.15);
+      --border-secondary: rgba(0,0,0,0.22);
+      --border-warning: rgba(133,79,11,0.3);
+      --radius: 8px;
+      --radius-lg: 12px;
+      --font: 'IBM Plex Sans', system-ui, sans-serif;
+      --mono: 'IBM Plex Mono', monospace;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1c1c1a;
+        --bg-secondary: #252523;
+        --bg-warning: #412402;
+        --text: #f0ede8;
+        --text-secondary: #9c9a94;
+      --text-success: #c0dd97;
+        --text-info: #b5d4f4;
+        --text-warning: #fac775;
+        --border: rgba(255,255,255,0.12);
+        --border-secondary: rgba(255,255,255,0.22);
+        --border-warning: rgba(250,199,117,0.3);
+      }
+    }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 2.5rem 1.5rem;
+    }
+
+    .wrap {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 22px;
+      font-weight: 500;
+      margin-bottom: 6px;
+    }
+
+    .sub {
+      font-size: 14px;
+      color: var(--text-secondary);
+      margin-bottom: 1.75rem;
+      line-height: 1.6;
+    }
+
+    label {
+      display: block;
+      font-size: 13px;
+      font-weight: 500;
+      margin-bottom: 6px;
+      color: var(--text-secondary);
+    }
+
+    textarea {
+      width: 100%;
+      height: 180px;
+      font-family: var(--mono);
+      font-size: 12px;
+      padding: 12px;
+      border: 0.5px solid var(--border-secondary);
+      border-radius: var(--radius);
+      background: var(--bg-secondary);
+      color: var(--text);
+      resize: vertical;
+      line-height: 1.5;
+      display: block;
+    }
+    textarea:focus {
+      outline: none;
+      border-color: var(--text-secondary);
+    }
+
+    .controls {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-top: 12px;
+      flex-wrap: wrap;
+    }
+
+    button {
+      padding: 8px 20px;
+      font-size: 14px;
+      font-family: var(--font);
+      border: 0.5px solid var(--border-secondary);
+      border-radius: var(--radius);
+      background: transparent;
+      color: var(--text);
+      cursor: pointer;
+      transition: background 0.15s, opacity 0.15s;
+    }
+    button:hover { background: var(--bg-secondary); }
+    button:active { transform: scale(0.98); }
+    button:disabled { opacity: 0.35; cursor: not-allowed; transform: none; }
+
+    button.primary {
+      background: var(--text);
+      color: var(--bg);
+      border-color: var(--text);
+    }
+    button.primary:hover { opacity: 0.82; background: var(--text); }
+
+    .delay-wrap {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      color: var(--text-secondary);
+      margin-left: auto;
+    }
+    .delay-wrap input[type=range] {
+      width: 90px;
+      accent-color: var(--text);
+    }
+    .delay-val {
+      font-size: 13px;
+      font-weight: 500;
+      min-width: 44px;
+      color: var(--text);
+    }
+
+    .popup-warn {
+      margin-top: 14px;
+      padding: 10px 14px;
+      border-radius: var(--radius);
+      background: var(--bg-warning);
+      border: 0.5px solid var(--border-warning);
+      color: var(--text-warning);
+      font-size: 13px;
+      line-height: 1.5;
+      display: none;
+    }
+    .popup-warn.active { display: block; }
+
+    .status-bar {
+      margin-top: 1.25rem;
+      padding: 12px 14px;
+      border-radius: var(--radius);
+      border: 0.5px solid var(--border);
+      background: var(--bg-secondary);
+      font-size: 13px;
+      color: var(--text-secondary);
+      display: none;
+    }
+    .status-bar.active { display: block; }
+
+    .progress-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+    .progress-track {
+      flex: 1;
+      height: 4px;
+      background: var(--border);
+      border-radius: 99px;
+      overflow: hidden;
+    }
+    .progress-fill {
+      height: 100%;
+      background: var(--text);
+      border-radius: 99px;
+      transition: width 0.4s ease;
+      width: 0%;
+    }
+    .progress-label {
+      font-size: 12px;
+      font-weight: 500;
+      min-width: 44px;
+      text-align: right;
+      color: var(--text);
+    }
+
+    .account-list {
+      margin-top: 1rem;
+      border: 0.5px solid var(--border);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      display: none;
+      max-height: 320px;
+      overflow-y: auto;
+    }
+    .account-list.active { display: block; }
+
+    .list-header {
+      padding: 8px 14px;
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--text-secondary);
+      background: var(--bg-secondary);
+      border-bottom: 0.5px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .account-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 9px 14px;
+      border-bottom: 0.5px solid var(--border);
+      font-size: 13px;
+      transition: background 0.1s;
+    }
+    .account-row:last-child { border-bottom: none; }
+    .account-row.is-opening { background: var(--bg-secondary); }
+
+    .account-handle { font-weight: 500; color: var(--text); }
+    .account-name { color: var(--text-secondary); flex: 1; font-size: 12px; }
+    .account-link { font-size: 12px; color: var(--text-info); text-decoration: none; }
+    .account-link:hover { text-decoration: underline; }
+    .account-status { font-size: 12px; min-width: 64px; text-align: right; }
+    .s-waiting { color: var(--text-secondary); }
+    .s-opening { color: var(--text-info); }
+    .s-done { color: var(--text-success); }
+    .s-skipped { color: var(--text-secondary); opacity: 0.45; }
+
+    .footer {
+      margin-top: 3rem;
+      font-size: 12px;
+      color: var(--text-secondary);
+      border-top: 0.5px solid var(--border);
+      padding-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Instagram follow helper</h1>
+    <p class="sub">Paste an Instagram followers HTML snippet below. Accounts with a "Follow" button (not yet followed) will be extracted and opened one by one with a random delay.</p>
+
+    <label for="html-input">HTML snippet</label>
+    <textarea id="html-input" placeholder="Paste Instagram HTML here..."></textarea>
+
+    <div class="controls">
+      <button class="primary" id="parse-btn" onclick="parseAndRun()">Parse &amp; open tabs</button>
+      <button id="stop-btn" onclick="stopQueue()" disabled>Stop</button>
+      <div class="delay-wrap">
+        ⏱ Delay
+        <input type="range" min="3" max="20" value="7" step="1" id="delay-slider" oninput="updateDelay(this.value)">
+        <span class="delay-val" id="delay-out">5–10s</span>
+      </div>
+    </div>
+
+    <div class="popup-warn" id="popup-warn">
+      <strong>Allow pop-ups:</strong> Your browser may block new tabs on the first attempt. Look for a pop-up blocked notice in your address bar and click Allow.
+    </div>
+
+    <div class="status-bar" id="status-bar">
+      <div class="progress-row">
+        <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+        <span class="progress-label" id="progress-label">0 / 0</span>
+      </div>
+      <span id="status-msg">Ready</span>
+    </div>
+
+    <div class="account-list" id="account-list">
+      <div class="list-header">
+        <span id="list-title">Accounts</span>
+        <span id="list-count"></span>
+      </div>
+      <div id="list-rows"></div>
+    </div>
+
+    <p class="footer">Rangerly social media helper &mdash; runs entirely in your browser, no data is sent anywhere.</p>
+  </div>
+
+  <script>
+    let queue = [];
+    let timer = null;
+    let current = 0;
+    let minDelay = 5, maxDelay = 10;
+
+    function updateDelay(v) {
+      v = parseInt(v);
+      minDelay = Math.max(2, v - 2);
+      maxDelay = v + 3;
+      document.getElementById('delay-out').textContent = minDelay + '–' + maxDelay + 's';
+    }
+
+    function parseAndRun() {
+      const html = document.getElementById('html-input').value.trim();
+      if (!html) { setStatus('Paste some HTML first.'); showStatus(); return; }
+
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(html, 'text/html');
+      const buttons = doc.querySelectorAll('button, div[role="button"]');
+      const accounts = [];
+
+      // A handle href looks like "/username/" — a single path segment, no spaces.
+      // Reserved Instagram paths (explore, reels, etc.) are not user profiles.
+      const RESERVED = new Set(['explore', 'reels', 'reel', 'p', 'direct', 'stories', 'accounts', 'about', 'tv', 'top', 'web']);
+      function handleFromHref(href) {
+        if (!href) return null;
+        const m = href.match(/^\/([^\/\s?#]+)\/?$/);
+        if (!m) return null;
+        const h = m[1];
+        if (RESERVED.has(h.toLowerCase())) return null;
+        return h;
+      }
+
+      // Walk up from the button to the smallest ancestor that contains a
+      // profile link. This survives Instagram's class-name churn — we don't
+      // depend on any specific wrapper class, just the DOM shape.
+      function findCard(btn) {
+        let el = btn.parentElement;
+        for (let i = 0; i < 15 && el; i++, el = el.parentElement) {
+          const links = el.querySelectorAll('a[href^="/"]');
+          for (const a of links) {
+            if (handleFromHref(a.getAttribute('href'))) return el;
+          }
+        }
+        return null;
+      }
+
+      buttons.forEach(btn => {
+        const text = btn.textContent.trim().toLowerCase();
+        // Accept "Follow" / "Follow back" but skip already-followed,
+        // requested, or unrelated buttons.
+        if (!/^follow\b/.test(text) || text.startsWith('following')) return;
+
+        const row = findCard(btn);
+        if (!row) return;
+
+        const links = row.querySelectorAll('a[href^="/"]');
+        let handle = null;
+        let displayName = null;
+
+        links.forEach(a => {
+          const candidate = handleFromHref(a.getAttribute('href'));
+          if (candidate) handle = candidate;
+        });
+
+        const nameSpans = row.querySelectorAll('span[class*="xuxw1ft"], span[class*="_aade"]');
+        nameSpans.forEach(s => {
+          const t = s.textContent.trim();
+          const tl = t.toLowerCase();
+          if (t && t !== handle && !t.startsWith('/') && t.length > 0 && !displayName
+              && tl !== 'follow' && tl !== 'following') {
+            displayName = t;
+          }
+        });
+
+        if (handle) {
+          const exists = accounts.find(a => a.handle === handle);
+          if (!exists) {
+            accounts.push({
+              handle,
+              displayName: displayName || '',
+              url: 'https://www.instagram.com/' + handle + '/',
+              status: 'waiting'
+            });
+          }
+        }
+      });
+
+      if (accounts.length === 0) {
+        setStatus('No unfollowed accounts found. Make sure you pasted the right HTML snippet.');
+        showStatus();
+        return;
+      }
+
+      queue = accounts;
+      current = 0;
+      renderList();
+      showStatus();
+      updateProgress();
+      document.getElementById('parse-btn').disabled = true;
+      document.getElementById('stop-btn').disabled = false;
+      document.getElementById('popup-warn').classList.add('active');
+      openNext();
+    }
+
+    function openNext() {
+      if (current >= queue.length) {
+        setStatus('Done — all ' + queue.length + ' tabs opened.');
+        document.getElementById('parse-btn').disabled = false;
+        document.getElementById('stop-btn').disabled = true;
+        return;
+      }
+
+      const item = queue[current];
+      item.status = 'opening';
+      renderList();
+      updateProgress();
+      setStatus('Opening ' + (current + 1) + ' of ' + queue.length + ': @' + item.handle);
+
+      window.open(item.url, '_blank');
+
+      item.status = 'done';
+      current++;
+      renderList();
+      updateProgress();
+
+      if (current < queue.length) {
+        const delay = (Math.random() * (maxDelay - minDelay) + minDelay) * 1000;
+        setStatus('Waiting ' + Math.round(delay / 1000) + 's… (' + current + ' of ' + queue.length + ' done)');
+        timer = setTimeout(openNext, delay);
+      } else {
+        setStatus('All done — opened ' + queue.length + ' tabs.');
+        document.getElementById('parse-btn').disabled = false;
+        document.getElementById('stop-btn').disabled = true;
+      }
+    }
+
+    function stopQueue() {
+      clearTimeout(timer);
+      for (let i = current; i < queue.length; i++) queue[i].status = 'skipped';
+      renderList();
+      setStatus('Stopped after ' + current + ' of ' + queue.length + ' accounts.');
+      document.getElementById('parse-btn').disabled = false;
+      document.getElementById('stop-btn').disabled = true;
+    }
+
+    function renderList() {
+      const rows = document.getElementById('list-rows');
+      const list = document.getElementById('account-list');
+      list.classList.add('active');
+
+      document.getElementById('list-title').textContent = 'Accounts found';
+      document.getElementById('list-count').textContent = queue.length + ' total';
+
+      rows.innerHTML = queue.map(a => {
+        const cls = 's-' + a.status;
+        const rowCls = a.status === 'opening' ? 'account-row is-opening' : 'account-row';
+        const label = { waiting: '–', opening: 'opening…', done: '✓ opened', skipped: 'skipped' }[a.status] || '';
+        return '<div class="' + rowCls + '">' +
+          '<span class="account-handle">@' + a.handle + '</span>' +
+          '<span class="account-name">' + (a.displayName && a.displayName !== a.handle ? a.displayName : '') + '</span>' +
+          '<a class="account-link" href="' + a.url + '" target="_blank">profile ↗</a>' +
+          '<span class="account-status ' + cls + '">' + label + '</span>' +
+          '</div>';
+      }).join('');
+
+      const doneRows = rows.querySelectorAll('.s-done');
+      if (doneRows.length > 0) {
+        doneRows[doneRows.length - 1].scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+      }
+    }
+
+    function updateProgress() {
+      const pct = queue.length ? (current / queue.length * 100) : 0;
+      document.getElementById('progress-fill').style.width = Math.round(pct) + '%';
+      document.getElementById('progress-label').textContent = current + ' / ' + queue.length;
+    }
+
+    function showStatus() { document.getElementById('status-bar').classList.add('active'); }
+    function setStatus(msg) { document.getElementById('status-msg').textContent = msg; }
+  </script>
+</body>
+</html>
