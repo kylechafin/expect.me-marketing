@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trip Card Screenshot Template</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --card-width: 1006px;      /* width of the capture area, in CSS px */
+      --card-font: Arial, Helvetica, "Liberation Sans", sans-serif;
+    }
+
+    /* ---- Colour schemes -------------------------------------------------
+       Every colour in the card comes from one of these blocks. The tokens
+       live on #capture (not :root) so the theme travels with the cloned
+       element during PNG export. The orange quote bar is deliberately the
+       same in all four schemes.
+       -------------------------------------------------------------------- */
+    #capture {
+      --quote-bg: #f8f8f8;
+      --quote-rule: #e07d16;
+      --quote-text: #333333;
+      --btn-primary-text: #ffffff;
+      --btn-secondary-text: #333333;
+    }
+
+    #capture[data-theme="salmon"] {
+      --card-bg: #f9dfd7;
+      --divider: #eec9bc;
+      --btn-primary-bg: #e2612c;
+      --btn-secondary-bg: #f6cec2;
+      --btn-secondary-border: #e2612c;
+    }
+
+    #capture[data-theme="amber"] {
+      --card-bg: #fce9c0;
+      --divider: #f0dcaf;
+      --btn-primary-bg: #f6a91b;
+      --btn-secondary-bg: #fbdfa3;
+      --btn-secondary-border: #efa41c;
+    }
+
+    #capture[data-theme="rose"] {
+      --card-bg: #fadde1;
+      --divider: #eec7cc;
+      --btn-primary-bg: #e04653;
+      --btn-secondary-bg: #f7ccd1;
+      --btn-secondary-border: #e04653;
+    }
+
+    #capture[data-theme="sage"] {
+      --card-bg: #daecd6;
+      --divider: #c4dbbe;
+      --btn-primary-bg: #429140;
+      --btn-secondary-bg: #bbdcb4;
+      --btn-secondary-border: #429140;
+    }
+
+    /* =========================================================
+       CAPTURE AREA — screenshot this element (#capture).
+       Nothing below the "chrome" comment affects the image.
+       ========================================================= */
+    #capture {
+      width: var(--card-width);
+      font-family: var(--card-font);
+      /* No background here — the rounded corners stay transparent so the
+         exported PNG drops straight onto any backdrop. */
+    }
+
+    .trip-card {
+      background: var(--card-bg);
+      border-radius: 12px;
+      padding: 32px;
+    }
+
+    .trip-quote {
+      background: var(--quote-bg);
+      border-left: 9px solid var(--quote-rule);
+      padding: 30px 30px 30px 60px;
+      color: var(--quote-text);
+      font-size: 38px;
+      line-height: 1.53;
+      /* Keep the exact copy the user typed, including manual line breaks. */
+      white-space: pre-wrap;
+    }
+
+    .trip-divider {
+      border: 0;
+      border-top: 1px solid var(--divider);
+      margin: 36px 0;
+    }
+
+    .trip-actions {
+      display: flex;
+      gap: 24px;
+    }
+
+    .trip-btn {
+      font-family: var(--card-font);
+      font-size: 28px;
+      line-height: 1;
+      min-width: 223px;
+      padding: 21px 30px;
+      border-radius: 6px;
+      border: 2px solid transparent;
+      white-space: nowrap;
+      text-align: center;
+    }
+    .trip-btn.primary {
+      background: var(--btn-primary-bg);
+      color: var(--btn-primary-text);
+      border-color: var(--btn-primary-bg);
+    }
+    .trip-btn.secondary {
+      background: var(--btn-secondary-bg);
+      color: var(--btn-secondary-text);
+      border-color: var(--btn-secondary-border);
+    }
+
+    /* =========================================================
+       Editor chrome — hidden by "Clean view", never captured.
+       ========================================================= */
+    body {
+      background: #f5f4f1;
+      color: #1a1a18;
+      font-family: system-ui, sans-serif;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1.25rem;
+    }
+    body.clean { background: #ffffff; padding: 0; gap: 0; }
+    body.clean .chrome { display: none; }
+
+    .chrome { max-width: var(--card-width); width: 100%; }
+
+    h1 { font-size: 20px; font-weight: 600; margin-bottom: 4px; }
+    .sub { font-size: 13px; color: #6b6a66; line-height: 1.6; }
+
+    label {
+      display: block;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 6px;
+      color: #6b6a66;
+    }
+
+    textarea {
+      width: 100%;
+      height: 110px;
+      font-family: var(--card-font);
+      font-size: 15px;
+      padding: 12px;
+      border: 1px solid rgba(0,0,0,0.22);
+      border-radius: 8px;
+      background: #fff;
+      color: #1a1a18;
+      resize: vertical;
+      line-height: 1.5;
+      display: block;
+    }
+    textarea:focus { outline: none; border-color: #6b6a66; }
+
+    .controls {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 12px;
+      flex-wrap: wrap;
+      font-size: 13px;
+      color: #6b6a66;
+    }
+
+    .controls button {
+      padding: 8px 18px;
+      font-size: 14px;
+      font-family: inherit;
+      border: 1px solid rgba(0,0,0,0.22);
+      border-radius: 8px;
+      background: #fff;
+      color: #1a1a18;
+      cursor: pointer;
+    }
+    .controls button:hover { background: #f0efec; }
+    .controls button.primary { background: #1a1a18; color: #fff; border-color: #1a1a18; }
+    .controls button.primary:hover { opacity: 0.85; background: #1a1a18; }
+
+    .controls .swatch {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 12px 6px 8px;
+      font-size: 13px;
+    }
+    .controls .swatch i {
+      width: 14px;
+      height: 14px;
+      border-radius: 3px;
+      border: 1px solid rgba(0,0,0,0.15);
+      display: inline-block;
+    }
+    .controls .swatch i + i { margin-left: -4px; }
+    .controls .swatch.is-active {
+      border-color: #1a1a18;
+      box-shadow: inset 0 0 0 1px #1a1a18;
+      font-weight: 600;
+    }
+
+    .controls input[type="number"] {
+      width: 84px;
+      padding: 7px 8px;
+      font-size: 13px;
+      font-family: inherit;
+      border: 1px solid rgba(0,0,0,0.22);
+      border-radius: 8px;
+      background: #fff;
+      color: #1a1a18;
+    }
+
+    .note {
+      font-size: 12px;
+      color: #6b6a66;
+      line-height: 1.6;
+      border-top: 1px solid rgba(0,0,0,0.15);
+      padding-top: 12px;
+      margin-top: 4px;
+    }
+    .note code {
+      font-family: ui-monospace, Menlo, Consolas, monospace;
+      background: #ebe9e4;
+      padding: 1px 5px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="chrome">
+    <h1>Trip card screenshot template</h1>
+    <p class="sub">Type the trip text, then screenshot the card below. Everything except the quote text is fixed.</p>
+  </div>
+
+  <div class="chrome">
+    <label for="trip-text">Trip text</label>
+    <textarea id="trip-text" spellcheck="true">Riding laps on Hemlock via Pitch Pine until the storms roll in. Camped at Bear Brook State Park, site 64.</textarea>
+
+    <div class="controls" id="theme-row">
+      <span>Colour scheme</span>
+      <button class="swatch is-active" data-theme="salmon" title="Salmon"><i style="background:#f9dfd7"></i><i style="background:#e2612c"></i> Salmon</button>
+      <button class="swatch" data-theme="amber" title="Amber"><i style="background:#fce9c0"></i><i style="background:#f6a91b"></i> Amber</button>
+      <button class="swatch" data-theme="rose" title="Rose"><i style="background:#fadde1"></i><i style="background:#e04653"></i> Rose</button>
+      <button class="swatch" data-theme="sage" title="Sage"><i style="background:#daecd6"></i><i style="background:#429140"></i> Sage</button>
+    </div>
+
+    <div class="controls">
+      <button class="primary" id="png-btn">Download PNG (2&times;)</button>
+      <button id="clean-btn">Clean view</button>
+      <button id="copy-link-btn">Copy link with text</button>
+      <span style="margin-left:auto">Card width</span>
+      <input type="number" id="width-input" value="1006" min="320" max="4000" step="1">
+      <span>px</span>
+    </div>
+  </div>
+
+  <!-- ============ SCREENSHOT THIS ============ -->
+  <div id="capture" data-theme="salmon">
+    <div class="trip-card">
+      <div class="trip-quote" id="quote">Riding laps on Hemlock via Pitch Pine until the storms roll in. Camped at Bear Brook State Park, site 64.</div>
+      <hr class="trip-divider">
+      <div class="trip-actions">
+        <button class="trip-btn primary" type="button">Check In</button>
+        <button class="trip-btn secondary" type="button">Extend Trip</button>
+      </div>
+    </div>
+  </div>
+  <!-- ========== END SCREENSHOT AREA ========== -->
+
+  <p class="note chrome">
+    <strong>Clean view</strong> hides these controls so a full-page screenshot captures only the card.
+    You can also preset the card via URL: <code>?theme=sage&amp;text=Your%20trip%20text</code>
+    (themes: <code>salmon</code>, <code>amber</code>, <code>rose</code>, <code>sage</code>).
+    The PNG export renders the card through an inline SVG &mdash; no network calls, nothing leaves the browser.
+  </p>
+
+  <script>
+    const input = document.getElementById('trip-text');
+    const quote = document.getElementById('quote');
+    const capture = document.getElementById('capture');
+    const widthInput = document.getElementById('width-input');
+
+    function render() {
+      // textContent, not innerHTML — the trip text is user copy, not markup.
+      quote.textContent = input.value;
+    }
+
+    input.addEventListener('input', render);
+
+    const THEMES = ['salmon', 'amber', 'rose', 'sage'];
+
+    function setTheme(name) {
+      if (!THEMES.includes(name)) return;
+      capture.dataset.theme = name;
+      document.querySelectorAll('#theme-row .swatch').forEach(b => {
+        b.classList.toggle('is-active', b.dataset.theme === name);
+      });
+    }
+
+    document.getElementById('theme-row').addEventListener('click', (e) => {
+      const btn = e.target.closest('.swatch');
+      if (btn) setTheme(btn.dataset.theme);
+    });
+
+    widthInput.addEventListener('input', () => {
+      const w = parseInt(widthInput.value, 10);
+      if (w >= 320 && w <= 4000) {
+        document.documentElement.style.setProperty('--card-width', w + 'px');
+      }
+    });
+
+    document.getElementById('clean-btn').addEventListener('click', () => {
+      document.body.classList.toggle('clean');
+    });
+
+    document.getElementById('copy-link-btn').addEventListener('click', (e) => {
+      const url = location.origin + location.pathname +
+        '?theme=' + capture.dataset.theme +
+        '&text=' + encodeURIComponent(input.value);
+      navigator.clipboard.writeText(url).then(() => {
+        e.target.textContent = 'Copied';
+        setTimeout(() => { e.target.textContent = 'Copy link with text'; }, 1500);
+      }).catch(() => {
+        // Clipboard API is blocked in some file:// contexts — show it instead.
+        window.prompt('Copy this link:', url);
+      });
+    });
+
+    // ---- PNG export -------------------------------------------------
+    // The capture element is cloned into an SVG <foreignObject> with the
+    // page's own CSS inlined, then drawn to a canvas. Self-contained, so
+    // the canvas stays untainted and toDataURL works.
+    document.getElementById('png-btn').addEventListener('click', async (e) => {
+      const btn = e.target;
+      const original = btn.textContent;
+      btn.textContent = 'Rendering…';
+
+      try {
+        const rect = capture.getBoundingClientRect();
+        const w = Math.ceil(rect.width);
+        const h = Math.ceil(rect.height);
+        const scale = 2;
+
+        const css = Array.from(document.styleSheets)
+          .flatMap(sheet => {
+            try { return Array.from(sheet.cssRules).map(r => r.cssText); }
+            catch (_) { return []; }
+          })
+          .join('\n');
+
+        const clone = capture.cloneNode(true);
+        clone.style.margin = '0';
+        // Pin the measured width — the --card-width override lives on the live
+        // document's root element and would not survive into the SVG document.
+        clone.style.width = w + 'px';
+
+        // XMLSerializer, not outerHTML — foreignObject content is parsed as
+        // XML, where void tags like <hr> must be self-closed. CSS goes in a
+        // CDATA section so stray < or & in a rule cannot break the parse.
+        const markup = new XMLSerializer().serializeToString(clone);
+        const html =
+          '<div xmlns="http://www.w3.org/1999/xhtml">' +
+          '<style type="text/css"><![CDATA[' + css + ']]></style>' +
+          markup +
+          '</div>';
+
+        const svg =
+          '<svg xmlns="http://www.w3.org/2000/svg" width="' + w + '" height="' + h + '">' +
+          '<foreignObject x="0" y="0" width="' + w + '" height="' + h + '">' +
+          html +
+          '</foreignObject></svg>';
+
+        const img = new Image();
+        img.src = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
+        await img.decode();
+
+        const canvas = document.createElement('canvas');
+        canvas.width = w * scale;
+        canvas.height = h * scale;
+        const ctx = canvas.getContext('2d');
+        ctx.scale(scale, scale);
+        ctx.drawImage(img, 0, 0);
+
+        const a = document.createElement('a');
+        a.download = 'trip-card-' + capture.dataset.theme + '.png';
+        a.href = canvas.toDataURL('image/png');
+        a.click();
+        btn.textContent = original;
+      } catch (err) {
+        console.error(err);
+        btn.textContent = 'Export failed — screenshot instead';
+        setTimeout(() => { btn.textContent = original; }, 2500);
+      }
+    });
+
+    const params = new URLSearchParams(location.search);
+    const preset = params.get('text');
+    if (preset !== null) input.value = preset;
+    if (params.get('theme')) setTheme(params.get('theme'));
+    // ?clean=1 loads straight into clean view — handy for headless capture.
+    if (params.get('clean')) document.body.classList.add('clean');
+    render();
+  </script>
+</body>
+</html>
