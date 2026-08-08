@@ -3,13 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trip Card Screenshot Template</title>
+  <title>Instagram Post Builder</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --card-width: 1006px;      /* width of the capture area, in CSS px */
+      --card-width: 1006px;      /* card width in "Card only" mode, in CSS px */
       --card-font: Arial, Helvetica, "Liberation Sans", sans-serif;
+      --post-w: 1080px;          /* Instagram 4:5 */
+      --post-h: 1440px;
+      --post-pad: 36px;          /* peach margin around the content box */
+      --post-bg: #ffedda;        /* peach — matches frame.png */
     }
 
     /* ---- Colour schemes -------------------------------------------------
@@ -59,20 +63,75 @@
     }
 
     /* =========================================================
-       CAPTURE AREA — screenshot this element (#capture).
+       CAPTURE AREA — screenshot / export this element (#capture).
        Nothing below the "chrome" comment affects the image.
        ========================================================= */
-    #capture {
-      width: var(--card-width);
-      font-family: var(--card-font);
-      /* No background here — the rounded corners stay transparent so the
-         exported PNG drops straight onto any backdrop. */
-    }
+    #capture { font-family: var(--card-font); }
 
+    /* ---- Instagram post mode: fixed 1080x1440 canvas ---- */
+    #capture[data-mode="post"] { width: var(--post-w); }
+    #capture[data-mode="post"] .post {
+      position: relative;
+      width: var(--post-w);
+      height: var(--post-h);
+      background: var(--post-bg);
+      padding: var(--post-pad);
+      display: flex;
+      flex-direction: column;
+    }
+    /* The photo takes whatever height the card leaves over, so the canvas
+       stays exactly 1080x1440 no matter how long the trip text runs. */
+    .post-photo {
+      flex: 1;
+      min-height: 0;
+      overflow: hidden;
+      background: #e8e6e1;
+      position: relative;
+    }
+    .post-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 50% var(--photo-focus, 50%);
+      display: block;
+    }
+    .post-photo img:not([src]) { display: none; }
+    .photo-empty {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #8a877f;
+      font-size: 26px;
+      text-align: center;
+      padding: 40px;
+    }
+    .post-photo.has-photo .photo-empty { display: none; }
+
+    /* frame.png sits on top of everything: its transparent middle lets the
+       photo and card through, its stamp lands over the photo. */
+    .post-frame {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: var(--post-w);
+      height: var(--post-h);
+      pointer-events: none;
+    }
+    .post-frame:not([src]) { display: none; }
+
+    /* ---- Card only mode ---- */
+    #capture[data-mode="card"] { width: var(--card-width); }
+    #capture[data-mode="card"] .post { width: 100%; }
+    #capture[data-mode="card"] .post-photo,
+    #capture[data-mode="card"] .post-frame { display: none; }
+    #capture[data-mode="card"] .trip-card { border-radius: 12px; padding: 32px; }
+
+    /* ---- The card itself ---- */
     .trip-card {
       background: var(--card-bg);
-      border-radius: 12px;
-      padding: 32px;
+      padding: 34px;
     }
 
     .trip-quote {
@@ -135,7 +194,12 @@
     body.clean { background: #ffffff; padding: 0; gap: 0; }
     body.clean .chrome { display: none; }
 
-    .chrome { max-width: var(--card-width); width: 100%; }
+    /* Preview is shrunk with zoom so a 1080x1440 post fits on screen. Export
+       resets it to 1 before measuring, so this never affects output. */
+    #preview-wrap { zoom: 0.5; }
+    body.clean #preview-wrap { zoom: 1; }
+
+    .chrome { max-width: 1080px; width: 100%; }
 
     h1 { font-size: 20px; font-weight: 600; margin-bottom: 4px; }
     .sub { font-size: 13px; color: #6b6a66; line-height: 1.6; }
@@ -150,7 +214,7 @@
 
     textarea {
       width: 100%;
-      height: 110px;
+      height: 90px;
       font-family: var(--card-font);
       font-size: 15px;
       padding: 12px;
@@ -203,7 +267,8 @@
       display: inline-block;
     }
     .controls .swatch i + i { margin-left: -4px; }
-    .controls .swatch.is-active {
+    .controls .swatch.is-active,
+    .controls button.is-active {
       border-color: #1a1a18;
       box-shadow: inset 0 0 0 1px #1a1a18;
       font-weight: 600;
@@ -219,6 +284,12 @@
       background: #fff;
       color: #1a1a18;
     }
+    .controls input[type="range"] { width: 130px; accent-color: #1a1a18; }
+    .controls input[type="file"] { font-size: 12px; max-width: 230px; }
+
+    .frame-state { font-size: 12px; }
+    .frame-state.ok { color: #3b6d11; }
+    .frame-state.missing { color: #854f0b; }
 
     .note {
       font-size: 12px;
@@ -238,8 +309,8 @@
 </head>
 <body>
   <div class="chrome">
-    <h1>Trip card screenshot template</h1>
-    <p class="sub">Type the trip text, then screenshot the card below. Everything except the quote text is fixed.</p>
+    <h1>Instagram post builder</h1>
+    <p class="sub">Drop in a photo, type the trip text, pick a colour scheme. Exports a 1080&times;1440 post with the Rangerly frame on top.</p>
   </div>
 
   <div class="chrome">
@@ -255,50 +326,91 @@
     </div>
 
     <div class="controls">
-      <button class="primary" id="png-btn">Download PNG (2&times;)</button>
+      <span>Photo</span>
+      <input type="file" id="photo-input" accept="image/*">
+      <span>Crop</span>
+      <input type="range" id="focus-input" min="0" max="100" value="50" step="1" title="Vertical crop position">
+      <span id="focus-out">centre</span>
+      <button id="photo-clear">Clear</button>
+    </div>
+
+    <div class="controls">
+      <span>Frame</span>
+      <input type="file" id="frame-input" accept="image/png,image/*">
+      <span class="frame-state" id="frame-state">no frame loaded</span>
+      <button id="frame-clear">Clear</button>
+    </div>
+
+    <div class="controls" id="mode-row">
+      <span>Output</span>
+      <button data-mode="post" class="is-active">Instagram post (1080&times;1440)</button>
+      <button data-mode="card">Card only</button>
+      <span id="card-width-wrap" style="display:none">Card width
+        <input type="number" id="width-input" value="1006" min="320" max="4000" step="1"> px
+      </span>
+    </div>
+
+    <div class="controls">
+      <button class="primary" id="png-btn">Download PNG</button>
       <button id="clean-btn">Clean view</button>
       <button id="copy-link-btn">Copy link with text</button>
-      <span style="margin-left:auto">Card width</span>
-      <input type="number" id="width-input" value="1006" min="320" max="4000" step="1">
-      <span>px</span>
     </div>
   </div>
 
-  <!-- ============ SCREENSHOT THIS ============ -->
-  <div id="capture" data-theme="salmon">
-    <div class="trip-card">
-      <div class="trip-quote" id="quote">Riding laps on Hemlock via Pitch Pine until the storms roll in. Camped at Bear Brook State Park, site 64.</div>
-      <hr class="trip-divider">
-      <div class="trip-actions">
-        <button class="trip-btn primary" type="button">Check In</button>
-        <button class="trip-btn secondary" type="button">Extend Trip</button>
+  <!-- ============ SCREENSHOT / EXPORT THIS ============ -->
+  <div id="preview-wrap">
+    <div id="capture" data-theme="salmon" data-mode="post">
+      <div class="post">
+        <div class="post-photo" id="photo-slot">
+          <img id="photo" alt="">
+          <div class="photo-empty">Drop a photo here, or choose one above</div>
+        </div>
+        <div class="trip-card">
+          <div class="trip-quote" id="quote">Riding laps on Hemlock via Pitch Pine until the storms roll in. Camped at Bear Brook State Park, site 64.</div>
+          <hr class="trip-divider">
+          <div class="trip-actions">
+            <button class="trip-btn primary" type="button">Check In</button>
+            <button class="trip-btn secondary" type="button">Extend Trip</button>
+          </div>
+        </div>
+        <img class="post-frame" id="frame" alt="">
       </div>
     </div>
   </div>
-  <!-- ========== END SCREENSHOT AREA ========== -->
+  <!-- ================= END EXPORT AREA ================= -->
 
   <p class="note chrome">
-    <strong>Clean view</strong> hides these controls so a full-page screenshot captures only the card.
-    You can also preset the card via URL: <code>?theme=sage&amp;text=Your%20trip%20text</code>
+    Load <strong>frame.png</strong> once &mdash; it is remembered in this browser, so you only pick it again if you clear it.
+    Photos are downscaled to 2200px on the long edge before use, which keeps the export well under the size where the
+    renderer starts to choke. <strong>Clean view</strong> hides these controls for a manual 1:1 screenshot.
+    You can preset text and theme via URL: <code>?theme=sage&amp;text=Your%20trip%20text</code>
     (themes: <code>salmon</code>, <code>amber</code>, <code>rose</code>, <code>sage</code>).
-    The PNG export renders the card through an inline SVG &mdash; no network calls, nothing leaves the browser.
+    Everything runs locally &mdash; no network calls, nothing leaves the browser.
   </p>
 
   <script>
-    const input = document.getElementById('trip-text');
-    const quote = document.getElementById('quote');
-    const capture = document.getElementById('capture');
-    const widthInput = document.getElementById('width-input');
+    const input       = document.getElementById('trip-text');
+    const quote       = document.getElementById('quote');
+    const capture     = document.getElementById('capture');
+    const previewWrap = document.getElementById('preview-wrap');
+    const widthInput  = document.getElementById('width-input');
+    const photo       = document.getElementById('photo');
+    const photoSlot   = document.getElementById('photo-slot');
+    const frame       = document.getElementById('frame');
+    const frameState  = document.getElementById('frame-state');
+    const focusInput  = document.getElementById('focus-input');
+    const focusOut    = document.getElementById('focus-out');
+
+    const FRAME_KEY = 'rangerly-frame-png';
+    const THEMES = ['salmon', 'amber', 'rose', 'sage'];
 
     function render() {
       // textContent, not innerHTML — the trip text is user copy, not markup.
       quote.textContent = input.value;
     }
-
     input.addEventListener('input', render);
 
-    const THEMES = ['salmon', 'amber', 'rose', 'sage'];
-
+    /* ---- theme ---------------------------------------------------------- */
     function setTheme(name) {
       if (!THEMES.includes(name)) return;
       capture.dataset.theme = name;
@@ -306,10 +418,23 @@
         b.classList.toggle('is-active', b.dataset.theme === name);
       });
     }
-
     document.getElementById('theme-row').addEventListener('click', (e) => {
       const btn = e.target.closest('.swatch');
       if (btn) setTheme(btn.dataset.theme);
+    });
+
+    /* ---- output mode ---------------------------------------------------- */
+    function setMode(mode) {
+      capture.dataset.mode = mode;
+      document.querySelectorAll('#mode-row button[data-mode]').forEach(b => {
+        b.classList.toggle('is-active', b.dataset.mode === mode);
+      });
+      document.getElementById('card-width-wrap').style.display = mode === 'card' ? '' : 'none';
+      previewWrap.style.zoom = mode === 'post' ? 0.5 : 0.6;
+    }
+    document.getElementById('mode-row').addEventListener('click', (e) => {
+      const btn = e.target.closest('button[data-mode]');
+      if (btn) setMode(btn.dataset.mode);
     });
 
     widthInput.addEventListener('input', () => {
@@ -319,6 +444,101 @@
       }
     });
 
+    /* ---- images --------------------------------------------------------- */
+    // Re-encode the chosen photo at a sane size. A 3000x3000 original turns
+    // into a ~10MB data URL, and the SVG the exporter builds around it gets
+    // large enough to fail to decode — 2200px is still 2x what the slot needs.
+    function fileToScaledDataURL(file, maxEdge) {
+      return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onerror = () => reject(new Error('could not read file'));
+        reader.onload = () => {
+          const img = new Image();
+          img.onerror = () => reject(new Error('not a readable image'));
+          img.onload = () => {
+            const scale = Math.min(1, maxEdge / Math.max(img.width, img.height));
+            if (scale === 1 && file.type === 'image/png') { resolve(reader.result); return; }
+            const c = document.createElement('canvas');
+            c.width = Math.round(img.width * scale);
+            c.height = Math.round(img.height * scale);
+            c.getContext('2d').drawImage(img, 0, 0, c.width, c.height);
+            resolve(c.toDataURL('image/jpeg', 0.92));
+          };
+          img.src = reader.result;
+        };
+        reader.readAsDataURL(file);
+      });
+    }
+
+    function fileToDataURL(file) {
+      return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onerror = () => reject(new Error('could not read file'));
+        reader.onload = () => resolve(reader.result);
+        reader.readAsDataURL(file);
+      });
+    }
+
+    async function setPhotoFile(file) {
+      if (!file || !file.type.startsWith('image/')) return;
+      photo.src = await fileToScaledDataURL(file, 2200);
+      photoSlot.classList.add('has-photo');
+    }
+
+    document.getElementById('photo-input').addEventListener('change', (e) => {
+      if (e.target.files[0]) setPhotoFile(e.target.files[0]);
+    });
+
+    document.getElementById('photo-clear').addEventListener('click', () => {
+      photo.removeAttribute('src');
+      photoSlot.classList.remove('has-photo');
+      document.getElementById('photo-input').value = '';
+    });
+
+    focusInput.addEventListener('input', () => {
+      const v = parseInt(focusInput.value, 10);
+      capture.style.setProperty('--photo-focus', v + '%');
+      focusOut.textContent = v === 50 ? 'centre' : (v < 50 ? 'top ' : 'bottom ') + Math.abs(v - 50) * 2 + '%';
+    });
+
+    // Drop a photo anywhere on the preview.
+    ['dragover', 'drop'].forEach(type => {
+      previewWrap.addEventListener(type, (e) => {
+        e.preventDefault();
+        if (type === 'drop' && e.dataTransfer.files[0]) setPhotoFile(e.dataTransfer.files[0]);
+      });
+    });
+
+    /* ---- frame.png, remembered between sessions ------------------------- */
+    function applyFrame(dataURL) {
+      if (dataURL) {
+        frame.src = dataURL;
+        frameState.textContent = 'frame loaded';
+        frameState.className = 'frame-state ok';
+      } else {
+        frame.removeAttribute('src');
+        frameState.textContent = 'no frame loaded — pick frame.png';
+        frameState.className = 'frame-state missing';
+      }
+    }
+
+    document.getElementById('frame-input').addEventListener('change', async (e) => {
+      if (!e.target.files[0]) return;
+      // Kept as-is rather than re-encoded: the frame needs its alpha channel
+      // and its exact pixels.
+      const url = await fileToDataURL(e.target.files[0]);
+      applyFrame(url);
+      try { localStorage.setItem(FRAME_KEY, url); }
+      catch (_) { frameState.textContent = 'frame loaded (too big to remember)'; }
+    });
+
+    document.getElementById('frame-clear').addEventListener('click', () => {
+      applyFrame(null);
+      try { localStorage.removeItem(FRAME_KEY); } catch (_) {}
+      document.getElementById('frame-input').value = '';
+    });
+
+    /* ---- chrome --------------------------------------------------------- */
     document.getElementById('clean-btn').addEventListener('click', () => {
       document.body.classList.toggle('clean');
     });
@@ -336,7 +556,7 @@
       });
     });
 
-    // ---- PNG export -------------------------------------------------
+    /* ---- PNG export ----------------------------------------------------- */
     // The capture element is cloned into an SVG <foreignObject> with the
     // page's own CSS inlined, then drawn to a canvas. Self-contained, so
     // the canvas stays untainted and toDataURL works.
@@ -345,11 +565,20 @@
       const original = btn.textContent;
       btn.textContent = 'Rendering…';
 
+      const isPost = capture.dataset.mode === 'post';
+      const prevZoom = previewWrap.style.zoom;
+
       try {
-        const rect = capture.getBoundingClientRect();
-        const w = Math.ceil(rect.width);
-        const h = Math.ceil(rect.height);
-        const scale = 2;
+        // Measure and clone at 1:1 — the preview zoom would otherwise scale
+        // what we capture. Restored immediately, before any await.
+        previewWrap.style.zoom = 1;
+        const w = capture.offsetWidth;
+        const h = capture.offsetHeight;
+        const clone = capture.cloneNode(true);
+        previewWrap.style.zoom = prevZoom;
+
+        // A post is authored at its final size, so 1x is already 1080x1440.
+        const scale = isPost ? 1 : 2;
 
         const css = Array.from(document.styleSheets)
           .flatMap(sheet => {
@@ -358,11 +587,13 @@
           })
           .join('\n');
 
-        const clone = capture.cloneNode(true);
         clone.style.margin = '0';
         // Pin the measured width — the --card-width override lives on the live
         // document's root element and would not survive into the SVG document.
         clone.style.width = w + 'px';
+        // Same for the photo crop position, which is set on the live element.
+        const focus = capture.style.getPropertyValue('--photo-focus');
+        if (focus) clone.style.setProperty('--photo-focus', focus);
 
         // XMLSerializer, not outerHTML — foreignObject content is parsed as
         // XML, where void tags like <hr> must be self-closed. CSS goes in a
@@ -392,23 +623,31 @@
         ctx.drawImage(img, 0, 0);
 
         const a = document.createElement('a');
-        a.download = 'trip-card-' + capture.dataset.theme + '.png';
+        a.download = (isPost ? 'instagram-post-' : 'trip-card-') + capture.dataset.theme + '.png';
         a.href = canvas.toDataURL('image/png');
         a.click();
         btn.textContent = original;
       } catch (err) {
+        previewWrap.style.zoom = prevZoom;
         console.error(err);
         btn.textContent = 'Export failed — screenshot instead';
         setTimeout(() => { btn.textContent = original; }, 2500);
       }
     });
 
+    /* ---- boot ----------------------------------------------------------- */
     const params = new URLSearchParams(location.search);
     const preset = params.get('text');
     if (preset !== null) input.value = preset;
     if (params.get('theme')) setTheme(params.get('theme'));
+    if (params.get('mode')) setMode(params.get('mode') === 'card' ? 'card' : 'post');
     // ?clean=1 loads straight into clean view — handy for headless capture.
     if (params.get('clean')) document.body.classList.add('clean');
+
+    let stored = null;
+    try { stored = localStorage.getItem(FRAME_KEY); } catch (_) {}
+    applyFrame(stored);
+    setMode(capture.dataset.mode);
     render();
   </script>
 </body>
