@@ -9,57 +9,84 @@
 
     :root {
       --card-width: 1006px;      /* card width in "Card only" mode, in CSS px */
-      --card-font: Arial, Helvetica, "Liberation Sans", sans-serif;
       --post-w: 1080px;          /* Instagram 4:5 */
       --post-h: 1440px;
       --post-pad: 36px;          /* peach margin around the content box */
       --post-bg: #ffedda;        /* peach — matches frame.png */
     }
 
-    /* ---- Colour schemes -------------------------------------------------
-       Every colour in the card comes from one of these blocks. The tokens
-       live on #capture (not :root) so the theme travels with the cloned
-       element during PNG export. The orange quote bar is deliberately the
-       same in all four schemes.
-       -------------------------------------------------------------------- */
-    #capture {
-      --quote-bg: #f8f8f8;
-      --quote-rule: #e07d16;
-      --quote-text: #333333;
-      --btn-primary-text: #ffffff;
-      --btn-secondary-text: #333333;
+    /* ---- The face ------------------------------------------------------
+       The app sets every heading, label and button in Plus Jakarta Sans
+       (app.css --rg-font-brand, loaded from Google Fonts in App.razor), so
+       the card is not really the app's card in anything else. There is no
+       webfont here: this tool makes no network calls, and more to the point
+       the PNG exporter draws into an SVG <foreignObject>, which is an
+       isolated document that cannot fetch anything — a linked webfont would
+       look right on screen and come out Arial in the file. Load a .woff2
+       with the "Face" control instead and it is embedded as a data URI, so
+       the export and the preview agree.
+
+       Bare `Helvetica` is deliberately NOT in the fallback. On Linux there
+       is no Helvetica and fontconfig binds the name to URW Nimbus Sans,
+       whose hhea and OS/2 metrics disagree by ~0.16em — Chrome reads one,
+       Firefox the other, and the same card exports with its text on a
+       different baseline in each. See the long note at --rg-font-brand in
+       app.css, which is where that was diagnosed. Arial and Liberation Sans
+       both have matching metrics. */
+    :root {
+      --card-font: 'Plus Jakarta Sans', Arial, 'Liberation Sans', sans-serif;
     }
 
-    #capture[data-theme="salmon"] {
-      --card-bg: #f9dfd7;
-      --divider: #eec9bc;
-      --btn-primary-bg: #e2612c;
-      --btn-secondary-bg: #f6cec2;
-      --btn-secondary-border: #e2612c;
+    /* ---- Ramp states ----------------------------------------------------
+       The card is the app's active trip card, and the app does not have a
+       set of colour schemes — it has one card that warms as the deadline
+       approaches. app.js (applySmoothColorTransition) blends it continuously
+       through three waypoints; these are those waypoints, and the values are
+       the tokens themselves:
+
+         fill    --rg-trip-wash     -> --rg-trip-ramp-warn     -> --rg-trip-ramp-late
+         ink     --rg-trip-head     -> --rg-trip-ramp-warn-ink -> --rg-trip-ramp-late-ink
+         button  --rg-trip-btn      -> --rg-trip-ramp-warn-btn -> --rg-trip-ramp-late-btn
+
+       Everything else on the card is drawn from the ink: the app writes those
+       as color-mix(in srgb, currentColor N%, transparent) so one inline
+       `color` ramps the border, the rules and the message box along with the
+       text. Resolved to rgba here, per state, rather than left as color-mix —
+       same numbers, and the exporter cannot be caught out by a colour
+       function it has to evaluate inside the SVG. The percentages are the
+       app's: card border 30%, message fill 8%, message border 22%, Extend
+       Trip's border 35%.
+
+       The tokens live on #capture rather than :root so the state travels
+       with the cloned element during PNG export. */
+    #capture[data-theme="resting"] {
+      --card-bg:    #1B4630;
+      --card-ink:   #CFEEDC;   /* 207, 238, 220 */
+      --btn-bg:     #1E7A4C;
+      --card-rule:  rgba(207, 238, 220, 0.30);
+      --msg-bg:     rgba(207, 238, 220, 0.08);
+      --msg-rule:   rgba(207, 238, 220, 0.22);
+      --ghost-rule: rgba(207, 238, 220, 0.35);
     }
 
-    #capture[data-theme="amber"] {
-      --card-bg: #fce9c0;
-      --divider: #f0dcaf;
-      --btn-primary-bg: #f6a91b;
-      --btn-secondary-bg: #fbdfa3;
-      --btn-secondary-border: #efa41c;
+    #capture[data-theme="warning"] {
+      --card-bg:    #4A3517;
+      --card-ink:   #F0D2A0;   /* 240, 210, 160 */
+      --btn-bg:     #C4892E;
+      --card-rule:  rgba(240, 210, 160, 0.30);
+      --msg-bg:     rgba(240, 210, 160, 0.08);
+      --msg-rule:   rgba(240, 210, 160, 0.22);
+      --ghost-rule: rgba(240, 210, 160, 0.35);
     }
 
-    #capture[data-theme="rose"] {
-      --card-bg: #fadde1;
-      --divider: #eec7cc;
-      --btn-primary-bg: #e04653;
-      --btn-secondary-bg: #f7ccd1;
-      --btn-secondary-border: #e04653;
-    }
-
-    #capture[data-theme="sage"] {
-      --card-bg: #daecd6;
-      --divider: #c4dbbe;
-      --btn-primary-bg: #429140;
-      --btn-secondary-bg: #bbdcb4;
-      --btn-secondary-border: #429140;
+    #capture[data-theme="late"] {
+      --card-bg:    #4E1A12;
+      --card-ink:   #F7C4BB;   /* 247, 196, 187 */
+      --btn-bg:     #C0392B;
+      --card-rule:  rgba(247, 196, 187, 0.30);
+      --msg-bg:     rgba(247, 196, 187, 0.08);
+      --msg-rule:   rgba(247, 196, 187, 0.22);
+      --ghost-rule: rgba(247, 196, 187, 0.35);
     }
 
     /* =========================================================
@@ -126,56 +153,111 @@
     #capture[data-mode="card"] .post { width: 100%; }
     #capture[data-mode="card"] .post-photo,
     #capture[data-mode="card"] .post-frame { display: none; }
-    #capture[data-mode="card"] .trip-card { border-radius: 12px; padding: 32px; }
 
-    /* ---- The card itself ---- */
+    /* ---- The card itself ------------------------------------------------
+       Every measurement below is the app's own, expressed against --rem:
+       one app rem at poster scale. The app is authored in rem on a 16px
+       root, so `calc(1.35 * var(--rem))` is literally app.css's 1.35rem and
+       `calc(3/16 * var(--rem))` is its 3px — which means the whole card
+       rescales from one knob without any value drifting out of proportion
+       with the others. --rem: 16px would be the app at 1:1; the default is
+       a poster blown up for a 1080px canvas. */
     .trip-card {
+      --rem: 36px;
       background: var(--card-bg);
-      padding: 34px;
+      color: var(--card-ink);
+      font-size: var(--rem);
+
+      /* .alert in ActiveTrip.razor.css: --rg-radius-btn, a currentColor 30%
+         hairline, and a shadow that stays dark rather than following the ink
+         into the light — a shadow is the absence of light on the ground under
+         the card, not a tint of the card's own ink. */
+      border-radius: calc(11/16 * var(--rem));
+      border: calc(1/16 * var(--rem)) solid var(--card-rule);
+      box-shadow: 0 calc(1/16 * var(--rem)) calc(2/16 * var(--rem)) rgba(2, 16, 10, 0.34),
+                  0 calc(12/16 * var(--rem)) calc(28/16 * var(--rem)) calc(-6/16 * var(--rem)) rgba(2, 16, 10, 0.46);
+
+      /* The desktop measure, which is where this card is being photographed:
+         .alert grows to 1.35rem/1.5rem above 992px. */
+      padding: calc(1.35 * var(--rem)) calc(1.5 * var(--rem));
     }
 
-    .trip-quote {
-      background: var(--quote-bg);
-      border-left: 9px solid var(--quote-rule);
-      padding: 30px 30px 30px 60px;
-      color: var(--quote-text);
-      font-size: 38px;
-      line-height: 1.53;
+    /* The app's card leads with an "Active Trip" headline over a ruled
+       "What we'll say:" micro-label. Both are dropped here: on a post the
+       photo above has already said what this is, and the two labels were
+       chrome explaining a card to someone who is looking at a picture. The
+       message and the two buttons are the whole card. */
+
+    /* .active-trip-message — a currentColor 8% fill inside a currentColor 22%
+       hairline, with that same hairline thickened to 3px down the left. Not a
+       full-strength accent bar: `border-color` is a four-side shorthand, so
+       the left edge takes the 22% with the rest, and the app keeps it that way
+       on purpose — a solid rail is a device for lifting a pale panel off a
+       pale card, and on this fill the fill already does that work. */
+    .trip-message {
+      background-color: var(--msg-bg);
+      border: calc(1/16 * var(--rem)) solid var(--msg-rule);
+      border-left-width: calc(3/16 * var(--rem));
+      border-radius: calc(10/16 * var(--rem));
+      padding: calc(0.85 * var(--rem)) calc(1.1 * var(--rem)) calc(0.85 * var(--rem)) calc(1.15 * var(--rem));
+    }
+
+    .trip-message p {
+      margin: 0;
+      font-size: calc(1 * var(--rem));
+      line-height: 1.55;
       /* Keep the exact copy the user typed, including manual line breaks. */
       white-space: pre-wrap;
     }
 
-    .trip-divider {
-      border: 0;
-      border-top: 1px solid var(--divider);
-      margin: 36px 0;
-    }
-
+    /* .active-trip-actions. On the real card the buttons sit on the card's
+         floor under the message, a plain 1rem below it. */
     .trip-actions {
       display: flex;
-      gap: 24px;
+      gap: calc(10/16 * var(--rem));
+      margin-top: calc(1 * var(--rem));
     }
 
+    /* .rg-btn. The split padding is --rg-label-lift: 0.05em off the top and
+       onto the bottom, which optically centres a label with no descender in
+       its box without changing the button's height. --rg-trip-btn-min (9rem)
+       is Extend Trip's own width at this weight — a floor, not a width, so
+       the pair comes out matched and anything longer still grows past it. */
     .trip-btn {
       font-family: var(--card-font);
-      font-size: 28px;
-      line-height: 1;
-      min-width: 223px;
-      padding: 21px 30px;
-      border-radius: 6px;
-      border: 2px solid transparent;
+      font-size: calc(0.9375 * var(--rem));
+      font-weight: 700;
+      line-height: 1.5;
+      border-radius: calc(11/16 * var(--rem));
+      padding: calc(0.7 * var(--rem) - 0.05em) calc(1.6 * var(--rem)) calc(0.7 * var(--rem) + 0.05em);
+      border: calc(1/16 * var(--rem)) solid transparent;
+      min-width: calc(9 * var(--rem));
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
       white-space: nowrap;
-      text-align: center;
     }
+
+    /* Check In. --rg-trip-btn at rest rather than .rg-btn-primary's --rg-green,
+       which is 1.17:1 on this card — the button was a rectangle of card with a
+       label on it. The white label is held for the whole ramp deliberately:
+       picked from the fill's own luminance it flipped to near-black through the
+       amber middle, and one button that changes ink halfway down the countdown
+       reads as two different buttons. 5.3:1 at the green end, 5.4:1 at the red,
+       dipping to 3.0:1 on the amber midpoint. */
     .trip-btn.primary {
-      background: var(--btn-primary-bg);
-      color: var(--btn-primary-text);
-      border-color: var(--btn-primary-bg);
+      background: var(--btn-bg);
+      color: #ffffff;
+      border-color: var(--btn-bg);
     }
+
+    /* Extend Trip is a ghost, and it rides the ramp the same way the card's
+       border does: label inherited, border a currentColor 35%. .rg-btn-ghost's
+       own --rg-body on --rg-rule is for a card whose colour is fixed. */
     .trip-btn.secondary {
-      background: var(--btn-secondary-bg);
-      color: var(--btn-secondary-text);
-      border-color: var(--btn-secondary-border);
+      background: transparent;
+      color: inherit;
+      border-color: var(--ghost-rule);
     }
 
     /* =========================================================
@@ -195,8 +277,14 @@
     body.clean .chrome { display: none; }
 
     /* Preview is shrunk with zoom so a 1080x1440 post fits on screen. Export
-       resets it to 1 before measuring, so this never affects output. */
-    #preview-wrap { zoom: 0.5; }
+       resets it to 1 before measuring, so this never affects output.
+
+       Driven from data-mode rather than written inline by setMode, which is
+       what Clean view needs: an inline zoom beats any stylesheet rule, so
+       `body.clean` could never get back to 1:1 and the one thing that mode
+       exists for — a manual screenshot at true size — came out at half. */
+    #preview-wrap[data-mode="post"] { zoom: 0.5; }
+    #preview-wrap[data-mode="card"] { zoom: 0.6; }
     body.clean #preview-wrap { zoom: 1; }
 
     .chrome { max-width: 1080px; width: 100%; }
@@ -215,6 +303,7 @@
     textarea {
       width: 100%;
       height: 90px;
+      resize: vertical;
       font-family: var(--card-font);
       font-size: 15px;
       padding: 12px;
@@ -222,7 +311,6 @@
       border-radius: 8px;
       background: #fff;
       color: #1a1a18;
-      resize: vertical;
       line-height: 1.5;
       display: block;
     }
@@ -287,9 +375,9 @@
     .controls input[type="range"] { width: 130px; accent-color: #1a1a18; }
     .controls input[type="file"] { font-size: 12px; max-width: 230px; }
 
-    .frame-state { font-size: 12px; }
-    .frame-state.ok { color: #3b6d11; }
-    .frame-state.missing { color: #854f0b; }
+    .asset-state { font-size: 12px; }
+    .asset-state.ok { color: #3b6d11; }
+    .asset-state.missing { color: #854f0b; }
 
     .note {
       font-size: 12px;
@@ -305,12 +393,13 @@
       padding: 1px 5px;
       border-radius: 4px;
     }
+    .note + .note { border-top: 0; padding-top: 0; margin-top: -6px; }
   </style>
 </head>
 <body>
   <div class="chrome">
     <h1>Instagram post builder</h1>
-    <p class="sub">Drop in a photo, type the trip text, pick a colour scheme. Exports a 1080&times;1440 post with the Rangerly frame on top.</p>
+    <p class="sub">Drop in a photo, type the trip text, pick where the trip sits on the countdown. Exports a 1080&times;1440 post with the Rangerly frame on top. The card is the app's active trip card, drawn from the same tokens.</p>
   </div>
 
   <div class="chrome">
@@ -318,11 +407,10 @@
     <textarea id="trip-text" spellcheck="true">Riding laps on Hemlock via Pitch Pine until the storms roll in. Camped at Bear Brook State Park, site 64.</textarea>
 
     <div class="controls" id="theme-row">
-      <span>Colour scheme</span>
-      <button class="swatch is-active" data-theme="salmon" title="Salmon"><i style="background:#f9dfd7"></i><i style="background:#e2612c"></i> Salmon</button>
-      <button class="swatch" data-theme="amber" title="Amber"><i style="background:#fce9c0"></i><i style="background:#f6a91b"></i> Amber</button>
-      <button class="swatch" data-theme="rose" title="Rose"><i style="background:#fadde1"></i><i style="background:#e04653"></i> Rose</button>
-      <button class="swatch" data-theme="sage" title="Sage"><i style="background:#daecd6"></i><i style="background:#429140"></i> Sage</button>
+      <span>Countdown</span>
+      <button class="swatch is-active" data-theme="resting" title="Plenty of time — the card at rest"><i style="background:#1B4630"></i><i style="background:#1E7A4C"></i> Resting</button>
+      <button class="swatch" data-theme="warning" title="Deadline close — the ramp's amber midpoint"><i style="background:#4A3517"></i><i style="background:#C4892E"></i> Warning</button>
+      <button class="swatch" data-theme="late" title="Out of time — the ramp's red end"><i style="background:#4E1A12"></i><i style="background:#C0392B"></i> Late</button>
     </div>
 
     <div class="controls">
@@ -337,8 +425,15 @@
     <div class="controls">
       <span>Frame</span>
       <input type="file" id="frame-input" accept="image/png,image/*">
-      <span class="frame-state" id="frame-state">no frame loaded</span>
-      <button id="frame-clear">Clear</button>
+      <span class="asset-state" id="frame-state">built-in Rangerly stamp</span>
+      <button id="frame-clear">Reset</button>
+    </div>
+
+    <div class="controls">
+      <span>Face</span>
+      <input type="file" id="font-input" accept=".woff2,.woff,.ttf,.otf,font/*">
+      <span class="asset-state" id="font-state">no face loaded</span>
+      <button id="font-clear">Clear</button>
     </div>
 
     <div class="controls" id="mode-row">
@@ -347,6 +442,9 @@
       <button data-mode="card">Card only</button>
       <span id="card-width-wrap" style="display:none">Card width
         <input type="number" id="width-input" value="1006" min="320" max="4000" step="1"> px
+      </span>
+      <span>Card scale
+        <input type="number" id="rem-input" value="36" min="8" max="96" step="1"> px
       </span>
     </div>
 
@@ -359,15 +457,16 @@
 
   <!-- ============ SCREENSHOT / EXPORT THIS ============ -->
   <div id="preview-wrap">
-    <div id="capture" data-theme="salmon" data-mode="post">
+    <div id="capture" data-theme="resting" data-mode="post">
       <div class="post">
         <div class="post-photo" id="photo-slot">
           <img id="photo" alt="">
           <div class="photo-empty">Drop a photo here, or choose one above</div>
         </div>
         <div class="trip-card">
-          <div class="trip-quote" id="quote">Riding laps on Hemlock via Pitch Pine until the storms roll in. Camped at Bear Brook State Park, site 64.</div>
-          <hr class="trip-divider">
+          <div class="trip-message">
+            <p id="quote">Riding laps on Hemlock via Pitch Pine until the storms roll in. Camped at Bear Brook State Park, site 64.</p>
+          </div>
           <div class="trip-actions">
             <button class="trip-btn primary" type="button">Check In</button>
             <button class="trip-btn secondary" type="button">Extend Trip</button>
@@ -380,12 +479,27 @@
   <!-- ================= END EXPORT AREA ================= -->
 
   <p class="note chrome">
-    Load <strong>frame.png</strong> once &mdash; it is remembered in this browser, so you only pick it again if you clear it.
+    The Rangerly <strong>stamp</strong> is built in &mdash; nothing to load. Pick a <strong>Frame</strong> only to override it
+    with a different 1080&times;1440 overlay, which is then remembered in this browser until you Reset.
     Photos are downscaled to 2200px on the long edge before use, which keeps the export well under the size where the
     renderer starts to choke. <strong>Clean view</strong> hides these controls for a manual 1:1 screenshot.
-    You can preset text and theme via URL: <code>?theme=sage&amp;text=Your%20trip%20text</code>
-    (themes: <code>salmon</code>, <code>amber</code>, <code>rose</code>, <code>sage</code>).
+    You can preset text and state via URL: <code>?theme=warning&amp;text=Your%20trip%20text</code>
+    (states: <code>resting</code>, <code>warning</code>, <code>late</code>).
     Everything runs locally &mdash; no network calls, nothing leaves the browser.
+  </p>
+
+  <p class="note chrome">
+    <strong>Face</strong> takes a Plus Jakarta Sans <code>.woff2</code> and embeds it, so the export matches the app rather
+    than falling back to Arial. Use the <em>variable</em> file: the buttons are set at 700, and the face is declared
+    across the whole <code>100&ndash;900</code> range so those axes resolve. A single static weight is declared across that
+    same range, which means it answers every weight with itself &mdash; the buttons come out regular rather than bold,
+    and nothing warns you. Remembered like the frame is. The app loads the same face from Google Fonts in
+    <code>App.razor</code>, but a linked font cannot work here &mdash; the exporter draws into an SVG that fetches nothing.
+  </p>
+
+  <p class="note chrome">
+    <strong>Card scale</strong> is one app <code>rem</code> in poster pixels. Every figure in the card is written against
+    it, so 16 is the app at 1:1 and 36 is the blow-up this canvas wants; nothing drifts out of proportion in between.
   </p>
 
   <script>
@@ -394,15 +508,29 @@
     const capture     = document.getElementById('capture');
     const previewWrap = document.getElementById('preview-wrap');
     const widthInput  = document.getElementById('width-input');
+    const remInput    = document.getElementById('rem-input');
+    const card        = document.querySelector('.trip-card');
     const photo       = document.getElementById('photo');
     const photoSlot   = document.getElementById('photo-slot');
     const frame       = document.getElementById('frame');
     const frameState  = document.getElementById('frame-state');
+    const fontState   = document.getElementById('font-state');
     const focusInput  = document.getElementById('focus-input');
     const focusOut    = document.getElementById('focus-out');
 
     const FRAME_KEY = 'rangerly-frame-png';
-    const THEMES = ['salmon', 'amber', 'rose', 'sage'];
+    const FONT_KEY  = 'rangerly-card-font';
+
+    // The Rangerly stamp and its postmark waves, built in. These are the exact
+    // bytes of frame.png beside this file, inlined rather than referenced: the
+    // exporter draws into an SVG that fetches nothing, so a relative <img src>
+    // would show in the preview and come out missing from the PNG. The asset
+    // itself was lifted from the Stamp and Waves layers of
+    // Instagram/Posts/_template.xcf and placed at that file's own geometry, so
+    // it lands where the stamp lands on every post already published.
+    const DEFAULT_FRAME = 'data:image/png;base64,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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOCPwv8PGb0HiJo5jIAAAAAASUVORK5CYII=';
+    // The three waypoints app.js blends between, in the order it blends them.
+    const THEMES = ['resting', 'warning', 'late'];
 
     function render() {
       // textContent, not innerHTML — the trip text is user copy, not markup.
@@ -410,7 +538,7 @@
     }
     input.addEventListener('input', render);
 
-    /* ---- theme ---------------------------------------------------------- */
+    /* ---- ramp state ----------------------------------------------------- */
     function setTheme(name) {
       if (!THEMES.includes(name)) return;
       capture.dataset.theme = name;
@@ -430,7 +558,7 @@
         b.classList.toggle('is-active', b.dataset.mode === mode);
       });
       document.getElementById('card-width-wrap').style.display = mode === 'card' ? '' : 'none';
-      previewWrap.style.zoom = mode === 'post' ? 0.5 : 0.6;
+      previewWrap.dataset.mode = mode;
     }
     document.getElementById('mode-row').addEventListener('click', (e) => {
       const btn = e.target.closest('button[data-mode]');
@@ -442,6 +570,13 @@
       if (w >= 320 && w <= 4000) {
         document.documentElement.style.setProperty('--card-width', w + 'px');
       }
+    });
+
+    // Set on the card itself rather than on :root, so the export's clone —
+    // which is #capture and everything under it — carries the scale with it.
+    remInput.addEventListener('input', () => {
+      const r = parseInt(remInput.value, 10);
+      if (r >= 8 && r <= 96) card.style.setProperty('--rem', r + 'px');
     });
 
     /* ---- images --------------------------------------------------------- */
@@ -509,17 +644,15 @@
       });
     });
 
-    /* ---- frame.png, remembered between sessions ------------------------- */
+    /* ---- the frame, with the stamp built in ----------------------------- */
+    // null means "no override", which is the built-in stamp rather than a bare
+    // post. There is deliberately no way to end up with no frame at all: the
+    // stamp is the format, and Card only mode is how you get the card without
+    // it.
     function applyFrame(dataURL) {
-      if (dataURL) {
-        frame.src = dataURL;
-        frameState.textContent = 'frame loaded';
-        frameState.className = 'frame-state ok';
-      } else {
-        frame.removeAttribute('src');
-        frameState.textContent = 'no frame loaded — pick frame.png';
-        frameState.className = 'frame-state missing';
-      }
+      frame.src = dataURL || DEFAULT_FRAME;
+      frameState.textContent = dataURL ? 'custom frame loaded' : 'built-in Rangerly stamp';
+      frameState.className = 'asset-state ok';
     }
 
     document.getElementById('frame-input').addEventListener('change', async (e) => {
@@ -536,6 +669,48 @@
       applyFrame(null);
       try { localStorage.removeItem(FRAME_KEY); } catch (_) {}
       document.getElementById('frame-input').value = '';
+    });
+
+    /* ---- the face, remembered the same way ------------------------------ */
+    // An injected <style> rather than a FontFace object: the exporter builds
+    // its SVG from document.styleSheets, and only a real stylesheet rule is
+    // in there to be found. The src is a data URI for the same reason — the
+    // SVG is an isolated document and will not fetch anything.
+    const fontStyle = document.createElement('style');
+    document.head.appendChild(fontStyle);
+
+    function applyFont(dataURL) {
+      if (dataURL) {
+        // 100 900 so a variable file's weight axis is actually reachable —
+        // declared at a single weight it would answer the buttons' 700 with
+        // a synthesised bold and waste the axis. The trade is that a STATIC
+        // file also claims the whole range, so it answers every weight with
+        // itself and the card comes out unbolded. Hence the note in the
+        // chrome telling you to pick the variable .woff2.
+        fontStyle.textContent =
+          "@font-face { font-family: 'Plus Jakarta Sans'; font-weight: 100 900; " +
+          "font-style: normal; font-display: block; src: url(" + dataURL + "); }";
+        fontState.textContent = 'face loaded';
+        fontState.className = 'asset-state ok';
+      } else {
+        fontStyle.textContent = '';
+        fontState.textContent = 'no face loaded — falling back to Arial';
+        fontState.className = 'asset-state missing';
+      }
+    }
+
+    document.getElementById('font-input').addEventListener('change', async (e) => {
+      if (!e.target.files[0]) return;
+      const url = await fileToDataURL(e.target.files[0]);
+      applyFont(url);
+      try { localStorage.setItem(FONT_KEY, url); }
+      catch (_) { fontState.textContent = 'face loaded (too big to remember)'; }
+    });
+
+    document.getElementById('font-clear').addEventListener('click', () => {
+      applyFont(null);
+      try { localStorage.removeItem(FONT_KEY); } catch (_) {}
+      document.getElementById('font-input').value = '';
     });
 
     /* ---- chrome --------------------------------------------------------- */
@@ -569,6 +744,11 @@
       const prevZoom = previewWrap.style.zoom;
 
       try {
+        // An embedded face has to be resolved before we measure: laying the
+        // card out in the fallback and then capturing it in Plus Jakarta Sans
+        // would export text that overruns the box it was measured into.
+        if (document.fonts && document.fonts.ready) await document.fonts.ready;
+
         // Measure and clone at 1:1 — the preview zoom would otherwise scale
         // what we capture. Restored immediately, before any await.
         previewWrap.style.zoom = 1;
@@ -596,8 +776,8 @@
         if (focus) clone.style.setProperty('--photo-focus', focus);
 
         // XMLSerializer, not outerHTML — foreignObject content is parsed as
-        // XML, where void tags like <hr> must be self-closed. CSS goes in a
-        // CDATA section so stray < or & in a rule cannot break the parse.
+        // XML, where void tags must be self-closed. CSS goes in a CDATA
+        // section so stray < or & in a rule cannot break the parse.
         const markup = new XMLSerializer().serializeToString(clone);
         const html =
           '<div xmlns="http://www.w3.org/1999/xhtml">' +
@@ -644,9 +824,11 @@
     // ?clean=1 loads straight into clean view — handy for headless capture.
     if (params.get('clean')) document.body.classList.add('clean');
 
-    let stored = null;
-    try { stored = localStorage.getItem(FRAME_KEY); } catch (_) {}
-    applyFrame(stored);
+    let storedFrame = null, storedFont = null;
+    try { storedFrame = localStorage.getItem(FRAME_KEY); } catch (_) {}
+    try { storedFont = localStorage.getItem(FONT_KEY); } catch (_) {}
+    applyFrame(storedFrame);
+    applyFont(storedFont);
     setMode(capture.dataset.mode);
     render();
   </script>
