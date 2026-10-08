@@ -37,78 +37,44 @@ OUT="frame.png"
 
 T=$(mktemp -d); trap 'rm -rf "$T"' EXIT
 
-# --- the logo -------------------------------------------------------------
-if [ $# -ge 1 ]; then LOGO="$1"
-elif [ -f "$LOCAL_LOGO" ]; then LOGO="$LOCAL_LOGO"
-else curl -fsS -o "$T/logo.png" "$LOGO_URL"; LOGO="$T/logo.png"; fi
-echo "logo:  $LOGO"
+# --- the stamp tile, with the current logo, weathered ---------------------
+# build-stamp.sh owns the stamp: the logo swap and the weathering live there so
+# this frame and the postcard frame carry the same stamp by construction rather
+# than by two scripts agreeing. It takes the tile WIDTH; the Instagram stamp is
+# 238px wide in the finished 1080x1440 frame.
+SW=238
+./build-stamp.sh "$SW" "$T/stamp.png" "$@"
 
-# --- the stamp and waves, by layer NAME rather than index -----------------
+# --- the waves ------------------------------------------------------------
+# Same relative geometry as the XCF: on its 1004x1339 canvas the stamp sits at
+# +714+60 and the waves at +970+105, and the whole thing is scaled by
+# 1080/1004. That factor is what puts the stamp at 238 wide, so the waves take
+# it too and the postmark stays one mark.
 idx_of() {
-  magick identify "$XCF" 2>/dev/null | wc -l >/dev/null
-  local n=0
+  local n=0 label
   while :; do
-    local label
     label=$(magick identify -verbose "$XCF[$n]" 2>/dev/null | grep -m1 -oP '(?<=label: ).*' || true)
     [ -z "$label" ] && { echo ""; return; }
     [ "$label" = "$1" ] && { echo "$n"; return; }
     n=$((n+1)); [ $n -gt 200 ] && { echo ""; return; }
   done
 }
-STAMP=$(idx_of Stamp); WAVES=$(idx_of Waves)
-[ -n "$STAMP" ] && [ -n "$WAVES" ] || { echo "could not find Stamp/Waves layers in $XCF" >&2; exit 1; }
-echo "layers: Stamp=[$STAMP] Waves=[$WAVES]"
+WI=$(idx_of Waves); [ -n "$WI" ] || { echo "no Waves layer in $XCF" >&2; exit 1; }
 
-magick "$XCF[$STAMP]" "$T/stamp.png"
-magick "$XCF[$WAVES]" "$T/waves.png"
+read -r SX SY WW WH WX WY <<<"$(awk 'BEGIN{
+  sx = 1080/1004; sy = 1440/1339;
+  printf "%d %d %d %d %d %d", 714*sx+0.5, 60*sy+0.5,
+         34*sx+0.5, 147*sy+0.5, 970*sx+0.5, 105*sy+0.5 }')"
+magick "$XCF[$WI]" +repage -filter Lanczos -resize ${WW}x${WH}! PNG32:"$T/waves.png"
+echo "stamp at +${SX}+${SY}   waves ${WW}x${WH} at +${WX}+${WY}"
 
-# --- compose at the XCF's geometry, then scale to the post ----------------
-magick -size 1004x1339 xc:none \
-  "$T/stamp.png" -geometry +714+60  -composite \
-  "$T/waves.png" -geometry +970+105 -composite \
-  -resize 1080x1440! -strip PNG32:"$T/frame.png"
+# --- compose, transparent middle ------------------------------------------
+magick -size 1080x1440 xc:none \
+  "$T/stamp.png" -geometry +${SX}+${SY} -composite \
+  "$T/waves.png" -geometry +${WX}+${WY} -composite \
+  -strip PNG32:"$T/frame.png"
 
-# --- swap in the current logo ---------------------------------------------
-# Scale and placement are DERIVED from the logo's own alpha bounding box, not
-# hardcoded. Different exports pad the disc differently inside the 256px canvas
-# — app.css's logo.png is a 248px disc with 4px of margin, the gauge-running
-# variants are a 214px disc with 21px — so a fixed "-resize 195x195" renders
-# one correctly and the other far too small, leaving a rim of the stamp's
-# original orange ring showing around it. Normalising on the DISC makes every
-# variant land at the same visual size.
-#
-# TARGET_DISC covers the original ring in the XCF stamp, which measures 182x184
-# centred on (885.5, 183.5) once the frame is at 1080x1440. 189 clears the
-# larger axis by ~2.5px all round.
-TARGET_DISC=189
-RING_CX=885.5
-RING_CY=183.5
-
-read -r LW LH DW DH DX DY <<<"$(magick "$LOGO" -format "%w %h " info: ; \
-  magick "$LOGO" -alpha extract -format "%@" info: | tr 'x+' '  ')"
-[ -n "$DW" ] || { echo "could not read logo geometry" >&2; exit 1; }
-
-read -r CANVAS OFFX OFFY <<<"$(awk -v lw="$LW" -v dw="$DW" -v dh="$DH" -v dx="$DX" -v dy="$DY" \
-  -v t="$TARGET_DISC" -v cx="$RING_CX" -v cy="$RING_CY" 'BEGIN{
-    d = (dw > dh ? dw : dh);        # the disc, on its larger axis
-    s = t / d;                      # scale that makes the disc TARGET_DISC wide
-    printf "%d %d %d", lw*s+0.5, cx-(dx+dw/2)*s+0.5, cy-(dy+dh/2)*s+0.5;
-  }')"
-echo "logo:  disc ${DW}x${DH} at +${DX}+${DY} -> canvas ${CANVAS}px at +${OFFX}+${OFFY}"
-
-magick "$LOGO" -filter Lanczos -resize ${CANVAS}x${CANVAS} PNG32:"$T/logo-scaled.png"
-magick "$T/frame.png" "$T/logo-scaled.png" -geometry +${OFFX}+${OFFY} -composite PNG32:"$T/frame-logo.png"
-
-# --- weather just the stamp, then put it back -----------------------------
-magick "$T/frame-logo.png" -crop 238x269+767+64 +repage PNG32:"$T/stamp-crop.png"
-# Args: seed mottle grain wear fade — see weather.sh. These were dialled up from
-# 0.09/0.055/66/2, which measured only 3.75% RMSE off the clean stamp and was
-# invisible at the size the stamp actually appears. This is ~7%.
-./weather.sh "$T/stamp-crop.png" "$T/stamp-worn.png" 7 0.20 0.10 42 6
-magick "$T/frame-logo.png" "$T/stamp-worn.png" -geometry +767+64 -composite PNG32:"$T/frame-worn.png"
-
-# --- quantise --------------------------------------------------------------
-magick "$T/frame-worn.png" +dither -colors 256 PNG8:"$OUT"
+magick "$T/frame.png" +dither -colors 256 PNG8:"$OUT"
 echo "wrote $OUT ($(du -b "$OUT" | cut -f1) bytes)"
 echo
 echo "Now re-embed it in the template:  ./embed-frame.py"
