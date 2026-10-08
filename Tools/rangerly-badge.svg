@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Rangerly">
+  <!-- The Rangerly badge, copied verbatim from <defs> down out of the app's
+       Expect.Me.WebApp/wwwroot/favicon-hires.svg in the expect.me repo. That file is
+       where the mark was worked out and it is the one that is right when the two
+       disagree; this is a copy so the marketing tools do not reach across repos.
+       The 16/32px favicon trick of stripping id="inner-ring" is not used here — a
+       cover renders the badge at hundreds of pixels, where the ring reads fine. -->
+  <defs>
+    <linearGradient id="ember" gradientUnits="userSpaceOnUse" x1="49.62" y1="57.79" x2="14.38" y2="6.21">
+      <stop offset="0" stop-color="#A65611"/>
+      <stop offset="1" stop-color="#DE9C36"/>
+    </linearGradient>
+    <linearGradient id="pine" gradientUnits="userSpaceOnUse" x1="50.54" y1="54.03" x2="17.27" y2="14.50">
+      <stop offset="0" stop-color="#10481A"/>
+      <stop offset="1" stop-color="#27712D"/>
+    </linearGradient>
+    <linearGradient id="disc" gradientUnits="userSpaceOnUse" x1="32" y1="7.529" x2="32" y2="56.471">
+      <stop offset="0"    stop-color="#93C83F"/>
+      <stop offset="0.25" stop-color="#7CBD37"/>
+      <stop offset="0.50" stop-color="#66B22F"/>
+      <stop offset="0.75" stop-color="#509F27"/>
+      <stop offset="1"    stop-color="#3B8B1F"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="32" fill="url(#ember)"/>
+  <path fill="url(#pine)" d="M32,32 L32,0 A32,32 0 0 1 59.713,48 Z"/>
+  <circle id="inner-ring" cx="32" cy="32" r="26.833" fill="#00522C"/>
+  <circle cx="32" cy="32" r="24.471" fill="url(#disc)"/>
+  <path fill="#00522C" d="M32,10.073 L42.375,25.719 L38.296,25.719 L49.096,41.911 L33.199,41.911 L33.199,50.307 L30.801,50.307 L30.801,41.911 L14.904,41.911 L25.704,25.719 L21.625,25.719 Z"/>
+</svg>
