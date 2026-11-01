@@ -7,6 +7,11 @@ cd "$(dirname "$(readlink -f "$0")")"
 
 ledger="Instagram/follow-graph.json"
 
+# Pick up batches recorded on another machine before choosing today's, so
+# nothing is recommended twice. Fast-forward only: a diverged branch stops
+# here rather than merging.
+git pull --ff-only --quiet
+
 ./Tools/instagram-follows.py candidates -n 12 --open
 
 # Commit only the ledger, whatever else is staged or modified.
