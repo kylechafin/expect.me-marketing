@@ -50,8 +50,9 @@ Notes:
   speculatively. `--dry-run` shows a batch without recording or opening.
 - Nothing needs to be written back. The user unfollows in the app and the next
   `import` infers it by diffing the export against the ledger.
-- `--open` batches every URL into one browser invocation via `$BROWSER`
-  (`omarchy-launch-browser`), so it is one window focus, not twelve.
+- `--open` opens the whole batch in one new Google Chrome window
+  (`google-chrome-stable --new-window`), so it is one window focus, not twelve.
+  Falls back to `$BROWSER`, then `xdg-open`, if Chrome is missing.
 - Without `--open` the text output lists the URLs anyway; `--format urls` emits
   them bare for piping.
 

@@ -1,428 +1,3234 @@
 {
   "accounts": {
+    "001manwolfpack": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
     "1.mtb_james": {
       "follower": true,
-      "follower_since": "2026-06-21"
+      "follower_since": "2026-06-21",
+      "following": true,
+      "following_since": "2026-06-08"
     },
     "12thstatecycling": {
       "follower": true,
-      "follower_since": "2026-06-05"
+      "follower_since": "2026-06-05",
+      "following": true,
+      "following_since": "2026-06-04"
     },
     "1878_riverrun": {
       "follower": true,
-      "follower_since": "2026-06-13"
+      "follower_since": "2026-06-13",
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "19gravelchris78": {
+      "following": true,
+      "following_since": "2026-06-08"
     },
     "1princessjoy": {
       "follower": true,
-      "follower_since": "2026-06-02"
+      "follower_since": "2026-06-02",
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "26inchlifestyle": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "2fingaz4you": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "2tacodentino": {
+      "following": true,
+      "following_since": "2026-06-13"
+    },
+    "3lle.yeah": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "3retts": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "4dcyclingllc": {
+      "following": true,
+      "following_since": "2026-06-16"
+    },
+    "802_outsiders": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "802trailboss": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "84vanae": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "90_bishop_4": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "90s_zoomer": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "__beaunarrow": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "__e.u.l.e__": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "_bikeable_": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "_corrina_jean_mtbbrat": {
+      "following": true,
+      "following_since": "2026-05-24"
     },
     "_emilykjohnson__": {
       "follower": true,
-      "follower_since": "2026-06-09"
-    },
-    "_u": {
+      "follower_since": "2026-06-09",
       "following": true,
-      "following_since": "2026-10-31"
+      "following_since": "2026-06-09"
+    },
+    "_flotrail": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "_kate_northcott": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "_lawrence_sereduck_": {
+      "following": true,
+      "following_since": "2026-05-26"
+    },
+    "_lifebehindbars24": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "_lukecroft_": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "_lunch_brake": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "_matt___w": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "_noahbousquet_": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "_robbie_burns": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "_taraahldb": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "_val_mtb": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "_valemtb_": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "a_wirtz_": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "aaron.codling": {
+      "following": true,
+      "following_since": "2026-05-31"
+    },
+    "aaron.messer1.bikes": {
+      "following": true,
+      "following_since": "2026-06-01"
     },
     "aaronjacob9223": {
       "follower": true,
-      "follower_since": "2026-06-09"
+      "follower_since": "2026-06-09",
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "aaronkpix": {
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "abby.j.bennett": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "abby_noelle_": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "abi.ridefierce": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "abloomcycleworks": {
+      "following": true,
+      "following_since": "2026-09-29"
+    },
+    "about.amber": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "abqmtnrescue": {
+      "following": true,
+      "following_since": "2026-07-02"
+    },
+    "abrtcycling": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "acbc_vt": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "according_to_garth": {
+      "following": true,
+      "following_since": "2026-06-12"
+    },
+    "acjospe": {
+      "following": true,
+      "following_since": "2026-05-26"
+    },
+    "ackrob": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "actionimagesindy": {
+      "following": true,
+      "following_since": "2026-09-29"
+    },
+    "adam_stani_land": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "adampokowski": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "adamspahr47": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "addiegirlbikes": {
+      "following": true,
+      "following_since": "2026-06-12"
+    },
+    "addisoncountyclay": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "adeptdescents": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "adhd_mtb": {
+      "following": true,
+      "following_since": "2026-06-08"
     },
     "adrianovalenti_": {
       "follower": true,
-      "follower_since": "2026-06-08"
+      "follower_since": "2026-06-08",
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "adventure_is_key_": {
+      "following": true,
+      "following_since": "2026-06-03"
     },
     "adventurebikepacking": {
       "follower": true,
-      "follower_since": "2026-06-29"
+      "follower_since": "2026-06-29",
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "adventureduckvt": {
+      "following": true,
+      "following_since": "2026-06-03"
     },
     "adventurelabnwa": {
       "follower": true,
-      "follower_since": "2026-07-10"
+      "follower_since": "2026-07-10",
+      "following": true,
+      "following_since": "2026-06-01"
+    },
+    "ae1annn": {
+      "following": true,
+      "following_since": "2026-06-08"
     },
     "aeservicecourse": {
       "follower": true,
-      "follower_since": "2026-09-29"
+      "follower_since": "2026-09-29",
+      "following": true,
+      "following_since": "2026-09-29"
+    },
+    "ag_media_93": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "agency_1": {
+      "following": true,
+      "following_since": "2026-05-26"
+    },
+    "agent10fromplanet_x": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "aiden_figliolini_bikes": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "aidens_senddy": {
+      "following": true,
+      "following_since": "2026-06-24"
     },
     "aidenscott434": {
       "follower": true,
-      "follower_since": "2026-06-12"
+      "follower_since": "2026-06-12",
+      "following": true,
+      "following_since": "2026-06-08"
     },
     "aiir.breathing": {
       "follower": true,
-      "follower_since": "2026-06-24"
+      "follower_since": "2026-06-24",
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "ainsley__wolf": {
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "air.johann": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "akschaidle": {
+      "following": true,
+      "following_since": "2026-05-28"
     },
     "al_emtb": {
       "follower": true,
-      "follower_since": "2026-06-10"
+      "follower_since": "2026-06-10",
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "alastair_dorsett": {
+      "following": true,
+      "following_since": "2026-07-02"
+    },
+    "alex._.mueller08": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "alex.fortier_": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "alex.richards_mtb": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "alex_goes_biking": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "alex_horn1ak": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "alex_leich": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "alexalang0": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "alexander_patrick52": {
+      "following": true,
+      "following_since": "2026-06-13"
+    },
+    "alexandriagetslost": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "alexjberge": {
+      "following": true,
+      "following_since": "2026-06-13"
+    },
+    "alexlovessport": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "alfiewhite.dh": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "alivia_glotz": {
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "all_hail_bob_ross": {
+      "following": true,
+      "following_since": "2026-06-11"
     },
     "allen.vielman82": {
       "follower": true,
-      "follower_since": "2026-06-10"
+      "follower_since": "2026-06-10",
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "allydurks": {
+      "following": true,
+      "following_since": "2026-06-03"
     },
     "allylive_shreds": {
       "follower": true,
-      "follower_since": "2026-10-22"
+      "follower_since": "2026-10-22",
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "aloysiusbanzai": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "alpine_flows": {
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "alyssabihary": {
+      "following": true,
+      "following_since": "2026-06-10"
     },
     "alyssagodesky": {
       "follower": true,
-      "follower_since": "2026-05-24"
+      "follower_since": "2026-05-24",
+      "following": true,
+      "following_since": "2026-05-24"
+    },
+    "amanda.and.myles.and.miles": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "amateur_forlife22": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "amber_nekvt": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "amholtzmtb": {
+      "following": true,
+      "following_since": "2026-06-16"
+    },
+    "amietopp": {
+      "following": true,
+      "following_since": "2026-10-22"
     },
     "amigosdopedal2024": {
       "follower": true,
-      "follower_since": "2026-06-29"
+      "follower_since": "2026-06-29",
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "ampdup11": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "amycoyotevt": {
+      "following": true,
+      "following_since": "2026-05-28"
     },
     "amyloualwaysblue": {
       "follower": true,
-      "follower_since": "2026-10-22"
+      "follower_since": "2026-10-22",
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "anders__woods": {
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "andersonhealthandfitness": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "andrea.sambinello": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "andreadl": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "andrew.campbel1": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "andrewcalvo": {
+      "following": true,
+      "following_since": "2026-10-23"
+    },
+    "andrewdague": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "andy_inspired": {
+      "following": true,
+      "following_since": "2026-06-13"
+    },
+    "andy_mosedale": {
+      "following": true,
+      "following_since": "2026-06-09"
     },
     "andy_rooke": {
       "follower": true,
-      "follower_since": "2026-05-16"
+      "follower_since": "2026-05-16",
+      "following": true,
+      "following_since": "2026-05-16"
+    },
+    "andybays_mtb": {
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "andydietz": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "angeloam_duff": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "angstpony": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "angusxc": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "anja_meichsner": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "anna.d.schaal": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "anthony_l4rp": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "anthonyjonesadventure": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "anthonytony": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "antonio.duribaik": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "antoniokutas": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "antoniomorosjimenez": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "aohayden": {
+      "following": true,
+      "following_since": "2026-06-03"
     },
     "appalachian_dirt_bag": {
       "follower": true,
-      "follower_since": "2026-06-10"
+      "follower_since": "2026-06-10",
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "appleslap_photography": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "aqueducttrails": {
+      "following": true,
+      "following_since": "2026-05-30"
     },
     "ariannakharizz": {
       "follower": true,
-      "follower_since": "2026-06-22"
+      "follower_since": "2026-06-22",
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "arkansasmoves": {
+      "following": true,
+      "following_since": "2026-05-28"
     },
     "arlo_bikes": {
       "follower": true,
-      "follower_since": "2026-06-09"
+      "follower_since": "2026-06-09",
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "artistkatlinparenteau": {
+      "following": true,
+      "following_since": "2026-05-26"
+    },
+    "asabeckham": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "asawheeland26": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "ascutney_chronicles": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "ascutney_trails_association": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "ascutneyoutdoors": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "ashton53t": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "ashtonleighann": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "asined7o": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "aslongasyoupedal": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "atbdesign": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "audreykrumenacker": {
+      "following": true,
+      "following_since": "2026-06-02"
     },
     "aust3nm": {
       "follower": true,
-      "follower_since": "2026-07-01"
+      "follower_since": "2026-07-01",
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "austin8hart": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "austinfeula": {
+      "following": true,
+      "following_since": "2026-10-27"
+    },
+    "austinrussell.7280": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "autumnsgingrich": {
+      "following": true,
+      "following_since": "2026-06-08"
     },
     "avengott09": {
       "follower": true,
-      "follower_since": "2026-10-21"
+      "follower_since": "2026-10-21",
+      "following": true,
+      "following_since": "2026-10-21"
+    },
+    "avision.mtb": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "avn_kly": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "ayrtonfrench838": {
+      "following": true,
+      "following_since": "2026-06-03"
     },
     "b.i.k.e.a.h.o.l.i.c": {
       "follower": true,
-      "follower_since": "2026-10-05"
+      "follower_since": "2026-10-05",
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "b2vt.ride": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "b_carroll_89": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "b_hag22": {
+      "following": true,
+      "following_since": "2026-06-13"
+    },
+    "b_line_queens": {
+      "following": true,
+      "following_since": "2026-06-09"
     },
     "b_team_np": {
       "follower": true,
-      "follower_since": "2026-06-24"
+      "follower_since": "2026-06-24",
+      "following": true,
+      "following_since": "2026-06-24"
     },
     "backcountry_patrol": {
       "follower": true,
-      "follower_since": "2026-05-19"
+      "follower_since": "2026-05-19",
+      "following": true,
+      "following_since": "2026-05-16"
+    },
+    "badgercyclist": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "badsneakers": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "baerzie": {
+      "following": true,
+      "following_since": "2026-06-23"
+    },
+    "baistryboy": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "barn_wah": {
+      "following": true,
+      "following_since": "2026-05-30"
     },
     "bartolomeo_manueldi.mtb_": {
       "follower": true,
-      "follower_since": "2026-10-22"
+      "follower_since": "2026-10-22",
+      "following": true,
+      "following_since": "2026-10-22"
     },
     "baryak.bikepacking": {
       "follower": true,
-      "follower_since": "2026-06-10"
+      "follower_since": "2026-06-10",
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "basti_send": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "batgirl_xtreme": {
+      "following": true,
+      "following_since": "2026-06-19"
+    },
+    "batsvt": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "bauer50km": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "baystate_multisport": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "bazatatry": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "be_loved_rn": {
+      "following": true,
+      "following_since": "2026-06-16"
+    },
+    "bearaldo": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "bearclawth": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "beardcontestwinner": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "bearded_ginger_man": {
+      "following": true,
+      "following_since": "2026-05-24"
+    },
+    "beauclark446": {
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "beerbikestacos": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "beerlovestoledooh": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "bek.bikes": {
+      "following": true,
+      "following_since": "2026-06-02"
     },
     "bell_lap_official": {
       "follower": true,
-      "follower_since": "2026-05-16"
+      "follower_since": "2026-05-16",
+      "following": true,
+      "following_since": "2026-05-16"
+    },
+    "bella.robinsonhall": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "bellisfarmer": {
+      "following": true,
+      "following_since": "2026-06-19"
+    },
+    "belmeadesigns": {
+      "following": true,
+      "following_since": "2026-06-23"
+    },
+    "belocustoms": {
+      "following": true,
+      "following_since": "2026-10-22"
     },
     "ben.chartier11": {
       "follower": true,
-      "follower_since": "2026-06-24"
+      "follower_since": "2026-06-24",
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "ben__bardwell": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "ben_trib": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "benisawsm": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "benmcgranaghan": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "benmeyer85": {
+      "following": true,
+      "following_since": "2026-05-26"
     },
     "bentonvillebiketrain": {
       "follower": true,
-      "follower_since": "2026-06-01"
+      "follower_since": "2026-06-01",
+      "following": true,
+      "following_since": "2026-06-01"
+    },
+    "berkshirenemba": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "berkshirevelo413cycling": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "bermsnap": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "bernebroudy": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "beta.believe.922": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "bethsikorski": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "bettyfloored": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "beyto26016": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "bgagne82": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "bicyclemechnician": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "bigchungusthebronzebear": {
+      "following": true,
+      "following_since": "2026-06-11"
+    },
+    "bigdaybrewing": {
+      "following": true,
+      "following_since": "2026-05-22"
+    },
+    "bihnbikesboston": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "bikawright": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "bike_drmz": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "bikebombcity": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "bikeborderlands": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "bikecamphikegirl": {
+      "following": true,
+      "following_since": "2026-10-08"
+    },
+    "bikecaptureamber": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "bikenthings": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "bikeorsomething": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "bikepack_adirondacks": {
+      "following": true,
+      "following_since": "2026-05-22"
+    },
+    "bikepack_adventures": {
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "bikeparkbtv": {
+      "following": true,
+      "following_since": "2026-06-04"
     },
     "bikepocing": {
       "follower": true,
-      "follower_since": "2026-06-22"
+      "follower_since": "2026-06-22",
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "bikerbrad_": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "bikernate": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "bikesbirdsbeans": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "bikesharedude": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "bikeshopandy": {
+      "following": true,
+      "following_since": "2026-05-24"
+    },
+    "bikethenorthcountry": {
+      "following": true,
+      "following_since": "2026-05-22"
+    },
+    "biketinker": {
+      "following": true,
+      "following_since": "2026-06-13"
     },
     "bill3joe": {
       "follower": true,
-      "follower_since": "2026-06-09"
+      "follower_since": "2026-06-09",
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "birkiebike": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "bisikletli_adam_officiial": {
+      "following": true,
+      "following_since": "2026-06-09"
     },
     "bjorklundemanuel": {
       "follower": true,
-      "follower_since": "2026-08-18"
+      "follower_since": "2026-08-18",
+      "following": true,
+      "following_since": "2026-08-19"
+    },
+    "bknemba": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "black_swamp_bicycle_club": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "blackbearyblue": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "blackstone_valley_nemba": {
+      "following": true,
+      "following_since": "2026-04-28"
     },
     "blackswampriders": {
       "follower": true,
-      "follower_since": "2026-06-13"
+      "follower_since": "2026-06-13",
+      "following": true,
+      "following_since": "2026-06-12"
+    },
+    "blaisenotblaze": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "blake.a.briscoe": {
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "blake_kingfisher": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "bleumilo": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "blindguybiking": {
+      "following": true,
+      "following_since": "2026-06-23"
+    },
+    "bluehills_ski_patrol": {
+      "following": true,
+      "following_since": "2026-05-16"
+    },
+    "bluehillsracing": {
+      "following": true,
+      "following_since": "2026-06-23"
+    },
+    "blueridesbikes": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "blueskymtb": {
+      "following": true,
+      "following_since": "2026-05-26"
+    },
+    "bluesteelbike": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "bluewallmtb": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "bmorrison16": {
+      "following": true,
+      "following_since": "2026-07-02"
     },
     "boar_adventurers_mtb_hike": {
       "follower": true,
-      "follower_since": "2026-06-09"
+      "follower_since": "2026-06-09",
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "bodi_seeley": {
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "bolen1ka": {
+      "following": true,
+      "following_since": "2026-10-08"
+    },
+    "bombshell_cycleclub": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "bonakilla32": {
+      "following": true,
+      "following_since": "2026-06-13"
+    },
+    "bontrager.keith": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "bounithassan1": {
+      "following": true,
+      "following_since": "2026-09-29"
+    },
+    "brandonfixesthings": {
+      "following": true,
+      "following_since": "2026-05-30"
     },
     "bret.mccormick": {
       "follower": true,
-      "follower_since": "2026-05-28"
+      "follower_since": "2026-05-28",
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "brian.hickman24": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "brianbarthelmes": {
+      "following": true,
+      "following_since": "2026-05-30"
     },
     "brianmcgloin": {
       "follower": true,
-      "follower_since": "2026-06-18"
+      "follower_since": "2026-06-18",
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "brianmountaineerq": {
+      "following": true,
+      "following_since": "2026-06-18"
     },
     "bricycles82": {
       "follower": true,
-      "follower_since": "2026-05-16"
+      "follower_since": "2026-05-16",
+      "following": true,
+      "following_since": "2026-05-16"
+    },
+    "brodymmcdermott": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "brok_cross": {
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "brothers_alex": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "browndogbiketours": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "bryanwarnecke_cf": {
+      "following": true,
+      "following_since": "2026-10-21"
+    },
+    "brysonvalway": {
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "bscott1446": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "buffalo.devo": {
+      "following": true,
+      "following_since": "2026-05-27"
     },
     "buffalobicyclingclub": {
       "follower": true,
-      "follower_since": "2026-06-10"
+      "follower_since": "2026-06-10",
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "builder_projects": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "burgessr2": {
+      "following": true,
+      "following_since": "2026-06-16"
     },
     "burkebasecamp": {
       "follower": true,
-      "follower_since": "2026-06-01"
+      "follower_since": "2026-06-01",
+      "following": true,
+      "following_since": "2026-05-31"
+    },
+    "burkemountainofficial": {
+      "following": true,
+      "following_since": "2026-05-18"
+    },
+    "burtwentcrazy": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "byclas_mtb": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "c_park_go": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "cael_is_core51": {
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "caleb.m0rse": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "calebrichter": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "calebwheel": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "campbilsky": {
+      "following": true,
+      "following_since": "2026-06-08"
     },
     "campkikivt": {
       "follower": true,
-      "follower_since": "2026-06-05"
+      "follower_since": "2026-06-05",
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "canadianshieldbikepacking": {
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "canefanmtb": {
+      "following": true,
+      "following_since": "2026-06-09"
     },
     "canterburynh2": {
       "follower": true,
-      "follower_since": "2026-05-25"
+      "follower_since": "2026-05-25",
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "cape_mobile_bike_repair": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "capecodnemba": {
+      "following": true,
+      "following_since": "2026-05-01"
+    },
+    "captainkickstand": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "captive_media_": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "capuano_amelia": {
+      "following": true,
+      "following_since": "2026-05-26"
+    },
+    "cararitz_": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "carlwgehring": {
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "carlx.dh": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "carolinahillmtbclassic": {
+      "following": true,
+      "following_since": "2026-05-01"
+    },
+    "carrie_bax": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "carter_faulknier16": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "carter_vandenheuvel_77": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "carteryang_1998": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "caseadillia": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "cash_swanson": {
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "catamount.ski.patrol": {
+      "following": true,
+      "following_since": "2026-05-16"
+    },
+    "catanorena": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "catbitephone": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "catlyn_b": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "cb_2735": {
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "cbccrace": {
+      "following": true,
+      "following_since": "2026-05-01"
+    },
+    "cblakemore": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "ccf_devo": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "cd203": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "cda_11875": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "cej_mtb": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "cg_mtbspam": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "chanb_217": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "charlesblackdh": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "charlesfortincreative": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "charlie_likes_bks": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "charliemadonia_racing": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "charliemtb46": {
+      "following": true,
+      "following_since": "2026-10-22"
     },
     "chase.zalewski": {
       "follower": true,
-      "follower_since": "2026-06-24"
+      "follower_since": "2026-06-24",
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "chasing_adrenaline_": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "chasingasa76": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "chessie_diomede": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "cheyennewood15": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "chickenparts_usa": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "chiller.mike": {
+      "following": true,
+      "following_since": "2026-06-13"
+    },
+    "chqphoto": {
+      "following": true,
+      "following_since": "2026-06-11"
+    },
+    "chris_mkc1": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "chriseldredge": {
+      "following": true,
+      "following_since": "2026-05-25"
     },
     "chrisisdevine": {
       "follower": true,
-      "follower_since": "2026-06-22"
+      "follower_since": "2026-06-22",
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "christianwmtb": {
+      "following": true,
+      "following_since": "2026-10-26"
+    },
+    "christine_in_nomi": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "christopher.pouliot": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "chubbs_peterson69": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "chuckypitts": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "cindy.pruce": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "ckbikesma": {
+      "following": true,
+      "following_since": "2026-05-26"
+    },
+    "claimthelanefilm": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "class4cycling": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "climbonline1990": {
+      "following": true,
+      "following_since": "2026-05-27"
     },
     "cltmtbcoach": {
       "follower": true,
-      "follower_since": "2026-06-08"
+      "follower_since": "2026-06-08",
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "cmyanko": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "cnhnemba": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "cnyfreeride": {
+      "following": true,
+      "following_since": "2026-05-26"
     },
     "coach.mandy.renee": {
       "follower": true,
-      "follower_since": "2026-06-10"
+      "follower_since": "2026-06-10",
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "coachchristine1": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "coachkellim": {
+      "following": true,
+      "following_since": "2026-06-23"
+    },
+    "cody_stuntz91": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "coggstwinports": {
+      "following": true,
+      "following_since": "2026-06-13"
+    },
+    "cojaybird": {
+      "following": true,
+      "following_since": "2026-05-24"
+    },
+    "coldwatercampcabins": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "colegabrielmtb": {
+      "following": true,
+      "following_since": "2026-10-23"
+    },
+    "colinmarx": {
+      "following": true,
+      "following_since": "2026-06-13"
+    },
+    "colinregina16": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "collin.daulong.travel": {
+      "following": true,
+      "following_since": "2026-05-31"
+    },
+    "collin_palotto": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "collinrides": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "collinwalh": {
+      "following": true,
+      "following_since": "2026-06-11"
+    },
+    "colm_ryan": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "colton__ali": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "combaorg": {
+      "following": true,
+      "following_since": "2026-10-21"
+    },
+    "combomtb": {
+      "following": true,
+      "following_since": "2026-06-12"
     },
     "comeragh335": {
       "follower": true,
-      "follower_since": "2026-05-25"
+      "follower_since": "2026-05-25",
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "como_la_isla": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "concordskatepark": {
+      "following": true,
+      "following_since": "2026-05-26"
+    },
+    "connor.nickel": {
+      "following": true,
+      "following_since": "2026-06-11"
+    },
+    "connor.parmelee": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "connorlooney": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "cont_k.62": {
+      "following": true,
+      "following_since": "2026-09-29"
+    },
+    "contentfactoryracing": {
+      "following": true,
+      "following_since": "2026-06-23"
+    },
+    "coop.morrill": {
+      "following": true,
+      "following_since": "2026-06-08"
     },
     "coopsharp05": {
       "follower": true,
-      "follower_since": "2026-06-08"
+      "follower_since": "2026-06-08",
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "coosbrewing": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "cooscyclingclub": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "cor3mic": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "coreyswartz603": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "corkykun": {
+      "following": true,
+      "following_since": "2026-06-12"
+    },
+    "corning_racing": {
+      "following": true,
+      "following_since": "2026-05-26"
+    },
+    "cowbellbikeshop": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "coyote_socks": {
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "craigfrazee": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "crews.ishee": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "crnemba": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "crow.david": {
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "crue.man": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "ct.singletrack": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "ctamtam": {
+      "following": true,
+      "following_since": "2026-06-22"
     },
     "ctc_mtb25": {
       "follower": true,
-      "follower_since": "2026-06-10"
+      "follower_since": "2026-06-10",
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "ctcrankee": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "ctcyclecenter": {
+      "following": true,
+      "following_since": "2026-06-23"
+    },
+    "cw_gray": {
+      "following": true,
+      "following_since": "2026-06-03"
     },
     "cyclecatspdx": {
       "follower": true,
-      "follower_since": "2026-06-27"
+      "follower_since": "2026-06-27",
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "cyclesnack": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "cyclick_york": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "cycling__martin": {
+      "following": true,
+      "following_since": "2026-06-09"
     },
     "cycling_c0d3r": {
       "follower": true,
-      "follower_since": "2026-06-09"
+      "follower_since": "2026-06-09",
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "cycling_elena": {
+      "following": true,
+      "following_since": "2026-06-23"
+    },
+    "cycling_in_603": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "cyclingerist": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "cyclingeventstickers": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "cyclingwiththomas": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "cycoinvt": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "cyruskidder": {
+      "following": true,
+      "following_since": "2026-06-24"
     },
     "d1training_toledo": {
       "follower": true,
-      "follower_since": "2026-07-22"
+      "follower_since": "2026-07-22",
+      "following": true,
+      "following_since": "2026-06-16"
+    },
+    "dakotabuck": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "danaambrosejr": {
+      "following": true,
+      "following_since": "2026-10-23"
+    },
+    "danennis83": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "danhill794": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "daniel_and_nico": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "daniiboardds": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "danus6467": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "daqwoods": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "dawson_norcross": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "daxvolle": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "dcskier025": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "deajohns": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "deb.richardson333": {
+      "following": true,
+      "following_since": "2026-05-27"
     },
     "decrepitmtbclothingco": {
       "follower": true,
-      "follower_since": "2026-05-30"
+      "follower_since": "2026-05-30",
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "deepwoodskier": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "deniseh_chc": {
+      "following": true,
+      "following_since": "2026-05-27"
     },
     "dennyjannettymtb": {
       "follower": true,
-      "follower_since": "2026-05-30"
+      "follower_since": "2026-05-30",
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "derek.boyle": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "derekgeno": {
+      "following": true,
+      "following_since": "2026-05-31"
+    },
+    "derekvanvliet": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "destinationbicycle": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "devlin.cycles": {
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "dextervw": {
+      "following": true,
+      "following_since": "2026-06-04"
     },
     "dgski": {
       "follower": true,
-      "follower_since": "2026-06-16"
+      "follower_since": "2026-06-16",
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "dhartdad": {
+      "following": true,
+      "following_since": "2026-06-09"
     },
     "dialedbymike": {
       "follower": true,
-      "follower_since": "2026-05-18"
+      "follower_since": "2026-05-18",
+      "following": true,
+      "following_since": "2026-05-18"
+    },
+    "dirt_jesus_540": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "dirtbiker289": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "dirtritualmtb": {
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "dirtservicecenter": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "dirty30gravel": {
+      "following": true,
+      "following_since": "2026-06-19"
     },
     "dirtyhectorgravel": {
       "follower": true,
-      "follower_since": "2026-06-22"
+      "follower_since": "2026-06-22",
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "dirtyrivercrap": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "djn_photo": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "dk462": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "dnucco23": {
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "doli66_ski": {
+      "following": true,
+      "following_since": "2026-06-24"
     },
     "dominiccincotta": {
       "follower": true,
-      "follower_since": "2026-06-10"
+      "follower_since": "2026-06-10",
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "dorandexter": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "dorsetgraveldash": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "downhillpictures": {
+      "following": true,
+      "following_since": "2026-06-03"
     },
     "downhillworld_2009": {
       "follower": true,
-      "follower_since": "2026-06-08"
+      "follower_since": "2026-06-08",
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "downvalleybikes": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "dp_brakes_mtb": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "dr.e.musictheory": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "drakeandirey": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "draycegaines": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "dreadneck": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "drewsbikeshop": {
+      "following": true,
+      "following_since": "2026-06-01"
+    },
+    "driftlesscyclingtours": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "drmichaelmulick": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "drummondcycles": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "drummondgirl": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "dskipatrol": {
+      "following": true,
+      "following_since": "2026-05-16"
+    },
+    "duck_yeah479": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "dufresneroland": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "dupontthorsten": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "dustin_does_it": {
+      "following": true,
+      "following_since": "2026-06-19"
+    },
+    "dwfunk_racing": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "e.a.little": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "east_coast.legends": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "eastcoastgravitygirls": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "easternstatescup": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "eatwell.lovelife": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "ecfinn7": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "echromeo": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "edoardobrigidi": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "edwardcarson14": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "ejinlp": {
+      "following": true,
+      "following_since": "2026-06-23"
+    },
+    "ekay_adventures": {
+      "following": true,
+      "following_since": "2026-05-31"
+    },
+    "el.lobo.lupus": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "electro_bikesga": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "elet_mccusker": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "elhemiverde": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "eli_burnes": {
+      "following": true,
+      "following_since": "2026-06-03"
     },
     "elias.fetter": {
       "follower": true,
-      "follower_since": "2026-06-27"
+      "follower_since": "2026-06-27",
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "elias.geha.photography": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "elijahbarron_": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "elimaddenvt": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "elisaotter": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "ellie.tibbals": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "elliott_shapiro_": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "ellipti_gone": {
+      "following": true,
+      "following_since": "2026-06-11"
     },
     "em_ef_er2": {
       "follower": true,
-      "follower_since": "2026-06-09"
+      "follower_since": "2026-06-09",
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "emcfish92": {
+      "following": true,
+      "following_since": "2026-06-11"
+    },
+    "emeckell": {
+      "following": true,
+      "following_since": "2026-06-13"
+    },
+    "emilegiroux": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "emilylevens": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "emilyruonavaara": {
+      "following": true,
+      "following_since": "2026-06-13"
+    },
+    "emilythibo": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "emma_wetten": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "epic_rides_uk": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "eric_m_fredrickson": {
+      "following": true,
+      "following_since": "2026-06-18"
     },
     "erik_corbett603": {
       "follower": true,
-      "follower_since": "2026-05-27"
+      "follower_since": "2026-05-27",
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "erikds924": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "erikgehring": {
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "estacao.bike.alcobaca": {
+      "following": true,
+      "following_since": "2026-06-08"
     },
     "event_support_professionals": {
       "follower": true,
-      "follower_since": "2026-09-28"
+      "follower_since": "2026-09-28",
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "everyday.bikes": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "excitement_wheelworks": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "extreme_vintage": {
+      "following": true,
+      "following_since": "2026-06-09"
     },
     "fahrrader_und_bass7": {
       "follower": true,
-      "follower_since": "2026-06-03"
+      "follower_since": "2026-06-03",
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "farmdogsaresprinttraining": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "fastendurance": {
+      "following": true,
+      "following_since": "2026-09-29"
+    },
+    "fcnemba": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "felix_mtb_15": {
+      "following": true,
+      "following_since": "2026-06-04"
     },
     "felixrgervais": {
       "follower": true,
-      "follower_since": "2026-06-08"
+      "follower_since": "2026-06-08",
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "fellowmason": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "festivusofgravel": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "fingerlakescycling": {
+      "following": true,
+      "following_since": "2026-06-02"
     },
     "fingerlakesfreshet": {
       "follower": true,
-      "follower_since": "2026-06-02"
+      "follower_since": "2026-06-02",
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "finley_reece_mtb": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "fitforlife_mike": {
+      "following": true,
+      "following_since": "2026-05-28"
     },
     "fitpedals890": {
       "follower": true,
-      "follower_since": "2026-09-03"
+      "follower_since": "2026-09-03",
+      "following": true,
+      "following_since": "2026-09-03"
+    },
+    "flatlineracing_mtb": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "flionfree": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "flowridersraceteam": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "flowsocietymtb": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "flowstatemtbfest": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "fluorescentbug": {
+      "following": true,
+      "following_since": "2026-06-22"
     },
     "flx.nd": {
       "follower": true,
-      "follower_since": "2026-06-04"
+      "follower_since": "2026-06-04",
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "fogan_lox_rides_bikes": {
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "fogsw_mhd": {
+      "following": true,
+      "following_since": "2026-06-03"
     },
     "foodieknitter": {
       "follower": true,
-      "follower_since": "2026-06-19"
+      "follower_since": "2026-06-19",
+      "following": true,
+      "following_since": "2026-06-19"
+    },
+    "forest_dweller_art": {
+      "following": true,
+      "following_since": "2026-05-26"
+    },
+    "formeruncle": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "fotwheel": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "franconianemba": {
+      "following": true,
+      "following_since": "2026-04-28"
     },
     "fredcutler.mtb": {
       "follower": true,
-      "follower_since": "2026-06-04"
+      "follower_since": "2026-06-04",
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "free_ride_tim": {
+      "following": true,
+      "following_since": "2026-05-26"
+    },
+    "freerangecigs": {
+      "following": true,
+      "following_since": "2026-06-13"
+    },
+    "freeridect": {
+      "following": true,
+      "following_since": "2026-06-09"
     },
     "fromthepitsbmx": {
       "follower": true,
-      "follower_since": "2026-05-31"
+      "follower_since": "2026-05-31",
+      "following": true,
+      "following_since": "2026-05-26"
     },
     "fullpullgravityracing": {
       "follower": true,
-      "follower_since": "2026-06-04"
+      "follower_since": "2026-06-04",
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "fullsend_gin": {
+      "following": true,
+      "following_since": "2026-10-23"
+    },
+    "fullsendconsulting": {
+      "following": true,
+      "following_since": "2026-10-21"
+    },
+    "futch_n_blsht": {
+      "following": true,
+      "following_since": "2026-06-08"
     },
     "fzskipatrol": {
       "follower": true,
-      "follower_since": "2026-05-16"
+      "follower_since": "2026-05-16",
+      "following": true,
+      "following_since": "2026-05-16"
     },
     "g__shreds": {
       "follower": true,
-      "follower_since": "2026-07-10"
+      "follower_since": "2026-07-10",
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "g_raymc": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "gabegore_": {
+      "following": true,
+      "following_since": "2026-06-09"
     },
     "gabinbnt_": {
       "follower": true,
-      "follower_since": "2026-06-24"
+      "follower_since": "2026-06-24",
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "gabriel0rtiz": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "galactika": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "galipa_bigheadbmx": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "galonthetrail": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "garrett.leneveu": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "garrett_dunham17": {
+      "following": true,
+      "following_since": "2026-06-11"
+    },
+    "garyj63": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "gaspar_olmedo_ec": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "gavin.mackay": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "gavin.su11ivan": {
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "gavin_sarg42": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "gavinmorrell2468": {
+      "following": true,
+      "following_since": "2026-06-13"
+    },
+    "gbnemba": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "gear_fine": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "gear_inches": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "gearsofjoycycling": {
+      "following": true,
+      "following_since": "2026-06-09"
     },
     "gerardoescobar76": {
       "follower": true,
-      "follower_since": "2026-08-20"
+      "follower_since": "2026-08-20",
+      "following": true,
+      "following_since": "2026-08-21"
+    },
+    "geronimok": {
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "gerty_4_7": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "getgatedrop": {
+      "following": true,
+      "following_since": "2026-05-16"
+    },
+    "getoutsidene": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "ghostdh_666": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "gilacentric": {
+      "following": true,
+      "following_since": "2026-07-02"
+    },
+    "gingermountainfitness": {
+      "following": true,
+      "following_since": "2026-05-24"
+    },
+    "glennnmtb": {
+      "following": true,
+      "following_since": "2026-10-21"
+    },
+    "glow_mtb": {
+      "following": true,
+      "following_since": "2026-05-24"
+    },
+    "glutenfreedan": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "gnar1ychar1ie": {
+      "following": true,
+      "following_since": "2026-06-23"
     },
     "gnar_vt": {
       "follower": true,
-      "follower_since": "2026-06-12"
+      "follower_since": "2026-06-12",
+      "following": true,
+      "following_since": "2026-06-12"
+    },
+    "gnarly1ec": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "gollito_mtb": {
+      "following": true,
+      "following_since": "2026-10-23"
+    },
+    "gooch_goo": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "goproyolobro": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "gordon.mcfarlane.54": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "gorhamnhoutdoors": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "gpnemba": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "granitegorgebikepark": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "graniteoutdoor": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "grassrootscycles": {
+      "following": true,
+      "following_since": "2026-10-21"
     },
     "gravel.tamasya": {
       "follower": true,
-      "follower_since": "2026-06-09"
+      "follower_since": "2026-06-09",
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "gravelboston": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "gravity_alliance": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "gravityandfriction": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "gravitysportsfitness": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "greada_treaty": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "greasychainbookandbikeclub": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "greaterwolfeboronemba": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "greatglentrails": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "greatlakeslife": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "green.eggs.n.ham1": {
+      "following": true,
+      "following_since": "2026-05-31"
     },
     "green_mountain_state_of_mind_": {
       "follower": true,
-      "follower_since": "2026-05-30"
+      "follower_since": "2026-05-30",
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "greenfefo_fpv": {
+      "following": true,
+      "following_since": "2026-06-01"
+    },
+    "greenmountainbikes": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "greenmountainclub": {
+      "following": true,
+      "following_since": "2026-10-08"
+    },
+    "greenwoodlands": {
+      "following": true,
+      "following_since": "2026-04-28"
     },
     "greg.smith0534": {
       "follower": true,
-      "follower_since": "2026-06-08"
+      "follower_since": "2026-06-08",
+      "following": true,
+      "following_since": "2026-06-08"
     },
     "greg_hovey": {
       "follower": true,
-      "follower_since": "2026-10-23"
+      "follower_since": "2026-10-23",
+      "following": true,
+      "following_since": "2026-10-23"
+    },
+    "gregg_ferraris": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "greghagley": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "gryphon_gh": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "gs.mtb": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "gsl.vrmntrl": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "guillermoluismolina": {
+      "following": true,
+      "following_since": "2026-09-29"
+    },
+    "gupindustries": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "halellms": {
+      "following": true,
+      "following_since": "2026-05-28"
     },
     "hammphoto": {
       "follower": true,
-      "follower_since": "2026-06-03"
+      "follower_since": "2026-06-03",
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "happytobehere_media": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "hardwickmtbtrails": {
+      "following": true,
+      "following_since": "2026-05-01"
     },
     "harphannah": {
       "follower": true,
-      "follower_since": "2026-06-18"
+      "follower_since": "2026-06-18",
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "harrison.winkel": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "harrison_on_a_saracen": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "harryplaisted11": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "hassberggravel": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "havek_ic": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "hawaiian_shirt_mafia_racing": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "haydenellms": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "hayduke2005": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "hcbourne": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "hearstoutdoors": {
+      "following": true,
+      "following_since": "2026-10-26"
+    },
+    "heathern_h": {
+      "following": true,
+      "following_since": "2026-10-26"
     },
     "henriquexavier736": {
       "follower": true,
-      "follower_since": "2026-06-04"
+      "follower_since": "2026-06-04",
+      "following": true,
+      "following_since": "2026-06-04"
     },
     "henry.niles.mtb": {
       "follower": true,
-      "follower_since": "2026-06-04"
+      "follower_since": "2026-06-04",
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "henry_g_wilkas": {
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "heppa_titus_living": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "hf72_hansy": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "hi.this.is.z": {
+      "following": true,
+      "following_since": "2026-06-10"
     },
     "hiderhare": {
       "follower": true,
-      "follower_since": "2026-06-02"
+      "follower_since": "2026-06-02",
+      "following": true,
+      "following_since": "2026-05-16"
     },
     "highdesertgrouprides": {
       "follower": true,
-      "follower_since": "2026-06-27"
+      "follower_since": "2026-06-27",
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "highland_mtn": {
+      "following": true,
+      "following_since": "2026-05-24"
+    },
+    "highlandbike": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "highmountainchains": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "hightowerexpeditions": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "hillale": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "hillside_designworks": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "hitchhikerbikeshop": {
+      "following": true,
+      "following_since": "2026-05-18"
+    },
+    "hoes_hu_bike": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "homeless_in_training": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "homiak_singletrack": {
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "hornzeerides": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "houstons4": {
+      "following": true,
+      "following_since": "2026-06-19"
+    },
+    "hpsmith1014": {
+      "following": true,
+      "following_since": "2026-06-13"
+    },
+    "hubnorthnh": {
+      "following": true,
+      "following_since": "2026-05-22"
+    },
+    "hudson_burnette": {
+      "following": true,
+      "following_since": "2026-06-12"
+    },
+    "huffyusa": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "humanistic_coaching": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "hunarals": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "hunter_bernier783": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "huskyfargo": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "hvnemba": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "hxc2701": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "i_am_cr2": {
+      "following": true,
+      "following_since": "2026-06-09"
     },
     "iam.ryan987": {
       "follower": true,
-      "follower_since": "2026-06-10"
+      "follower_since": "2026-06-10",
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "ianscaglione": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "ibikeskivt": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "icathaid": {
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "ilyaburmatov": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "imbrogli.o": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "indy_track_cyclingfans": {
+      "following": true,
+      "following_since": "2026-09-29"
+    },
+    "instaplant": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "instridesports": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "interstatement84": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "iridevt": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "isaac.mroz": {
+      "following": true,
+      "following_since": "2026-06-11"
     },
     "isaac_scott26": {
       "follower": true,
-      "follower_since": "2026-06-10"
+      "follower_since": "2026-06-10",
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "isaaccyclist": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "isaak_josua": {
+      "following": true,
+      "following_since": "2026-06-08"
     },
     "isac.mtb2": {
       "follower": true,
-      "follower_since": "2026-06-08"
+      "follower_since": "2026-06-08",
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "isaiahrapko": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "island_linesmtb": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "its_me_jessica1435": {
+      "following": true,
+      "following_since": "2026-05-11"
     },
     "itsjimsfault": {
       "follower": true,
-      "follower_since": "2026-05-26"
+      "follower_since": "2026-05-26",
+      "following": true,
+      "following_since": "2026-05-26"
+    },
+    "itsmattsheaff": {
+      "following": true,
+      "following_since": "2026-06-04"
     },
     "ivan.rider.frs": {
       "follower": true,
-      "follower_since": "2026-06-08"
+      "follower_since": "2026-06-08",
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "j.bstudios": {
+      "following": true,
+      "following_since": "2026-05-28"
     },
     "j.likes.bikes": {
       "follower": true,
-      "follower_since": "2026-05-16"
+      "follower_since": "2026-05-16",
+      "following": true,
+      "following_since": "2026-05-16"
+    },
+    "j_castiglione": {
+      "following": true,
+      "following_since": "2026-06-11"
     },
     "j_hance595": {
       "follower": true,
-      "follower_since": "2026-06-08"
+      "follower_since": "2026-06-08",
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "j_l_o_85": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "j_pearo": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "jack.skis07": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "jack_bernhard": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "jackalopemfg": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "jackbaugh": {
+      "following": true,
+      "following_since": "2026-06-12"
     },
     "jackgym421": {
       "follower": true,
-      "follower_since": "2026-08-24"
+      "follower_since": "2026-08-24",
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "jackieharmony": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "jackkenamond13": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "jacksreel": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "jacob_sand20": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "jacobloos_": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "jakebriscoe_218": {
+      "following": true,
+      "following_since": "2026-10-26"
+    },
+    "jakeisba": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "jakejakewright": {
+      "following": true,
+      "following_since": "2026-10-26"
+    },
+    "jaker_the_mtber": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "jamainpabonvisuals": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "jambavt": {
+      "following": true,
+      "following_since": "2026-05-01"
+    },
+    "james._frizzell": {
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "jamescarelsen08": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "jameswallace.grindstonecoffee": {
+      "following": true,
+      "following_since": "2026-06-01"
+    },
+    "jammo_bmx": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "jaseptak": {
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "jasmaun": {
+      "following": true,
+      "following_since": "2026-06-08"
     },
     "jason.macom": {
       "follower": true,
-      "follower_since": "2026-06-03"
+      "follower_since": "2026-06-03",
+      "following": true,
+      "following_since": "2026-06-03"
     },
     "jaydubb724": {
       "follower": true,
-      "follower_since": "2026-06-10"
+      "follower_since": "2026-06-10",
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "jbigelow965": {
+      "following": true,
+      "following_since": "2026-06-09"
     },
     "jcgatty": {
       "follower": true,
-      "follower_since": "2026-05-14"
+      "follower_since": "2026-05-14",
+      "following": true,
+      "following_since": "2026-05-15"
+    },
+    "jeanettegerrie": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "jebphoto": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "jeddie_adventure": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "jeff_b.ikes": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "jeff_liftz": {
+      "following": true,
+      "following_since": "2026-10-22"
     },
     "jeffriegbd": {
       "follower": true,
-      "follower_since": "2026-06-11"
+      "follower_since": "2026-06-11",
+      "following": true,
+      "following_since": "2026-06-10"
     },
     "jeffsgotstunts": {
       "follower": true,
-      "follower_since": "2026-08-26"
+      "follower_since": "2026-08-26",
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "jeffymtb": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "jenniferocious_15": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "jeremymahler": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "jerseymulisha": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "jesrides": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "jessdg_9558": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "jesse_paroline": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "jessecrash39": {
+      "following": true,
+      "following_since": "2026-05-27"
     },
     "jesseholdenrunmtns": {
       "follower": true,
-      "follower_since": "2026-06-02"
+      "follower_since": "2026-06-02",
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "jessicaclaren": {
+      "following": true,
+      "following_since": "2026-10-17"
+    },
+    "jessierabbitmtb": {
+      "following": true,
+      "following_since": "2026-06-09"
     },
     "jezlikescycling": {
       "follower": true,
-      "follower_since": "2026-06-08"
+      "follower_since": "2026-06-08",
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "jikauffman": {
+      "following": true,
+      "following_since": "2026-05-24"
+    },
+    "jimsalgephoto": {
+      "following": true,
+      "following_since": "2026-10-08"
+    },
+    "jizzo01": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "jjjumpz": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "jlee_5013": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "jmg2831": {
+      "following": true,
+      "following_since": "2026-06-19"
+    },
+    "jn.light": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "joel_ridin": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "joey_bananas_66": {
+      "following": true,
+      "following_since": "2026-05-26"
+    },
+    "joeygoodpies": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "johanlayris": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "john_p_castro": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "johnfallonart": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "johnfennellofficial": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "johnny_bihun": {
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "johnny_makes_mtb": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "johnny_makes_photography": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "jon_left": {
+      "following": true,
+      "following_since": "2026-06-09"
     },
     "jordi.soy": {
       "follower": true,
-      "follower_since": "2026-06-04"
+      "follower_since": "2026-06-04",
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "jorgegonzalez22": {
+      "following": true,
+      "following_since": "2026-06-10"
     },
     "jose_66771": {
       "follower": true,
@@ -430,171 +3236,1381 @@
     },
     "joseph_does_everything_": {
       "follower": true,
-      "follower_since": "2026-05-28"
+      "follower_since": "2026-05-28",
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "josephbanai": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "josephoto_s": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "josh.mcardle": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "josh.saxe": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "josh__probst": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "josh_bercini": {
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "joshsouzasr": {
+      "following": true,
+      "following_since": "2026-06-23"
+    },
+    "joshua.lee.657": {
+      "following": true,
+      "following_since": "2026-06-01"
+    },
+    "joshua_turner784": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "josshrides": {
+      "following": true,
+      "following_since": "2026-10-23"
+    },
+    "jowoodphoto": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "joy_of_climbing": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "joyfully_whole": {
+      "following": true,
+      "following_since": "2026-10-23"
+    },
+    "joypoweradventures": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "jrglaab1": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "jshredsmtb": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "julia__dsrt": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "just.ridin.bikes": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "just1nfront": {
+      "following": true,
+      "following_since": "2026-06-11"
+    },
+    "justice_jax_berry": {
+      "following": true,
+      "following_since": "2026-06-01"
+    },
+    "justin.hocking.mtb": {
+      "following": true,
+      "following_since": "2026-10-23"
+    },
+    "justinjpill": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "justinmeany7": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "justintraveladventures": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "justkathrynb": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "justryancarr": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "jwegs2011": {
+      "following": true,
+      "following_since": "2026-06-27"
     },
     "k.l.d.gl_116": {
       "follower": true,
       "follower_since": "2026-10-28"
     },
+    "k_____a_____m": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "kaden_huckleberry": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
     "kai_waldman_": {
       "follower": true,
-      "follower_since": "2026-06-03"
+      "follower_since": "2026-06-03",
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "kait.maddox": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "karlynne_siverling": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "katabra_dh": {
+      "following": true,
+      "following_since": "2026-10-21"
+    },
+    "katemg2": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "katiepanic79": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "kaylareneehall": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "kbearmtb": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "kclarkmtb": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "kdedora": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "kearsargenemba": {
+      "following": true,
+      "following_since": "2026-05-16"
+    },
+    "kehoejeremy": {
+      "following": true,
+      "following_since": "2026-06-09"
     },
     "keirapuboxo": {
       "follower": true,
       "follower_since": "2026-10-27"
     },
+    "kellie.harrington25": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "kellieghoyt": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "kelly.catale": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "kellyhazlegrove": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "kelskels._": {
+      "following": true,
+      "following_since": "2026-06-12"
+    },
+    "khaos_mtb_gravel": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "kieran_baxter12": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "killingtonareaevents": {
+      "following": true,
+      "following_since": "2026-05-11"
+    },
+    "killingtonmtbclub": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "killingtonmtn": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "kingdom_graveleur": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "kingdomtrails": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "kingston_duesing": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "kip_roberts": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "kirkkardashian": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "kjskierrunner": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "klassenphotography": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "knightrisoxide": {
+      "following": true,
+      "following_since": "2026-05-26"
+    },
+    "knobbyrobbybike": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "kopeus": {
+      "following": true,
+      "following_since": "2026-05-26"
+    },
+    "korynagy135": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "kristin.motley": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "ksar_foundation": {
+      "following": true,
+      "following_since": "2026-05-16"
+    },
     "kyle.chafin": {
       "follower": true,
-      "follower_since": "2026-02-18"
+      "follower_since": "2026-02-18",
+      "following": true,
+      "following_since": "2026-02-18"
+    },
+    "kyle_mtb_10": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "kylel.mccoy": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "kylemountainbiker10": {
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "kylershreds": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "kymatzke": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "l0stk1tty": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "lab425": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "labike2028": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "ladymad1": {
+      "following": true,
+      "following_since": "2026-06-03"
     },
     "lamps.mtb": {
       "follower": true,
-      "follower_since": "2026-06-24"
+      "follower_since": "2026-06-24",
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "lance_neil_hulsey": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "landin.eidum": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "laststopbike": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "leachman21": {
+      "following": true,
+      "following_since": "2026-06-01"
     },
     "leahmarie.bikes": {
       "follower": true,
-      "follower_since": "2026-06-08"
+      "follower_since": "2026-06-08",
+      "following": true,
+      "following_since": "2026-06-08"
     },
     "leahprudhomme": {
       "follower": true,
-      "follower_since": "2026-06-13"
+      "follower_since": "2026-06-13",
+      "following": true,
+      "following_since": "2026-06-13"
     },
     "leanaleo": {
       "follower": true,
-      "follower_since": "2026-10-25"
+      "follower_since": "2026-10-25",
+      "following": true,
+      "following_since": "2026-10-23"
+    },
+    "lebrecreation": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "leeeleary": {
+      "following": true,
+      "following_since": "2026-06-13"
+    },
+    "leeinthavongsa": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "lennard_mtb11": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "leo_102016": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "leoen73": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "leosch730": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "levdransfield": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "liam_fayard11": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "libonbike": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "lichen_bike_tours_hudsonny": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "lighthizer": {
+      "following": true,
+      "following_since": "2026-06-12"
+    },
+    "lightinnewengland": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "lilsenders.neyc": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "limmerboots": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "lincoln.xc.mtb": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "littlebellasmtb": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "littlejacobson": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "littlenekripper2316": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "ljm_images_": {
+      "following": true,
+      "following_since": "2026-06-08"
     },
     "loamchops": {
       "follower": true,
-      "follower_since": "2026-06-11"
+      "follower_since": "2026-06-11",
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "logan_konz": {
+      "following": true,
+      "following_since": "2026-06-09"
     },
     "lolathechecker": {
       "follower": true,
-      "follower_since": "2026-06-03"
+      "follower_since": "2026-06-03",
+      "following": true,
+      "following_since": "2026-06-01"
     },
     "lolekbeni": {
       "follower": true,
-      "follower_since": "2026-06-03"
+      "follower_since": "2026-06-03",
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "loomcitycycles": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "lorenzocorti.photographer": {
+      "following": true,
+      "following_since": "2026-06-18"
     },
     "lost_city_productions": {
       "follower": true,
-      "follower_since": "2026-07-08"
+      "follower_since": "2026-07-08",
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "lost_disciple": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "lostinspa_ce": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "lostmtbclub": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "louis.diomede": {
+      "following": true,
+      "following_since": "2026-06-03"
     },
     "loxerwww": {
       "follower": true,
-      "follower_since": "2026-06-09"
+      "follower_since": "2026-06-09",
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "lpatrickcl": {
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "lpetersen014": {
+      "following": true,
+      "following_since": "2026-05-24"
+    },
+    "lplandry_overcomecafe": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "lssjohnston": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "ltoritto": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "lucacatalano1": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "lugsnotdrugs": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "luisochoa_mtb": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "lukas.diaz25": {
+      "following": true,
+      "following_since": "2026-10-22"
     },
     "lukeiannuzzipottery": {
       "follower": true,
-      "follower_since": "2026-05-31"
+      "follower_since": "2026-05-31",
+      "following": true,
+      "following_since": "2026-05-31"
+    },
+    "lunadawg_mmth": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "lundebrad": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "lynds.19": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "lynzejean": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "lyons_dh": {
+      "following": true,
+      "following_since": "2026-10-23"
+    },
+    "m_kru0": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "mackie_721": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "madebysomewhere": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "madkatsracing": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "madmaxx42216": {
+      "following": true,
+      "following_since": "2026-05-26"
+    },
+    "madriverriders": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "madysonkayphotography": {
+      "following": true,
+      "following_since": "2026-06-13"
     },
     "maggie_rides_bikes": {
       "follower": true,
-      "follower_since": "2026-05-28"
+      "follower_since": "2026-05-28",
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "mahika_peterson": {
+      "following": true,
+      "following_since": "2026-10-21"
+    },
+    "makoa_cony": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "mandre_83": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "manhuff": {
+      "following": true,
+      "following_since": "2026-05-31"
+    },
+    "manny_kaydough": {
+      "following": true,
+      "following_since": "2026-10-23"
+    },
+    "mansmann_": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "manuu.hj_09": {
+      "following": true,
+      "following_since": "2026-06-08"
     },
     "maple_mtb": {
       "follower": true,
-      "follower_since": "2026-07-10"
+      "follower_since": "2026-07-10",
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "maplegravelphil": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "marc_c_cycle": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "marceyhoover": {
+      "following": true,
+      "following_since": "2026-10-23"
+    },
+    "mariaemcamargo": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "marinac29": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "marionbast": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "markjwoodworth": {
+      "following": true,
+      "following_since": "2026-06-11"
+    },
+    "markmcdonald1561": {
+      "following": true,
+      "following_since": "2026-09-29"
     },
     "markyz982": {
       "follower": true,
-      "follower_since": "2026-06-08"
+      "follower_since": "2026-06-08",
+      "following": true,
+      "following_since": "2026-06-08"
     },
     "marleyblonsky": {
       "follower": true,
-      "follower_since": "2026-05-28"
+      "follower_since": "2026-05-28",
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "marlonjrider": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "mars_bee_well": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "mary.kob.sandberg": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "mary_shreds": {
+      "following": true,
+      "following_since": "2026-05-22"
+    },
+    "mason_colf": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "masonjount": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "masonracingcycles": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "masonsharrow": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "masonwardmtb": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "masooonjar": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "matdr20": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "mats_goin_downhill": {
+      "following": true,
+      "following_since": "2026-05-26"
+    },
+    "matt.annabel": {
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "matt.eide": {
+      "following": true,
+      "following_since": "2026-06-13"
+    },
+    "mattfix22": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "matthew.e.limbert": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "matthewmarkfoundation": {
+      "following": true,
+      "following_since": "2026-06-01"
+    },
+    "mattk_vt": {
+      "following": true,
+      "following_since": "2026-06-23"
+    },
+    "mattsebas38": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "matty_peaks": {
+      "following": true,
+      "following_since": "2026-10-08"
+    },
+    "mattykeegs": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "maulsbikeshop": {
+      "following": true,
+      "following_since": "2026-05-26"
+    },
+    "maura.k.a": {
+      "following": true,
+      "following_since": "2026-05-25"
     },
     "max.holdwick": {
       "follower": true,
-      "follower_since": "2026-06-08"
+      "follower_since": "2026-06-08",
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "max_wulff1": {
+      "following": true,
+      "following_since": "2026-05-31"
+    },
+    "maximusmedvesky": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "maxplayswithdirt": {
+      "following": true,
+      "following_since": "2026-05-24"
+    },
+    "maxwell.gillespie": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "mcnemba": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "mcournoyer9": {
+      "following": true,
+      "following_since": "2026-10-23"
+    },
+    "melissa_theodora": {
+      "following": true,
+      "following_since": "2026-10-25"
+    },
+    "melridesbikes": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "memphremagogtrails": {
+      "following": true,
+      "following_since": "2026-06-02"
     },
     "merakirides": {
       "follower": true,
-      "follower_since": "2026-05-26"
+      "follower_since": "2026-05-26",
+      "following": true,
+      "following_since": "2026-05-26"
     },
     "meredithj0124": {
       "follower": true,
-      "follower_since": "2026-06-09"
+      "follower_since": "2026-06-09",
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "mhautaniemi_ny": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "mi.cycle.life": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "micha.murdock": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "michaelerea": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "michefdevo": {
+      "following": true,
+      "following_since": "2026-06-23"
+    },
+    "michelle.hilton88": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "michi.hettegger_": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "mick.ferraro": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "mickdaly26": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "midlandssorba": {
+      "following": true,
+      "following_since": "2026-10-08"
+    },
+    "mike.is.missing": {
+      "following": true,
+      "following_since": "2026-06-23"
     },
     "mike_giarretto": {
       "follower": true,
-      "follower_since": "2026-06-24"
+      "follower_since": "2026-06-24",
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "mike_rice": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "mike_themech": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "mikedmtb": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "mikeg1123": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "mikeroganexperience": {
+      "following": true,
+      "following_since": "2026-06-13"
+    },
+    "miket1075": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "milk_carton_god_": {
+      "following": true,
+      "following_since": "2026-06-24"
     },
     "miller490": {
       "follower": true,
-      "follower_since": "2026-08-04"
+      "follower_since": "2026-08-04",
+      "following": true,
+      "following_since": "2026-06-16"
+    },
+    "millstonetrails": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "mink_traget": {
+      "following": true,
+      "following_since": "2026-06-09"
     },
     "miro_rakic": {
       "follower": true,
-      "follower_since": "2026-06-02"
+      "follower_since": "2026-06-02",
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "misca_bike": {
+      "following": true,
+      "following_since": "2026-06-16"
+    },
+    "miscadevo": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "mistieboule": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "mitchell.post23": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "mjbruiser": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "mlr.works": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "mndot83": {
+      "following": true,
+      "following_since": "2026-06-13"
+    },
+    "molahoods": {
+      "following": true,
+      "following_since": "2026-05-30"
     },
     "monkeyloob": {
       "follower": true,
-      "follower_since": "2026-07-12"
+      "follower_since": "2026-07-12",
+      "following": true,
+      "following_since": "2026-06-16"
+    },
+    "monsterkyle21": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "mooneyecycles": {
+      "following": true,
+      "following_since": "2026-06-13"
     },
     "moralesmorka1306": {
       "follower": true,
-      "follower_since": "2026-06-10"
+      "follower_since": "2026-06-10",
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "morgan.maee": {
+      "following": true,
+      "following_since": "2026-06-13"
+    },
+    "morganic802": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "mostlyxpedaling": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "motivatedprocrastinator": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "mr.t_cyco_mama": {
+      "following": true,
+      "following_since": "2026-06-12"
     },
     "mtb.cole13": {
       "follower": true,
-      "follower_since": "2026-06-04"
+      "follower_since": "2026-06-04",
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "mtb.jen": {
+      "following": true,
+      "following_since": "2026-05-24"
+    },
+    "mtb.knerz": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "mtb_clips_scotland_": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "mtb_ernesta": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "mtb_jenny_c": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "mtb_leah": {
+      "following": true,
+      "following_since": "2026-06-10"
     },
     "mtb_nativos": {
       "follower": true,
-      "follower_since": "2026-06-09"
+      "follower_since": "2026-06-09",
+      "following": true,
+      "following_since": "2026-06-09"
     },
     "mtb_ski65": {
       "follower": true,
-      "follower_since": "2026-07-02"
+      "follower_since": "2026-07-02",
+      "following": true,
+      "following_since": "2026-06-11"
+    },
+    "mtbaz_fit": {
+      "following": true,
+      "following_since": "2026-10-23"
+    },
+    "mtbb.rody": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "mtbcp": {
+      "following": true,
+      "following_since": "2026-05-24"
+    },
+    "mtbextreme01": {
+      "following": true,
+      "following_since": "2026-06-23"
+    },
+    "mtbfun": {
+      "following": true,
+      "following_since": "2026-06-09"
     },
     "mtbfun530": {
       "follower": true,
-      "follower_since": "2026-06-08"
+      "follower_since": "2026-06-08",
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "mtbgirlsmag": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "mtbgrid": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "mtbjakee": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "mtbpeteinthepeaks": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "mtbryderdavidson": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "mtbshocklab": {
+      "following": true,
+      "following_since": "2026-06-08"
     },
     "mtbtrainingdiary": {
       "follower": true,
-      "follower_since": "2026-06-10"
+      "follower_since": "2026-06-10",
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "mtbtravelreview": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "mtbvermont": {
+      "following": true,
+      "following_since": "2026-05-18"
+    },
+    "mtbw13": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "mtbwoodstock": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "mtbx317": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "mtn_queen_colleen": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "mtn_trail_paddle_board_bikes": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "mvnemba": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "mvojtko48": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "mwacenter": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "mwobs": {
+      "following": true,
+      "following_since": "2026-04-28"
     },
     "mx_stands": {
       "follower": true,
-      "follower_since": "2026-06-23"
+      "follower_since": "2026-06-23",
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "my_bike.my_life": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "my_bike_journey": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "mygroc": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "mylasentz": {
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "myles.from.nowhere": {
+      "following": true,
+      "following_since": "2026-07-02"
+    },
+    "mzo_mtb_adventurer": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "nate68cain": {
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "nathan10boyle": {
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "nathankinney_bikes": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "natlskipatrol": {
+      "following": true,
+      "following_since": "2026-05-16"
+    },
+    "natsquatrito": {
+      "following": true,
+      "following_since": "2026-06-24"
     },
     "natural_constructs": {
       "follower": true,
-      "follower_since": "2026-06-12"
+      "follower_since": "2026-06-12",
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "nature.gangster": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "necoutdooreducation": {
+      "following": true,
+      "following_since": "2026-05-16"
     },
     "neergoesfar": {
       "follower": true,
-      "follower_since": "2026-05-22"
+      "follower_since": "2026-05-22",
+      "following": true,
+      "following_since": "2026-05-22"
+    },
+    "neildegorce": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "nemba_mtb": {
+      "following": true,
+      "following_since": "2026-04-28"
     },
     "nevaehvomeju": {
       "follower": true,
       "follower_since": "2026-09-23"
     },
+    "neweare": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "newenglanddevo": {
+      "following": true,
+      "following_since": "2026-09-29"
+    },
+    "newhavenbikeclub": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
     "nhbcpatrol": {
       "follower": true,
-      "follower_since": "2026-05-27"
+      "follower_since": "2026-05-27",
+      "following": true,
+      "following_since": "2026-05-16"
+    },
+    "nhfiremed": {
+      "following": true,
+      "following_since": "2026-05-16"
+    },
+    "nhstateparks": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "nicholekbaker": {
+      "following": true,
+      "following_since": "2026-10-08"
+    },
+    "nick_baubonis": {
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "nick_bennette": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "nick_nordquist": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "nickmoisides": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "nickramsey_": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "nicolevanderwalphoto": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "nightridersundgrnd": {
+      "following": true,
+      "following_since": "2026-10-21"
+    },
+    "nikki6ixgirl": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "nikorlando": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "nm_gmoney": {
+      "following": true,
+      "following_since": "2026-07-02"
     },
     "nmmountainclub": {
       "follower": true,
-      "follower_since": "2026-06-29"
+      "follower_since": "2026-06-29",
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "noah.dines": {
+      "following": true,
+      "following_since": "2026-10-08"
+    },
+    "noah.sc.mtb": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "nobler1der": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "noframo_bros": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "nolanlvt": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "nomad.oriol": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "nomadic_dad": {
+      "following": true,
+      "following_since": "2026-10-22"
     },
     "noodleheadnationriders": {
       "follower": true,
-      "follower_since": "2026-06-22"
+      "follower_since": "2026-06-22",
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "noonanpatrick9": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "noreasterbackcountry": {
+      "following": true,
+      "following_since": "2026-05-31"
+    },
+    "northcrazydriver": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "northeastbikepacker": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "northernmovementpt": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "northoaklandyouthcycling": {
+      "following": true,
+      "following_since": "2026-06-16"
+    },
+    "northstarpublishing": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "northwest.arkansas": {
+      "following": true,
+      "following_since": "2026-05-28"
     },
     "nspeastbike": {
       "follower": true,
-      "follower_since": "2026-05-27"
+      "follower_since": "2026-05-27",
+      "following": true,
+      "following_since": "2026-05-16"
+    },
+    "ntntrails": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "oatmealnelson": {
+      "following": true,
+      "following_since": "2026-05-28"
     },
     "ocgravel": {
       "follower": true,
-      "follower_since": "2026-07-09"
+      "follower_since": "2026-07-09",
+      "following": true,
+      "following_since": "2026-06-09"
     },
     "officialcannonsburgskipatrol": {
       "follower": true,
-      "follower_since": "2026-05-20"
+      "follower_since": "2026-05-20",
+      "following": true,
+      "following_since": "2026-05-16"
+    },
+    "offtrailvisuals": {
+      "following": true,
+      "following_since": "2026-06-22"
     },
     "oficialescadenerosrutag21": {
       "follower": true,
@@ -602,255 +4618,1577 @@
     },
     "ogbooshwackah": {
       "follower": true,
-      "follower_since": "2026-06-02"
+      "follower_since": "2026-06-02",
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "ohiobike": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "ohiofatbiker": {
+      "following": true,
+      "following_since": "2026-06-19"
+    },
+    "ohiomtnbikr": {
+      "following": true,
+      "following_since": "2026-06-12"
+    },
+    "oiseauxexotiques": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "okayhop": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "okemovalleytrails": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "old_and_furious": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "old_g_in_the603": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "oldbluntmouth": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "oldmanmountainracks": {
+      "following": true,
+      "following_since": "2026-05-28"
     },
     "omc_fishing72": {
       "follower": true,
-      "follower_since": "2026-06-05"
+      "follower_since": "2026-06-05",
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "omerandbobs": {
+      "following": true,
+      "following_since": "2026-04-28"
     },
     "onespdtandem": {
       "follower": true,
-      "follower_since": "2026-06-04"
+      "follower_since": "2026-06-04",
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "onespeed_dan": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "onionriveroutdoors": {
+      "following": true,
+      "following_since": "2026-05-22"
+    },
+    "onrails21": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "ooodoyle_rules": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "oscartanski": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "oswaldo.vg": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "outlive_collective": {
+      "following": true,
+      "following_since": "2026-06-24"
     },
     "outside_joe": {
       "follower": true,
-      "follower_since": "2026-05-17"
+      "follower_since": "2026-05-17",
+      "following": true,
+      "following_since": "2026-05-16"
+    },
+    "outsideinlife": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "owen.christman": {
+      "following": true,
+      "following_since": "2026-06-24"
     },
     "owenintha8": {
       "follower": true,
-      "follower_since": "2026-06-25"
+      "follower_since": "2026-06-25",
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "owenm.ar": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "owlex_k": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "ozarkansan": {
+      "following": true,
+      "following_since": "2026-06-01"
+    },
+    "ozarkoffroadcyclists": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "ozmtblife": {
+      "following": true,
+      "following_since": "2026-10-23"
+    },
+    "oztrailsnwa": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "p_d_mitchell_": {
+      "following": true,
+      "following_since": "2026-05-30"
     },
     "painisjustapopsicle": {
       "follower": true,
-      "follower_since": "2026-10-12"
+      "follower_since": "2026-10-12",
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "paisleyrosie": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "panda.pnda.pnda": {
+      "following": true,
+      "following_since": "2026-06-16"
     },
     "paoutdoorscouple": {
       "follower": true,
-      "follower_since": "2026-06-10"
+      "follower_since": "2026-06-10",
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "pappavinny": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "parkish._co": {
+      "following": true,
+      "following_since": "2026-05-26"
+    },
+    "parkratseth": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "partyanimal75": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "pasgervais": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "patrolpenguins": {
+      "following": true,
+      "following_since": "2026-05-25"
     },
     "patrycja_rmn": {
       "follower": true,
-      "follower_since": "2026-06-02"
+      "follower_since": "2026-06-02",
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "pattycquinn": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "paul_s_wiscomtb": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "paullohnes": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "paultodd88": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "pauly2ponds": {
+      "following": true,
+      "following_since": "2026-06-13"
     },
     "pdx_taco_tuesday_ride": {
       "follower": true,
-      "follower_since": "2026-06-27"
+      "follower_since": "2026-06-27",
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "peaceriverskipatrol": {
+      "following": true,
+      "following_since": "2026-05-16"
     },
     "pearljam09": {
       "follower": true,
-      "follower_since": "2026-06-22"
+      "follower_since": "2026-06-22",
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "pedal_progressions_podcast": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "pedalingant": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "pedalpusher00": {
+      "following": true,
+      "following_since": "2026-06-16"
+    },
+    "pedals_of_adventure": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "pedaltime_upcycleddesigns": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "pedromtbing": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "penc_vasek": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "perezangeljrivera": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "perryhilltrailgnome": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "peter.tobey.3": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "peter_vollers": {
+      "following": true,
+      "following_since": "2026-05-31"
+    },
+    "peterjamison": {
+      "following": true,
+      "following_since": "2026-05-26"
     },
     "pghbabesonbikesracing": {
       "follower": true,
-      "follower_since": "2026-06-10"
+      "follower_since": "2026-06-10",
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "philipkolling": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "phin_pyecroft": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "phoebethelaw": {
+      "following": true,
+      "following_since": "2026-06-22"
     },
     "photogramsbymike": {
       "follower": true,
-      "follower_since": "2026-06-04"
+      "follower_since": "2026-06-04",
+      "following": true,
+      "following_since": "2026-06-04"
     },
     "photograph_paysages": {
       "follower": true,
-      "follower_since": "2026-06-02"
+      "follower_since": "2026-06-02",
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "pinyonspinesbikepackingrace": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "piotrek.wwa": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "piscataquis_county_nemba": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "pistachio_garbagio": {
+      "following": true,
+      "following_since": "2026-06-13"
+    },
+    "pitt_enduro": {
+      "following": true,
+      "following_since": "2026-10-31"
+    },
+    "pixoh": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "pizzaboxdesignsbikebags": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "plantpoweredmtb": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "pnw_justin_mtb": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "poplar_bluff_hellbenders": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "portesharvey": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "powderhorntrailco": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "pr_nemba": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "pridestartrinity": {
+      "following": true,
+      "following_since": "2026-05-16"
+    },
+    "prieto.j": {
+      "following": true,
+      "following_since": "2026-10-22"
     },
     "primitive.transport": {
       "follower": true,
-      "follower_since": "2026-08-09"
+      "follower_since": "2026-08-09",
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "printfactorypress": {
+      "following": true,
+      "following_since": "2026-06-18"
     },
     "prkrmtntrails": {
       "follower": true,
-      "follower_since": "2026-07-05"
+      "follower_since": "2026-07-05",
+      "following": true,
+      "following_since": "2026-05-22"
+    },
+    "pro_tune_nh": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "project_porter": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "projectnortheast": {
+      "following": true,
+      "following_since": "2026-05-25"
     },
     "projektcycling": {
       "follower": true,
-      "follower_since": "2026-06-11"
+      "follower_since": "2026-06-11",
+      "following": true,
+      "following_since": "2026-06-11"
+    },
+    "protijy_": {
+      "following": true,
+      "following_since": "2026-06-01"
     },
     "psc_bikefit": {
       "follower": true,
-      "follower_since": "2026-06-09"
+      "follower_since": "2026-06-09",
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "pshearer110": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "punky.brewster88": {
+      "following": true,
+      "following_since": "2026-06-11"
+    },
+    "qcnemba": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "quinnebaug": {
+      "following": true,
+      "following_since": "2026-05-26"
+    },
+    "quinnipiac_river_marina": {
+      "following": true,
+      "following_since": "2026-06-22"
     },
     "quinnporter_mtb": {
       "follower": true,
-      "follower_since": "2026-06-15"
+      "follower_since": "2026-06-15",
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "race.techfabian": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "racedayxc": {
+      "following": true,
+      "following_since": "2026-05-18"
+    },
+    "racemetalsmiths": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "racing_bikerd": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "ramblexroam": {
+      "following": true,
+      "following_since": "2026-05-24"
+    },
+    "ranchcampstowe": {
+      "following": true,
+      "following_since": "2026-05-18"
+    },
+    "raneem.mtb": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "rasgravel": {
+      "following": true,
+      "following_since": "2026-05-24"
+    },
+    "rdbocomin": {
+      "following": true,
+      "following_since": "2026-06-22"
     },
     "realdmcreative1": {
       "follower": true,
-      "follower_since": "2026-09-03"
+      "follower_since": "2026-09-03",
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "reallifeofmatth": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "red_bird_crest_80k": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "redstoneharley": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "redveale": {
+      "following": true,
+      "following_since": "2026-06-13"
+    },
+    "reed069": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "reggie_iceman_bmx": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "reid_curry": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "renaud296": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "return2presence": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "rewdbags": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "rhino.19453755": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "richar_do_rvd": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "richard_m_rose": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "richmondmountaintrails": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "richwsol_photography": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "ricksorensenphoto": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "rickydownhill": {
+      "following": true,
+      "following_since": "2026-06-09"
     },
     "ride.umbreit": {
       "follower": true,
-      "follower_since": "2026-10-02"
+      "follower_since": "2026-10-02",
+      "following": true,
+      "following_since": "2026-10-02"
+    },
+    "ride2provide": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "ride_lpb": {
+      "following": true,
+      "following_since": "2026-06-04"
     },
     "ride_to_live84": {
       "follower": true,
-      "follower_since": "2026-10-22"
+      "follower_since": "2026-10-22",
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "ridebadmoon": {
+      "following": true,
+      "following_since": "2026-06-01"
+    },
+    "ridebikesdontdie": {
+      "following": true,
+      "following_since": "2026-05-26"
     },
     "ridelikeagirluv": {
       "follower": true,
-      "follower_since": "2026-06-01"
+      "follower_since": "2026-06-01",
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "rider4life88": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "ridermondo": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "rideroastrepeat": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "ridetyrant": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "ridewithfroth": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "ridewithpierre": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "ridgeline802": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "ridin2rehab": {
+      "following": true,
+      "following_since": "2026-06-23"
+    },
+    "ridingthatfeeling": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "riki_cianuro": {
+      "following": true,
+      "following_since": "2026-10-22"
     },
     "riley_mtb468": {
       "follower": true,
-      "follower_since": "2026-06-08"
+      "follower_since": "2026-06-08",
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "rinemba": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "ripsmtb": {
+      "following": true,
+      "following_since": "2026-06-01"
+    },
+    "riverbottombikes": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "rivercity_mtbr": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "roamingruthd": {
+      "following": true,
+      "following_since": "2026-06-11"
+    },
+    "roammobilebikeshop": {
+      "following": true,
+      "following_since": "2026-05-25"
     },
     "rob._adair": {
       "follower": true,
-      "follower_since": "2026-05-25"
+      "follower_since": "2026-05-25",
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "rob.keepsitrealestate": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "robbcharlie": {
+      "following": true,
+      "following_since": "2026-06-03"
     },
     "robbie_casco": {
       "follower": true,
-      "follower_since": "2026-09-01"
+      "follower_since": "2026-09-01",
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "robbikes": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "robeastunder_": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "robin._buechel": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "rocket_jam": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "rocketpropelledcamera": {
+      "following": true,
+      "following_since": "2026-06-13"
     },
     "roman.otrosnov": {
       "follower": true,
-      "follower_since": "2026-06-24"
+      "follower_since": "2026-06-24",
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "root66raceseries": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "rootedinlightmedia": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "roryheinlein": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "ross_mcdo": {
+      "following": true,
+      "following_since": "2026-06-04"
     },
     "rotationengineering_bike": {
       "follower": true,
-      "follower_since": "2026-06-04"
+      "follower_since": "2026-06-04",
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "rowan_vtmtb": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "rowdyshred": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "rox_and_roots_mtb": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "rpickul": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "rpobmxcomponents": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "rrm_mtb": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "rscgravity": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "rt_wright": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "rucksacks_to_singletracks": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "rueler37": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "runner_zaaky": {
+      "following": true,
+      "following_since": "2026-10-21"
+    },
+    "running_with_rankin": {
+      "following": true,
+      "following_since": "2026-06-11"
+    },
+    "rvollmar992": {
+      "following": true,
+      "following_since": "2026-06-16"
+    },
+    "rvriveters": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "sa_yates": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "sabin_mtb76": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "saferoutestoledo": {
+      "following": true,
+      "following_since": "2026-06-18"
     },
     "sakiskontaksis": {
       "follower": true,
-      "follower_since": "2026-05-26"
+      "follower_since": "2026-05-26",
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "sam.faulkner5": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "sam_bikes": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "sam_learoyd": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "samlindberg54": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "sandwsports": {
+      "following": true,
+      "following_since": "2026-05-25"
     },
     "sangsaramusic": {
       "follower": true,
-      "follower_since": "2026-06-18"
+      "follower_since": "2026-06-18",
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "sarah.hamlin_": {
+      "following": true,
+      "following_since": "2026-06-09"
     },
     "saratogamtb": {
       "follower": true,
-      "follower_since": "2026-06-10"
+      "follower_since": "2026-06-10",
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "saskadenasix": {
+      "following": true,
+      "following_since": "2026-05-30"
     },
     "scarlet_mtb": {
       "follower": true,
-      "follower_since": "2026-06-08"
+      "follower_since": "2026-06-08",
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "schwinndiesel": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "scott.from.mars": {
+      "following": true,
+      "following_since": "2026-06-13"
+    },
+    "scottgrosteffon": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "scottryder.surf.cycle": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "scottwilkas": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "seacoast.senders": {
+      "following": true,
+      "following_since": "2026-06-23"
+    },
+    "seamus.dolan": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "seattleb_ike22": {
+      "following": true,
+      "following_since": "2026-10-23"
     },
     "sebasrocksoccerbike": {
       "follower": true,
-      "follower_since": "2026-06-05"
+      "follower_since": "2026-06-05",
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "sectnemba": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "sedonamtbacademy": {
+      "following": true,
+      "following_since": "2026-05-31"
+    },
+    "see_quinn_go": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "seen.by.sarah": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "segrrrl": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "semass_nemba": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "sen.der.ella": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "service_tonybike": {
+      "following": true,
+      "following_since": "2026-06-09"
     },
     "shadetreecyclery": {
       "follower": true,
-      "follower_since": "2026-06-13"
+      "follower_since": "2026-06-13",
+      "following": true,
+      "following_since": "2026-06-13"
+    },
+    "shanebski": {
+      "following": true,
+      "following_since": "2026-05-26"
     },
     "shanefreeride": {
       "follower": true,
-      "follower_since": "2026-10-23"
+      "follower_since": "2026-10-23",
+      "following": true,
+      "following_since": "2026-10-23"
+    },
+    "shaneg873_bmx": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "sharp.end.rescue": {
+      "following": true,
+      "following_since": "2026-05-16"
+    },
+    "shauniej10": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "sherrypop12": {
+      "following": true,
+      "following_since": "2026-06-13"
     },
     "shmelly_mtb": {
       "follower": true,
-      "follower_since": "2026-05-26"
+      "follower_since": "2026-05-26",
+      "following": true,
+      "following_since": "2026-05-16"
+    },
+    "shred.pov": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "shredders_devo": {
+      "following": true,
+      "following_since": "2026-05-26"
     },
     "shredlightly1981": {
       "follower": true,
-      "follower_since": "2026-06-08"
+      "follower_since": "2026-06-08",
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "silas.mtb17": {
+      "following": true,
+      "following_since": "2026-06-04"
     },
     "silvershredders": {
       "follower": true,
-      "follower_since": "2026-05-16"
+      "follower_since": "2026-05-16",
+      "following": true,
+      "following_since": "2026-05-16"
+    },
+    "simahart1": {
+      "following": true,
+      "following_since": "2026-06-12"
+    },
+    "sincity_mtb": {
+      "following": true,
+      "following_since": "2026-06-08"
     },
     "singletracktrev_": {
       "follower": true,
-      "follower_since": "2026-10-23"
+      "follower_since": "2026-10-23",
+      "following": true,
+      "following_since": "2026-10-23"
+    },
+    "sitota_larocque21": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "sixriversnemba": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "sk8erkelkel": {
+      "following": true,
+      "following_since": "2026-09-29"
+    },
+    "ski_you_later_": {
+      "following": true,
+      "following_since": "2026-05-16"
     },
     "skinnytires": {
       "follower": true,
-      "follower_since": "2026-05-20"
+      "follower_since": "2026-05-20",
+      "following": true,
+      "following_since": "2026-05-11"
     },
     "skipatrollerdave": {
       "follower": true,
-      "follower_since": "2026-05-16"
+      "follower_since": "2026-05-16",
+      "following": true,
+      "following_since": "2026-05-16"
     },
     "skiwithme.1": {
       "follower": true,
-      "follower_since": "2026-05-16"
+      "follower_since": "2026-05-16",
+      "following": true,
+      "following_since": "2026-05-16"
+    },
+    "skoorbs": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "sky45drones": {
+      "following": true,
+      "following_since": "2026-06-22"
     },
     "sky_sjue": {
       "follower": true,
-      "follower_since": "2026-07-02"
+      "follower_since": "2026-07-02",
+      "following": true,
+      "following_since": "2026-07-02"
+    },
+    "slatevalleytrails": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "sluggloverr": {
+      "following": true,
+      "following_since": "2026-06-13"
+    },
+    "smarawise": {
+      "following": true,
+      "following_since": "2026-06-22"
     },
     "smiguelit": {
       "follower": true,
-      "follower_since": "2026-10-22"
+      "follower_since": "2026-10-22",
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "smogenator": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "smwhit10": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "snapandpedal": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "snhnemba": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "snobuny802": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "snow_dog_runner": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "snowangelfdn": {
+      "following": true,
+      "following_since": "2026-05-18"
+    },
+    "sofaking.kyle": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "softrockhardtimes": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "sommjuice": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "son.aktiv.life": {
+      "following": true,
+      "following_since": "2026-06-09"
     },
     "sophiaaeelizabethmtb": {
       "follower": true,
-      "follower_since": "2026-06-24"
+      "follower_since": "2026-06-24",
+      "following": true,
+      "following_since": "2026-06-24"
     },
     "soulfulsupandyoga": {
       "follower": true,
-      "follower_since": "2026-06-26"
+      "follower_since": "2026-06-26",
+      "following": true,
+      "following_since": "2026-06-26"
+    },
+    "soupgoddard48": {
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "southcoastnemba": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "sovt_trails": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "sowersmith": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "spalm326": {
+      "following": true,
+      "following_since": "2026-06-13"
+    },
+    "sparkles_shreds": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "spenceradventure802": {
+      "following": true,
+      "following_since": "2026-05-31"
     },
     "spillane.timothy": {
       "follower": true,
-      "follower_since": "2026-08-08"
+      "follower_since": "2026-08-08",
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "spokesandsaguaros": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "sprucecycles": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "sqrly0ne": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "squiretuck_pgh": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "ss_mrg": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "ssak_single_speed_alaska": {
+      "following": true,
+      "following_since": "2026-06-23"
+    },
+    "stacy._ritchie": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "stankbait68": {
+      "following": true,
+      "following_since": "2026-10-23"
+    },
+    "steadyspin": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "steezyez": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "stephen_runs_wild": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "sterrnitup": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "steve.pucci": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "steve_estabrook": {
+      "following": true,
+      "following_since": "2026-06-03"
     },
     "stevethephotog": {
       "follower": true,
-      "follower_since": "2026-06-03"
+      "follower_since": "2026-06-03",
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "stevewrx": {
+      "following": true,
+      "following_since": "2026-05-27"
     },
     "steveziemtb": {
       "follower": true,
-      "follower_since": "2026-06-17"
+      "follower_since": "2026-06-17",
+      "following": true,
+      "following_since": "2026-06-16"
     },
     "stevolving": {
       "follower": true,
-      "follower_since": "2026-06-16"
+      "follower_since": "2026-06-16",
+      "following": true,
+      "following_since": "2026-06-16"
+    },
+    "stgeorgemtb": {
+      "following": true,
+      "following_since": "2026-06-08"
     },
     "stickytrail2.0": {
       "follower": true,
-      "follower_since": "2026-05-25"
+      "follower_since": "2026-05-25",
+      "following": true,
+      "following_since": "2026-05-25"
     },
     "stigma_bmx": {
       "follower": true,
-      "follower_since": "2026-06-09"
+      "follower_since": "2026-06-09",
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "stinky_wizzleteats": {
+      "following": true,
+      "following_since": "2026-05-31"
+    },
+    "stoked_spokes": {
+      "following": true,
+      "following_since": "2026-06-23"
     },
     "stokeville": {
       "follower": true,
-      "follower_since": "2026-05-25"
+      "follower_since": "2026-05-25",
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "storktorq": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "storrshillskiarea": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "storrspondrecreationarea": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "stowe_mtn_bike_academy": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "stowetrails": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "straightwheelcycling": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "studio_bywater": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "stumbling_axiology": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "sturgemakesstuff": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "sturnervt76": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "summerr_melonz": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "super_davez": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "superjenny1": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "surly_bike_romancer": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "susarmstrong": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "susiedouglasmtb": {
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "swampdonkeydash": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "sweet___adventures": {
+      "following": true,
+      "following_since": "2026-05-26"
+    },
+    "swiftmtb_": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "sylvan_garrelts": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "szymanski3732": {
+      "following": true,
+      "following_since": "2026-06-19"
+    },
+    "t.bird.iii": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "t_davis464": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "taco35s": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "tacosaurusrex802": {
+      "following": true,
+      "following_since": "2026-06-09"
     },
     "tahnee_tornado_englishspringer": {
       "follower": true,
-      "follower_since": "2026-06-10"
+      "follower_since": "2026-06-10",
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "talkhoyatome": {
+      "following": true,
+      "following_since": "2026-06-10"
     },
     "tanner__slick": {
       "follower": true,
-      "follower_since": "2026-06-23"
+      "follower_since": "2026-06-23",
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "tannerhoelphoto": {
+      "following": true,
+      "following_since": "2026-06-13"
+    },
+    "tantannick": {
+      "following": true,
+      "following_since": "2026-06-13"
     },
     "tavi.m.helpap": {
       "follower": true,
-      "follower_since": "2026-06-24"
+      "follower_since": "2026-06-24",
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "taylor.hovis__": {
+      "following": true,
+      "following_since": "2026-06-03"
     },
     "taylortayphoo": {
       "follower": true,
-      "follower_since": "2026-06-02"
+      "follower_since": "2026-06-02",
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "tayloryouradventure": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "tdbruce": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "team_beer_gutz": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "teamgranitemtb": {
+      "following": true,
+      "following_since": "2026-05-18"
+    },
+    "teamjtree": {
+      "following": true,
+      "following_since": "2026-06-19"
+    },
+    "teereximus": {
+      "following": true,
+      "following_since": "2026-06-10"
     },
     "tele_mama": {
       "follower": true,
-      "follower_since": "2026-06-03"
+      "follower_since": "2026-06-03",
+      "following": true,
+      "following_since": "2026-06-03"
     },
     "terragnar": {
       "follower": true,
-      "follower_since": "2026-06-01"
+      "follower_since": "2026-06-01",
+      "following": true,
+      "following_since": "2026-06-01"
+    },
+    "terryk007": {
+      "following": true,
+      "following_since": "2026-06-16"
+    },
+    "tessafix": {
+      "following": true,
+      "following_since": "2026-06-24"
     },
     "tgianco": {
       "follower": true,
-      "follower_since": "2026-10-28"
+      "follower_since": "2026-10-28",
+      "following": true,
+      "following_since": "2026-10-26"
+    },
+    "that2wheelfeel_": {
+      "following": true,
+      "following_since": "2026-10-21"
+    },
+    "that_z32guy": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "thatguyfromrhodeisland_": {
+      "following": true,
+      "following_since": "2026-10-23"
+    },
+    "the_backwoods_creature": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "the_boy_can": {
+      "following": true,
+      "following_since": "2026-06-23"
+    },
+    "the_dad_bod_warrior": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "the_jibstagram": {
+      "following": true,
+      "following_since": "2026-06-13"
+    },
+    "the_purple_speedster": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "the_stoke_collective": {
+      "following": true,
+      "following_since": "2026-06-23"
+    },
+    "the_tweatery": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "thebeardedbikerdude": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "thebigchillbuffalo": {
+      "following": true,
+      "following_since": "2026-06-11"
+    },
+    "thebikedads": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "thebikefitterllc": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "theclydesdalerider": {
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "thecommuterprojecttoledo": {
+      "following": true,
+      "following_since": "2026-06-16"
+    },
+    "thecyclingpeach": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "thederoin": {
+      "following": true,
+      "following_since": "2026-06-01"
+    },
+    "thehappymamil": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "thejoshsalvo": {
+      "following": true,
+      "following_since": "2026-10-23"
+    },
+    "thekellyandstephshow": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "theloadingdocknh": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "themonkeywrench": {
+      "following": true,
+      "following_since": "2026-05-28"
     },
     "themtbchef": {
       "follower": true,
-      "follower_since": "2026-10-22"
+      "follower_since": "2026-10-22",
+      "following": true,
+      "following_since": "2026-10-22"
     },
     "thenwanative": {
       "follower": true,
-      "follower_since": "2026-06-01"
+      "follower_since": "2026-06-01",
+      "following": true,
+      "following_since": "2026-06-01"
     },
     "theohofmann": {
       "follower": true,
-      "follower_since": "2026-08-28"
+      "follower_since": "2026-08-28",
+      "following": true,
+      "following_since": "2026-08-28"
+    },
+    "theoriginallbo": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "theoriginalskipatrolpodcast": {
+      "following": true,
+      "following_since": "2026-05-16"
+    },
+    "therangervt": {
+      "following": true,
+      "following_since": "2026-05-30"
     },
     "therealmickeyd413": {
       "follower": true,
-      "follower_since": "2026-06-04"
+      "follower_since": "2026-06-04",
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "theschmalex": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "theseabassventures": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "thespeedofbike": {
+      "following": true,
+      "following_since": "2026-10-22"
     },
     "thesponsorhub": {
       "follower": true,
@@ -858,83 +6196,715 @@
     },
     "thesponsorhub_mtb": {
       "follower": true,
-      "follower_since": "2026-06-08"
+      "follower_since": "2026-06-08",
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "thesteezemuffin469": {
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "thethoroughbredhouse": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "thewheelhouse_nh": {
+      "following": true,
+      "following_since": "2026-05-01"
+    },
+    "thewideeyedworld": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "thewisconsingravelcyclist": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "thibault_photo": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "thistomboymum": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "thomas.komorowski": {
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "thomasdewar_": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "threesixtyevent": {
+      "following": true,
+      "following_since": "2026-06-11"
+    },
+    "thrillednotkilled": {
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "timbrshop": {
+      "following": true,
+      "following_since": "2026-05-25"
     },
     "timetoridevt_": {
       "follower": true,
-      "follower_since": "2026-06-01"
+      "follower_since": "2026-06-01",
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "tiradenny": {
+      "following": true,
+      "following_since": "2026-05-26"
     },
     "titanium.talaria": {
       "follower": true,
-      "follower_since": "2026-06-08"
+      "follower_since": "2026-06-08",
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "titanov_alex": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "tj_rides": {
+      "following": true,
+      "following_since": "2026-06-23"
+    },
+    "tjhuewe": {
+      "following": true,
+      "following_since": "2026-06-13"
+    },
+    "tlaclair": {
+      "following": true,
+      "following_since": "2026-10-23"
+    },
+    "todd_krumperman": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "toledobikeco": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "tomcromwellcv": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "tomdanielson": {
+      "following": true,
+      "following_since": "2026-05-26"
+    },
+    "tomlanagan": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "tommy_081": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "tommybikes33": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "tommyd423": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "tomsadventure": {
+      "following": true,
+      "following_since": "2026-06-16"
+    },
+    "tonisyarifudin": {
+      "following": true,
+      "following_since": "2026-05-29"
+    },
+    "top_right_racing": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "torengleiman1": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "towerhilltrailcenter": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "trafficgardendesigns": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "trail.medic": {
+      "following": true,
+      "following_since": "2026-05-16"
+    },
+    "trail_blaze_her": {
+      "following": true,
+      "following_since": "2026-06-01"
+    },
+    "trail_slager": {
+      "following": true,
+      "following_since": "2026-10-23"
+    },
+    "trailbuilders.tv": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "trailheadbike": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "trailpittsburgh": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "trailreadymtb": {
+      "following": true,
+      "following_since": "2026-10-22"
     },
     "trailworking_hiker": {
       "follower": true,
-      "follower_since": "2026-06-09"
+      "follower_since": "2026-06-09",
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "travels_withterry": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "travis_cycles": {
+      "following": true,
+      "following_since": "2026-05-01"
+    },
+    "travispaigephotography": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "trekjordan": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "trekoftheschrade": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "trent36": {
+      "following": true,
+      "following_since": "2026-05-26"
+    },
+    "tricyclenh": {
+      "following": true,
+      "following_since": "2026-06-02"
     },
     "trilogybicycles": {
       "follower": true,
-      "follower_since": "2026-06-08"
+      "follower_since": "2026-06-08",
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "triquest_triathlon": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "trustinthealpine": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "tryg26": {
+      "following": true,
+      "following_since": "2026-06-13"
+    },
+    "tshep0917": {
+      "following": true,
+      "following_since": "2026-05-28"
     },
     "tuffa2": {
       "follower": true,
-      "follower_since": "2026-05-27"
+      "follower_since": "2026-05-27",
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "turnest.erner": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "turnpiketrails": {
+      "following": true,
+      "following_since": "2026-05-01"
+    },
+    "twigatrails": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "twowheeledrovers": {
+      "following": true,
+      "following_since": "2026-06-08"
     },
     "twozerodeltathree": {
       "follower": true,
-      "follower_since": "2026-06-03"
+      "follower_since": "2026-06-03",
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "tylermtb_": {
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "tylerschmerling_dh": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "tylertray": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "tyrelellis": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "umaine_cycling": {
+      "following": true,
+      "following_since": "2026-05-01"
+    },
+    "uncloriginal": {
+      "following": true,
+      "following_since": "2026-05-26"
+    },
+    "unifycycling": {
+      "following": true,
+      "following_since": "2026-06-11"
+    },
+    "uniman88": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "upbarkart": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "upbuildllc": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "uppervalleybike": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "uvcyclingclub": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "uvmba": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "uvtrails": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "valacharaptor": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "valeriedenoble": {
+      "following": true,
+      "following_since": "2026-06-08"
     },
     "valtair_w": {
       "follower": true,
-      "follower_since": "2026-06-10"
+      "follower_since": "2026-06-10",
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "vastos_carbon_bicycle": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "vdksuspension": {
+      "following": true,
+      "following_since": "2026-06-08"
     },
     "velo_rags": {
       "follower": true,
-      "follower_since": "2026-06-22"
+      "follower_since": "2026-06-22",
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "velocb": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "veloeros": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "vera_bikes15": {
+      "following": true,
+      "following_since": "2026-06-23"
+    },
+    "vermont.meg": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "vermontparksforever": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "vermontphotog": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "veteranwithabike": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "vidqueenrides": {
+      "following": true,
+      "following_since": "2026-06-01"
+    },
+    "viktorfotomaker": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "virtuallymeg": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "vivalabikes": {
+      "following": true,
+      "following_since": "2026-10-22"
     },
     "vixo.rot": {
       "follower": true,
-      "follower_since": "2026-06-04"
+      "follower_since": "2026-06-04",
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "vmba802": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "vommitbison": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "vonbuckinator": {
+      "following": true,
+      "following_since": "2026-09-29"
+    },
+    "vtalix": {
+      "following": true,
+      "following_since": "2026-05-24"
+    },
+    "vtboulders": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "vtyouthcycling": {
+      "following": true,
+      "following_since": "2026-05-23"
+    },
+    "vynts_stagram": {
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "wajertiffintrobee": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "walkbikecounciladdisoncounty": {
+      "following": true,
+      "following_since": "2026-05-30"
     },
     "walkbikerockyhill": {
       "follower": true,
-      "follower_since": "2026-07-09"
+      "follower_since": "2026-07-09",
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "wallywallsadv": {
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "waltnpeppa": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "wandering_bridgito": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "wandering_wheels.usa": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "wanderoutdooradventurehub": {
+      "following": true,
+      "following_since": "2026-06-01"
+    },
+    "watavt": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "watchjensrun": {
+      "following": true,
+      "following_since": "2026-05-28"
     },
     "waxtoothgrin": {
       "follower": true,
-      "follower_since": "2026-05-27"
+      "follower_since": "2026-05-27",
+      "following": true,
+      "following_since": "2026-05-27"
+    },
+    "waynedevingo": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "wcota802": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "weareloamco": {
+      "following": true,
+      "following_since": "2026-05-01"
     },
     "webuildradshit": {
       "follower": true,
-      "follower_since": "2026-05-28"
+      "follower_since": "2026-05-28",
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "weezy_style": {
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "wellingtonwu": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "wellscornette": {
+      "following": true,
+      "following_since": "2026-05-28"
+    },
+    "wendecragg12": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "wesley_keyes1": {
+      "following": true,
+      "following_since": "2026-06-12"
+    },
+    "westernmassnembagnome": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "weston_snowboards": {
+      "following": true,
+      "following_since": "2026-06-24"
+    },
+    "westsenecabikes": {
+      "following": true,
+      "following_since": "2026-06-10"
     },
     "westsidewednesdayride": {
       "follower": true,
-      "follower_since": "2026-06-27"
+      "follower_since": "2026-06-27",
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "wgerow": {
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "whatareyoudoingryan": {
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "wheeelie_g": {
+      "following": true,
+      "following_since": "2026-05-27"
     },
     "wheeldernessguy": {
       "follower": true,
-      "follower_since": "2026-07-02"
+      "follower_since": "2026-07-02",
+      "following": true,
+      "following_since": "2026-06-13"
+    },
+    "wheelgoodbmx": {
+      "following": true,
+      "following_since": "2026-06-04"
     },
     "whiskeytangooutdoors": {
       "follower": true,
-      "follower_since": "2026-06-10"
+      "follower_since": "2026-06-10",
+      "following": true,
+      "following_since": "2026-06-10"
     },
     "whiteboyj_88": {
       "follower": true,
-      "follower_since": "2026-07-06"
+      "follower_since": "2026-07-06",
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "whitelightinracin": {
+      "following": true,
+      "following_since": "2026-10-22"
+    },
+    "wickedwoolly": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "wikigirlx": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "wildtrek": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "wilforisrael": {
+      "following": true,
+      "following_since": "2026-09-29"
+    },
+    "willi_am0107": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "williamkurtzphoto": {
+      "following": true,
+      "following_since": "2026-06-04"
+    },
+    "willpower_energy": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "willychasemusic": {
+      "following": true,
+      "following_since": "2026-05-26"
+    },
+    "winallen73": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "winooski_bike_gang": {
+      "following": true,
+      "following_since": "2026-05-30"
+    },
+    "wmassnemba": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "wmnemba": {
+      "following": true,
+      "following_since": "2026-04-28"
+    },
+    "wnymba": {
+      "following": true,
+      "following_since": "2026-06-11"
+    },
+    "wnymbp": {
+      "following": true,
+      "following_since": "2026-06-11"
+    },
+    "wonteak_hwang": {
+      "following": true,
+      "following_since": "2026-06-09"
     },
     "wrekdmtb": {
       "follower": true,
-      "follower_since": "2026-05-24"
+      "follower_since": "2026-05-24",
+      "following": true,
+      "following_since": "2026-05-24"
+    },
+    "wv_shredneck": {
+      "following": true,
+      "following_since": "2026-06-08"
     },
     "wvbiketours": {
       "follower": true,
-      "follower_since": "2026-06-02"
+      "follower_since": "2026-06-02",
+      "following": true,
+      "following_since": "2026-06-02"
+    },
+    "wvenduroseries": {
+      "following": true,
+      "following_since": "2026-06-04"
     },
     "wwwpotman.us": {
       "follower": true,
-      "follower_since": "2026-05-19"
+      "follower_since": "2026-05-19",
+      "following": true,
+      "following_since": "2026-05-16"
+    },
+    "wyldheartco": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "xaviernettleton": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "xejnsolo": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "xenabeans": {
+      "following": true,
+      "following_since": "2026-06-09"
+    },
+    "xmarcelx_mrc": {
+      "following": true,
+      "following_since": "2026-06-08"
+    },
+    "xsteevox": {
+      "following": true,
+      "following_since": "2026-06-10"
+    },
+    "xtinacroft": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "yaaake__": {
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "yoftalarocque_": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "yohannes_": {
+      "following": true,
+      "following_since": "2026-06-22"
+    },
+    "zac_freevt": {
+      "following": true,
+      "following_since": "2026-05-25"
+    },
+    "zachhale": {
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "zackpizzabikes": {
+      "following": true,
+      "following_since": "2026-06-27"
+    },
+    "zerodebikesusa": {
+      "following": true,
+      "following_since": "2026-06-03"
+    },
+    "zingzach": {
+      "following": true,
+      "following_since": "2026-05-24"
+    },
+    "ztrailking": {
+      "following": true,
+      "following_since": "2026-06-18"
+    },
+    "zucchiniling": {
+      "following": true,
+      "following_since": "2026-05-28"
     }
   },
   "batches": [],
@@ -942,8 +6912,8 @@
     {
       "date": "2026-11-01",
       "followers": 233,
-      "following": 1,
-      "source": "/home/jkc/Downloads/instagram-rangerly.app-2026-11-01-4vTO48pe.zip"
+      "following": 1607,
+      "source": "/home/jkc/Downloads/instagram-rangerly.app-2026-11-01-Ni1r2IV4.zip"
     }
   ],
   "updated": "2026-11-01",

@@ -102,14 +102,17 @@ STATE_VERSION = 1
 # export is navigation chrome, not an account.
 RESERVED = {
     "about", "accounts", "api", "challenge", "developer", "direct", "explore",
-    "graphql", "help", "legal", "logout", "login", "p", "privacy", "reel",
+    "_u", "graphql", "help", "legal", "logout", "login", "p", "privacy", "reel",
     "reels", "s", "session", "stories", "terms", "top", "tv", "web",
     "your_activity",
 }
 
 HANDLE_RE = re.compile(r"^[a-z0-9._]{1,30}$")
+# The following export links profiles as instagram.com/_u/<handle> (an app
+# deep link); followers use the plain form. Skip the _u/ so both resolve.
 URL_RE = re.compile(
-    r"^(?:https?://)?(?:www\.)?instagram\.com/([^/?#\s]+)", re.IGNORECASE
+    r"^(?:https?://)?(?:www\.)?instagram\.com/(?:_u/)?([^/?#\s]+)",
+    re.IGNORECASE,
 )
 
 
@@ -1052,15 +1055,16 @@ def profile_url(handle):
 # Opening more than this many tabs at once is almost certainly a typo in -n.
 OPEN_TAB_LIMIT = 25
 
+CHROME = "google-chrome-stable"
+
 
 def open_profiles(urls, *, assume_yes=False):
-    """Open every profile in the user's browser, for judging by eye.
+    """Open every profile in Google Chrome, for judging by eye.
 
-    Batched into ONE browser invocation wherever possible. $BROWSER here is
-    omarchy-launch-browser, which forwards all its arguments to the real
-    browser, so a single call yields a tab per URL, one window focus, and no
-    need to stagger anything -- which is what you want when the whole point is
-    to flick through a dozen profiles and decide.
+    One `--new-window` call puts the whole batch in its own window, so it is
+    one window focus and one window to close when done. (Chrome can't make a
+    tab group from the command line; a window is the closest thing.) Falls
+    back to $BROWSER, then xdg-open, if Chrome isn't installed.
     """
     if not urls:
         return
@@ -1074,6 +1078,19 @@ def open_profiles(urls, *, assume_yes=False):
             return
 
     quiet = {"stdout": subprocess.DEVNULL, "stderr": subprocess.DEVNULL}
+
+    chrome = shutil.which(CHROME)
+    if chrome:
+        try:
+            # Own session so a freshly started Chrome outlives this script.
+            subprocess.Popen([chrome, "--new-window", *urls],
+                             start_new_session=True, **quiet)
+            print(f"\nOpened {len(urls)} tab(s) in a new Chrome window.")
+            return
+        except OSError as exc:
+            warn(f"Chrome would not run ({exc}); falling back to $BROWSER")
+    else:
+        warn(f"{CHROME} not found; falling back to $BROWSER")
 
     browser = os.environ.get("BROWSER", "").strip()
     if browser:
