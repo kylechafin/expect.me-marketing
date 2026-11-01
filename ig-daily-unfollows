@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# Open today's batch of unfollow candidates in Chrome, then commit and push
+# the updated follow graph so the "already recommended" record is shared.
+set -euo pipefail
+
+cd "$(dirname "$(readlink -f "$0")")"
+
+ledger="Instagram/follow-graph.json"
+
+./Tools/instagram-follows.py candidates -n 12 --open
+
+# Commit only the ledger, whatever else is staged or modified.
+if git diff --quiet HEAD -- "$ledger"; then
+  echo "No change to $ledger; nothing to commit."
+  exit 0
+fi
+
+git commit --quiet -m "Instagram unfollow candidates $(date +%F)" -- "$ledger"
+git push --quiet
+echo "Committed and pushed $ledger."
