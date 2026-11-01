@@ -198,7 +198,10 @@
     },
     "acbc_vt": {
       "following": true,
-      "following_since": "2026-04-28"
+      "following_since": "2026-04-28",
+      "recommended": [
+        "2026-11-01"
+      ]
     },
     "according_to_garth": {
       "following": true,
@@ -610,11 +613,17 @@
     },
     "ascutney_trails_association": {
       "following": true,
-      "following_since": "2026-04-28"
+      "following_since": "2026-04-28",
+      "recommended": [
+        "2026-11-01"
+      ]
     },
     "ascutneyoutdoors": {
       "following": true,
-      "following_since": "2026-04-28"
+      "following_since": "2026-04-28",
+      "recommended": [
+        "2026-11-01"
+      ]
     },
     "ashton53t": {
       "following": true,
@@ -670,7 +679,10 @@
     },
     "avision.mtb": {
       "following": true,
-      "following_since": "2026-04-28"
+      "following_since": "2026-04-28",
+      "recommended": [
+        "2026-11-01"
+      ]
     },
     "avn_kly": {
       "following": true,
@@ -756,7 +768,10 @@
     },
     "batsvt": {
       "following": true,
-      "following_since": "2026-04-28"
+      "following_since": "2026-04-28",
+      "recommended": [
+        "2026-11-01"
+      ]
     },
     "bauer50km": {
       "following": true,
@@ -862,7 +877,10 @@
     },
     "berkshirenemba": {
       "following": true,
-      "following_since": "2026-04-28"
+      "following_since": "2026-04-28",
+      "recommended": [
+        "2026-11-01"
+      ]
     },
     "berkshirevelo413cycling": {
       "following": true,
@@ -1012,7 +1030,10 @@
     },
     "bknemba": {
       "following": true,
-      "following_since": "2026-04-28"
+      "following_since": "2026-04-28",
+      "recommended": [
+        "2026-11-01"
+      ]
     },
     "black_swamp_bicycle_club": {
       "following": true,
@@ -1024,7 +1045,10 @@
     },
     "blackstone_valley_nemba": {
       "following": true,
-      "following_since": "2026-04-28"
+      "following_since": "2026-04-28",
+      "recommended": [
+        "2026-11-01"
+      ]
     },
     "blackswampriders": {
       "follower": true,
@@ -1484,7 +1508,10 @@
     },
     "cnhnemba": {
       "following": true,
-      "following_since": "2026-04-28"
+      "following_since": "2026-04-28",
+      "recommended": [
+        "2026-11-01"
+      ]
     },
     "cnyfreeride": {
       "following": true,
@@ -1614,7 +1641,10 @@
     },
     "cooscyclingclub": {
       "following": true,
-      "following_since": "2026-04-28"
+      "following_since": "2026-04-28",
+      "recommended": [
+        "2026-11-01"
+      ]
     },
     "cor3mic": {
       "following": true,
@@ -1634,7 +1664,10 @@
     },
     "cowbellbikeshop": {
       "following": true,
-      "following_since": "2026-04-28"
+      "following_since": "2026-04-28",
+      "recommended": [
+        "2026-11-01"
+      ]
     },
     "coyote_socks": {
       "following": true,
@@ -1650,7 +1683,10 @@
     },
     "crnemba": {
       "following": true,
-      "following_since": "2026-04-28"
+      "following_since": "2026-04-28",
+      "recommended": [
+        "2026-11-01"
+      ]
     },
     "crow.david": {
       "following": true,
@@ -6907,7 +6943,26 @@
       "following_since": "2026-05-28"
     }
   },
-  "batches": [],
+  "batches": [
+    {
+      "date": "2026-11-01",
+      "handles": [
+        "acbc_vt",
+        "ascutney_trails_association",
+        "ascutneyoutdoors",
+        "avision.mtb",
+        "batsvt",
+        "berkshirenemba",
+        "bknemba",
+        "blackstone_valley_nemba",
+        "cnhnemba",
+        "cooscyclingclub",
+        "cowbellbikeshop",
+        "crnemba"
+      ],
+      "order": "oldest"
+    }
+  ],
   "imports": [
     {
       "date": "2026-11-01",
