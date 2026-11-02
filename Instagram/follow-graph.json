@@ -4028,7 +4028,10 @@
     },
     "lunadawg_mmth": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-02"
+      ]
     },
     "lundebrad": {
       "following": true,
@@ -4052,11 +4055,17 @@
     },
     "mackie_721": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-02"
+      ]
     },
     "madebysomewhere": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-02"
+      ]
     },
     "madkatsracing": {
       "following": true,
@@ -4105,7 +4114,10 @@
     },
     "mansmann_": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-02"
+      ]
     },
     "manuu.hj_09": {
       "following": true,
@@ -4171,7 +4183,10 @@
     },
     "mary.kob.sandberg": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-02"
+      ]
     },
     "mary_shreds": {
       "following": true,
@@ -4257,7 +4272,10 @@
     },
     "maura.k.a": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-02"
+      ]
     },
     "max.holdwick": {
       "follower": true,
@@ -4349,7 +4367,10 @@
     },
     "mick.ferraro": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-02"
+      ]
     },
     "mickdaly26": {
       "following": true,
@@ -4379,7 +4400,10 @@
     },
     "mikedmtb": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-02"
+      ]
     },
     "mikeg1123": {
       "following": true,
@@ -4391,7 +4415,10 @@
     },
     "miket1075": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-02"
+      ]
     },
     "milk_carton_god_": {
       "following": true,
@@ -5032,7 +5059,10 @@
     },
     "outsideinlife": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-02"
+      ]
     },
     "owen.christman": {
       "following": true,
@@ -5110,11 +5140,17 @@
     },
     "pasgervais": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-02"
+      ]
     },
     "patrolpenguins": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-02"
+      ]
     },
     "patrycja_rmn": {
       "follower": true,
@@ -7579,6 +7615,24 @@
         "kingdom_graveleur",
         "kristin.motley",
         "kymatzke"
+      ],
+      "order": "oldest"
+    },
+    {
+      "date": "2026-11-02",
+      "handles": [
+        "lunadawg_mmth",
+        "mackie_721",
+        "madebysomewhere",
+        "mansmann_",
+        "mary.kob.sandberg",
+        "maura.k.a",
+        "mick.ferraro",
+        "mikedmtb",
+        "miket1075",
+        "outsideinlife",
+        "pasgervais",
+        "patrolpenguins"
       ],
       "order": "oldest"
     }
