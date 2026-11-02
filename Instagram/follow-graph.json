@@ -2696,7 +2696,10 @@
     },
     "greasychainbookandbikeclub": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-02"
+      ]
     },
     "greaterwolfeboronemba": {
       "following": true,
@@ -2707,7 +2710,10 @@
     },
     "greatglentrails": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-02"
+      ]
     },
     "greatlakeslife": {
       "following": true,
@@ -2902,7 +2908,10 @@
     },
     "highlandbike": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-02"
+      ]
     },
     "highmountainchains": {
       "following": true,
@@ -3299,7 +3308,10 @@
     },
     "jesse_paroline": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-02"
+      ]
     },
     "jessecrash39": {
       "following": true,
@@ -3354,7 +3366,10 @@
     },
     "jn.light": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-02"
+      ]
     },
     "joel_ridin": {
       "following": true,
@@ -3462,11 +3477,17 @@
     },
     "jowoodphoto": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-02"
+      ]
     },
     "joy_of_climbing": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-02"
+      ]
     },
     "joyfully_whole": {
       "following": true,
@@ -3576,7 +3597,10 @@
     },
     "kclarkmtb": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-02"
+      ]
     },
     "kdedora": {
       "following": true,
@@ -3607,7 +3631,10 @@
     },
     "kelly.catale": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-02"
+      ]
     },
     "kellyhazlegrove": {
       "following": true,
@@ -3648,7 +3675,10 @@
     },
     "kingdom_graveleur": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-02"
+      ]
     },
     "kingdomtrails": {
       "following": true,
@@ -3695,7 +3725,10 @@
     },
     "kristin.motley": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-02"
+      ]
     },
     "ksar_foundation": {
       "following": true,
@@ -3728,7 +3761,10 @@
     },
     "kymatzke": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-02"
+      ]
     },
     "l0stk1tty": {
       "following": true,
@@ -7501,6 +7537,24 @@
         "gravityandfriction"
       ],
       "order": "oldest"
+    },
+    {
+      "date": "2026-11-02",
+      "handles": [
+        "greasychainbookandbikeclub",
+        "greatglentrails",
+        "highlandbike",
+        "jesse_paroline",
+        "jn.light",
+        "jowoodphoto",
+        "joy_of_climbing",
+        "kclarkmtb",
+        "kelly.catale",
+        "kingdom_graveleur",
+        "kristin.motley",
+        "kymatzke"
+      ],
+      "order": "oldest"
     }
   ],
   "imports": [
@@ -7511,6 +7565,6 @@
       "source": "/home/jkc/Downloads/instagram-rangerly.app-2026-11-01-Ni1r2IV4.zip"
     }
   ],
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "version": 1
 }
