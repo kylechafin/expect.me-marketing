@@ -813,6 +813,8 @@
     "bearded_ginger_man": {
       "following": true,
       "following_since": "2026-05-24",
+      "keep": true,
+      "note": "Follows back now (after a like, 2026-11-01). Prominent UVMBA member, good to keep.",
       "recommended": [
         "2026-11-01"
       ]
@@ -1469,6 +1471,14 @@
     "chasingasa76": {
       "following": true,
       "following_since": "2026-06-08"
+    },
+    "chefjoerock": {
+      "investigated": [
+        "2026-11-02"
+      ],
+      "note": "1.3k/1.2k, posted 2026-09-10, Woodstock VT; Ranch Camp chef, tags @Mtbvermont but no riding in grid",
+      "source": "bearded_ginger_man",
+      "verdict": "unclear"
     },
     "chessie_diomede": {
       "following": true,
@@ -3023,6 +3033,14 @@
     "icathaid": {
       "following": true,
       "following_since": "2026-06-27"
+    },
+    "ilovevanlife": {
+      "investigated": [
+        "2026-11-02"
+      ],
+      "note": "860/803, posted 2026-10-11, bike/ski outdoor brand, NH trailhead post, adult",
+      "source": "bearded_ginger_man",
+      "verdict": "follow"
     },
     "ilyaburmatov": {
       "following": true,
@@ -6157,6 +6175,14 @@
     "steezyez": {
       "following": true,
       "following_since": "2026-06-10"
+    },
+    "stephaniehall94": {
+      "investigated": [
+        "2026-11-02"
+      ],
+      "note": "2.9k/1.7k, posted 2026-10-30, Upper Valley VT cycling athlete (Wolf Tooth/Ergon/OTSO); mostly gravel/bikepacking, some trail-crash posts",
+      "source": "bearded_ginger_man",
+      "verdict": "follow"
     },
     "stephen_runs_wild": {
       "following": true,
