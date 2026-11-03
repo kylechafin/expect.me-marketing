@@ -5324,7 +5324,10 @@
     },
     "powderhorntrailco": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-03"
+      ]
     },
     "pr_nemba": {
       "following": true,
@@ -5362,7 +5365,10 @@
     },
     "pro_tune_nh": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-03"
+      ]
     },
     "project_porter": {
       "following": true,
@@ -5370,7 +5376,10 @@
     },
     "projectnortheast": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-03"
+      ]
     },
     "projektcycling": {
       "follower": true,
@@ -5650,7 +5659,10 @@
     },
     "roammobilebikeshop": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-03"
+      ]
     },
     "rob._adair": {
       "follower": true,
@@ -5704,7 +5716,10 @@
     },
     "rootedinlightmedia": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-03"
+      ]
     },
     "roryheinlein": {
       "following": true,
@@ -5754,7 +5769,10 @@
     },
     "rucksacks_to_singletracks": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-03"
+      ]
     },
     "rueler37": {
       "following": true,
@@ -5812,7 +5830,10 @@
     },
     "sandwsports": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-03"
+      ]
     },
     "sangsaramusic": {
       "follower": true,
@@ -6294,7 +6315,10 @@
     },
     "storrshillskiarea": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-03"
+      ]
     },
     "storrspondrecreationarea": {
       "following": true,
@@ -6388,7 +6412,10 @@
     },
     "taco35s": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-03"
+      ]
     },
     "tacosaurusrex802": {
       "following": true,
@@ -6509,7 +6536,10 @@
     },
     "the_dad_bod_warrior": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-03"
+      ]
     },
     "the_jibstagram": {
       "following": true,
@@ -6692,7 +6722,10 @@
     },
     "timbrshop": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-03"
+      ]
     },
     "timetoridevt_": {
       "follower": true,
@@ -6803,7 +6836,10 @@
     },
     "trailheadbike": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-03"
+      ]
     },
     "trailpittsburgh": {
       "following": true,
@@ -7635,6 +7671,24 @@
         "patrolpenguins"
       ],
       "order": "oldest"
+    },
+    {
+      "date": "2026-11-03",
+      "handles": [
+        "powderhorntrailco",
+        "pro_tune_nh",
+        "projectnortheast",
+        "roammobilebikeshop",
+        "rootedinlightmedia",
+        "rucksacks_to_singletracks",
+        "sandwsports",
+        "storrshillskiarea",
+        "taco35s",
+        "the_dad_bod_warrior",
+        "timbrshop",
+        "trailheadbike"
+      ],
+      "order": "oldest"
     }
   ],
   "imports": [
@@ -7645,6 +7699,6 @@
       "source": "/home/jkc/Downloads/instagram-rangerly.app-2026-11-01-Ni1r2IV4.zip"
     }
   ],
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "version": 1
 }
