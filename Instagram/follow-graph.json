@@ -111,7 +111,10 @@
     },
     "_lawrence_sereduck_": {
       "following": true,
-      "following_since": "2026-05-26"
+      "following_since": "2026-05-26",
+      "recommended": [
+        "2026-11-03"
+      ]
     },
     "_lifebehindbars24": {
       "following": true,
@@ -215,7 +218,10 @@
     },
     "acjospe": {
       "following": true,
-      "following_since": "2026-05-26"
+      "following_since": "2026-05-26",
+      "recommended": [
+        "2026-11-03"
+      ]
     },
     "ackrob": {
       "following": true,
@@ -295,7 +301,10 @@
     },
     "agency_1": {
       "following": true,
-      "following_since": "2026-05-26"
+      "following_since": "2026-05-26",
+      "recommended": [
+        "2026-11-03"
+      ]
     },
     "agent10fromplanet_x": {
       "following": true,
@@ -606,7 +615,10 @@
     },
     "artistkatlinparenteau": {
       "following": true,
-      "following_since": "2026-05-26"
+      "following_since": "2026-05-26",
+      "recommended": [
+        "2026-11-03"
+      ]
     },
     "asabeckham": {
       "following": true,
@@ -881,7 +893,10 @@
     },
     "benmeyer85": {
       "following": true,
-      "following_since": "2026-05-26"
+      "following_since": "2026-05-26",
+      "recommended": [
+        "2026-11-03"
+      ]
     },
     "bentonvillebiketrain": {
       "follower": true,
@@ -6868,7 +6883,10 @@
     },
     "travispaigephotography": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-03"
+      ]
     },
     "trekjordan": {
       "following": true,
@@ -6898,7 +6916,10 @@
     },
     "trustinthealpine": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-03"
+      ]
     },
     "tryg26": {
       "following": true,
@@ -7146,7 +7167,10 @@
     },
     "wandering_bridgito": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-03"
+      ]
     },
     "wandering_wheels.usa": {
       "following": true,
@@ -7175,7 +7199,10 @@
     },
     "waynedevingo": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-03"
+      ]
     },
     "wcota802": {
       "following": true,
@@ -7275,7 +7302,10 @@
     },
     "wickedwoolly": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-03"
+      ]
     },
     "wikigirlx": {
       "following": true,
@@ -7391,7 +7421,10 @@
     },
     "xtinacroft": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-03"
+      ]
     },
     "yaaake__": {
       "following": true,
@@ -7407,7 +7440,10 @@
     },
     "zac_freevt": {
       "following": true,
-      "following_since": "2026-05-25"
+      "following_since": "2026-05-25",
+      "recommended": [
+        "2026-11-03"
+      ]
     },
     "zachhale": {
       "following": true,
@@ -7687,6 +7723,24 @@
         "the_dad_bod_warrior",
         "timbrshop",
         "trailheadbike"
+      ],
+      "order": "oldest"
+    },
+    {
+      "date": "2026-11-03",
+      "handles": [
+        "travispaigephotography",
+        "trustinthealpine",
+        "wandering_bridgito",
+        "waynedevingo",
+        "wickedwoolly",
+        "xtinacroft",
+        "zac_freevt",
+        "_lawrence_sereduck_",
+        "acjospe",
+        "agency_1",
+        "artistkatlinparenteau",
+        "benmeyer85"
       ],
       "order": "oldest"
     }
