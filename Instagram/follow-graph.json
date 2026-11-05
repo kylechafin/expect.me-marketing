@@ -4279,7 +4279,10 @@
     },
     "mats_goin_downhill": {
       "following": true,
-      "following_since": "2026-05-26"
+      "following_since": "2026-05-26",
+      "recommended": [
+        "2026-11-05"
+      ]
     },
     "matt.annabel": {
       "following": true,
@@ -4319,7 +4322,10 @@
     },
     "maulsbikeshop": {
       "following": true,
-      "following_since": "2026-05-26"
+      "following_since": "2026-05-26",
+      "recommended": [
+        "2026-11-05"
+      ]
     },
     "maura.k.a": {
       "following": true,
@@ -5179,7 +5185,10 @@
     },
     "parkish._co": {
       "following": true,
-      "following_since": "2026-05-26"
+      "following_since": "2026-05-26",
+      "recommended": [
+        "2026-11-05"
+      ]
     },
     "parkratseth": {
       "following": true,
@@ -5294,7 +5303,10 @@
     },
     "peterjamison": {
       "following": true,
-      "following_since": "2026-05-26"
+      "following_since": "2026-05-26",
+      "recommended": [
+        "2026-11-05"
+      ]
     },
     "pghbabesonbikesracing": {
       "follower": true,
@@ -5465,7 +5477,10 @@
     },
     "quinnebaug": {
       "following": true,
-      "following_since": "2026-05-26"
+      "following_since": "2026-05-26",
+      "recommended": [
+        "2026-11-05"
+      ]
     },
     "quinnipiac_river_marina": {
       "following": true,
@@ -5628,7 +5643,10 @@
     },
     "ridebikesdontdie": {
       "following": true,
-      "following_since": "2026-05-26"
+      "following_since": "2026-05-26",
+      "recommended": [
+        "2026-11-05"
+      ]
     },
     "ridelikeagirluv": {
       "follower": true,
@@ -5996,7 +6014,10 @@
     },
     "shanebski": {
       "following": true,
-      "following_since": "2026-05-26"
+      "following_since": "2026-05-26",
+      "recommended": [
+        "2026-11-05"
+      ]
     },
     "shanefreeride": {
       "follower": true,
@@ -6035,7 +6056,10 @@
     },
     "shredders_devo": {
       "following": true,
-      "following_since": "2026-05-26"
+      "following_since": "2026-05-26",
+      "recommended": [
+        "2026-11-05"
+      ]
     },
     "shredlightly1981": {
       "follower": true,
@@ -6439,7 +6463,10 @@
     },
     "sweet___adventures": {
       "following": true,
-      "following_since": "2026-05-26"
+      "following_since": "2026-05-26",
+      "recommended": [
+        "2026-11-05"
+      ]
     },
     "swiftmtb_": {
       "following": true,
@@ -6786,7 +6813,10 @@
     },
     "tiradenny": {
       "following": true,
-      "following_since": "2026-05-26"
+      "following_since": "2026-05-26",
+      "recommended": [
+        "2026-11-05"
+      ]
     },
     "titanium.talaria": {
       "follower": true,
@@ -6824,7 +6854,10 @@
     },
     "tomdanielson": {
       "following": true,
-      "following_since": "2026-05-26"
+      "following_since": "2026-05-26",
+      "recommended": [
+        "2026-11-05"
+      ]
     },
     "tomlanagan": {
       "following": true,
@@ -6934,7 +6967,10 @@
     },
     "trent36": {
       "following": true,
-      "following_since": "2026-05-26"
+      "following_since": "2026-05-26",
+      "recommended": [
+        "2026-11-05"
+      ]
     },
     "tricyclenh": {
       "following": true,
@@ -7797,6 +7833,24 @@
         "madmaxx42216"
       ],
       "order": "oldest"
+    },
+    {
+      "date": "2026-11-05",
+      "handles": [
+        "mats_goin_downhill",
+        "maulsbikeshop",
+        "parkish._co",
+        "peterjamison",
+        "quinnebaug",
+        "ridebikesdontdie",
+        "shanebski",
+        "shredders_devo",
+        "sweet___adventures",
+        "tiradenny",
+        "tomdanielson",
+        "trent36"
+      ],
+      "order": "oldest"
     }
   ],
   "imports": [
@@ -7807,6 +7861,6 @@
       "source": "/home/jkc/Downloads/instagram-rangerly.app-2026-11-01-Ni1r2IV4.zip"
     }
   ],
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "version": 1
 }
