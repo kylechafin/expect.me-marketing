@@ -130,7 +130,10 @@
     },
     "_matt___w": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-07"
+      ]
     },
     "_noahbousquet_": {
       "following": true,
@@ -312,7 +315,10 @@
     },
     "aiden_figliolini_bikes": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-07"
+      ]
     },
     "aidens_senddy": {
       "following": true,
@@ -545,7 +551,10 @@
     },
     "angusxc": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-07"
+      ]
     },
     "anja_meichsner": {
       "following": true,
@@ -652,7 +661,10 @@
     },
     "ashtonleighann": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-07"
+      ]
     },
     "asined7o": {
       "following": true,
@@ -816,7 +828,10 @@
     },
     "bearclawth": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-07"
+      ]
     },
     "beardcontestwinner": {
       "following": true,
@@ -889,7 +904,10 @@
     },
     "benmcgranaghan": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-07"
+      ]
     },
     "benmeyer85": {
       "following": true,
@@ -975,7 +993,10 @@
     },
     "bikebombcity": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-07"
+      ]
     },
     "bikeborderlands": {
       "following": true,
@@ -1251,7 +1272,10 @@
     },
     "buffalo.devo": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-07"
+      ]
     },
     "buffalobicyclingclub": {
       "follower": true,
@@ -1487,7 +1511,10 @@
     },
     "chasing_adrenaline_": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-07"
+      ]
     },
     "chasingasa76": {
       "following": true,
@@ -1548,7 +1575,10 @@
     },
     "christopher.pouliot": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-07"
+      ]
     },
     "chubbs_peterson69": {
       "following": true,
@@ -7057,7 +7087,10 @@
     },
     "uncloriginal": {
       "following": true,
-      "following_since": "2026-05-26"
+      "following_since": "2026-05-26",
+      "recommended": [
+        "2026-11-07"
+      ]
     },
     "unifycycling": {
       "following": true,
@@ -7405,7 +7438,10 @@
     },
     "willychasemusic": {
       "following": true,
-      "following_since": "2026-05-26"
+      "following_since": "2026-05-26",
+      "recommended": [
+        "2026-11-07"
+      ]
     },
     "winallen73": {
       "following": true,
@@ -7851,6 +7887,24 @@
         "trent36"
       ],
       "order": "oldest"
+    },
+    {
+      "date": "2026-11-07",
+      "handles": [
+        "uncloriginal",
+        "willychasemusic",
+        "_matt___w",
+        "aiden_figliolini_bikes",
+        "angusxc",
+        "ashtonleighann",
+        "bearclawth",
+        "benmcgranaghan",
+        "bikebombcity",
+        "buffalo.devo",
+        "chasing_adrenaline_",
+        "christopher.pouliot"
+      ],
+      "order": "oldest"
     }
   ],
   "imports": [
@@ -7861,6 +7915,6 @@
       "source": "/home/jkc/Downloads/instagram-rangerly.app-2026-11-01-Ni1r2IV4.zip"
     }
   ],
-  "updated": "2026-11-05",
+  "updated": "2026-11-07",
   "version": 1
 }
