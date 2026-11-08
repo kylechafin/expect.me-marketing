@@ -3819,7 +3819,10 @@
     },
     "kip_roberts": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-08"
+      ]
     },
     "kirkkardashian": {
       "following": true,
@@ -3900,7 +3903,10 @@
     },
     "l0stk1tty": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-08"
+      ]
     },
     "lab425": {
       "following": true,
@@ -4015,7 +4021,10 @@
     },
     "limmerboots": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-08"
+      ]
     },
     "lincoln.xc.mtb": {
       "following": true,
@@ -4061,7 +4070,10 @@
     },
     "loomcitycycles": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-08"
+      ]
     },
     "lorenzocorti.photographer": {
       "following": true,
@@ -4360,7 +4372,10 @@
     },
     "mattfix22": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-08"
+      ]
     },
     "matthew.e.limbert": {
       "following": true,
@@ -4748,7 +4763,10 @@
     },
     "mtbtravelreview": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-08"
+      ]
     },
     "mtbvermont": {
       "following": true,
@@ -4938,7 +4956,10 @@
     },
     "nick_bennette": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-08"
+      ]
     },
     "nick_nordquist": {
       "following": true,
@@ -5145,7 +5166,10 @@
     },
     "onespeed_dan": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-08"
+      ]
     },
     "onionriveroutdoors": {
       "following": true,
@@ -5211,7 +5235,10 @@
     },
     "ozarkoffroadcyclists": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-08"
+      ]
     },
     "ozmtblife": {
       "following": true,
@@ -5382,7 +5409,10 @@
     },
     "philipkolling": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-08"
+      ]
     },
     "phin_pyecroft": {
       "following": true,
@@ -5677,7 +5707,10 @@
     },
     "ricksorensenphoto": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-08"
+      ]
     },
     "rickydownhill": {
       "following": true,
@@ -5782,7 +5815,10 @@
     },
     "riverbottombikes": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-08"
+      ]
     },
     "rivercity_mtbr": {
       "following": true,
@@ -7957,6 +7993,24 @@
         "greenmountainbikes",
         "ibikeskivt",
         "jessecrash39"
+      ],
+      "order": "oldest"
+    },
+    {
+      "date": "2026-11-08",
+      "handles": [
+        "kip_roberts",
+        "l0stk1tty",
+        "limmerboots",
+        "loomcitycycles",
+        "mattfix22",
+        "mtbtravelreview",
+        "nick_bennette",
+        "onespeed_dan",
+        "ozarkoffroadcyclists",
+        "philipkolling",
+        "ricksorensenphoto",
+        "riverbottombikes"
       ],
       "order": "oldest"
     }
