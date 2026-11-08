@@ -1605,11 +1605,17 @@
     },
     "class4cycling": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-08"
+      ]
     },
     "climbonline1990": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-08"
+      ]
     },
     "cltmtbcoach": {
       "follower": true,
@@ -1949,7 +1955,10 @@
     },
     "daqwoods": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-08"
+      ]
     },
     "dawson_norcross": {
       "following": true,
@@ -1969,7 +1978,10 @@
     },
     "deb.richardson333": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-08"
+      ]
     },
     "decrepitmtbclothingco": {
       "follower": true,
@@ -1983,7 +1995,10 @@
     },
     "deniseh_chc": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-08"
+      ]
     },
     "dennyjannettymtb": {
       "follower": true,
@@ -2111,7 +2126,10 @@
     },
     "dr.e.musictheory": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-08"
+      ]
     },
     "drakeandirey": {
       "following": true,
@@ -2123,7 +2141,10 @@
     },
     "dreadneck": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-08"
+      ]
     },
     "drewsbikeshop": {
       "following": true,
@@ -2160,7 +2181,10 @@
     },
     "duck_yeah479": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-08"
+      ]
     },
     "dufresneroland": {
       "following": true,
@@ -2592,7 +2616,10 @@
     },
     "garyj63": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-08"
+      ]
     },
     "gaspar_olmedo_ec": {
       "following": true,
@@ -2814,7 +2841,10 @@
     },
     "greenmountainbikes": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-08"
+      ]
     },
     "greenmountainclub": {
       "following": true,
@@ -3097,7 +3127,10 @@
     },
     "ibikeskivt": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-08"
+      ]
     },
     "icathaid": {
       "following": true,
@@ -3402,7 +3435,10 @@
     },
     "jessecrash39": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-08"
+      ]
     },
     "jesseholdenrunmtns": {
       "follower": true,
@@ -7905,6 +7941,24 @@
         "christopher.pouliot"
       ],
       "order": "oldest"
+    },
+    {
+      "date": "2026-11-08",
+      "handles": [
+        "class4cycling",
+        "climbonline1990",
+        "daqwoods",
+        "deb.richardson333",
+        "deniseh_chc",
+        "dr.e.musictheory",
+        "dreadneck",
+        "duck_yeah479",
+        "garyj63",
+        "greenmountainbikes",
+        "ibikeskivt",
+        "jessecrash39"
+      ],
+      "order": "oldest"
     }
   ],
   "imports": [
@@ -7915,6 +7969,6 @@
       "source": "/home/jkc/Downloads/instagram-rangerly.app-2026-11-01-Ni1r2IV4.zip"
     }
   ],
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "version": 1
 }
