@@ -186,7 +186,10 @@
     },
     "abby_noelle_": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-09"
+      ]
     },
     "abi.ridefierce": {
       "following": true,
@@ -346,7 +349,10 @@
     },
     "akschaidle": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-09"
+      ]
     },
     "al_emtb": {
       "follower": true,
@@ -453,7 +459,10 @@
     },
     "amanda.and.myles.and.miles": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-09"
+      ]
     },
     "amateur_forlife22": {
       "following": true,
@@ -483,7 +492,10 @@
     },
     "amycoyotevt": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-09"
+      ]
     },
     "amyloualwaysblue": {
       "follower": true,
@@ -6083,7 +6095,10 @@
     },
     "see_quinn_go": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-09"
+      ]
     },
     "seen.by.sarah": {
       "following": true,
@@ -6442,7 +6457,10 @@
     },
     "stevewrx": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-09"
+      ]
     },
     "steveziemtb": {
       "follower": true,
@@ -7144,11 +7162,17 @@
     },
     "tylertray": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-09"
+      ]
     },
     "tyrelellis": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-09"
+      ]
     },
     "umaine_cycling": {
       "following": true,
@@ -7247,11 +7271,17 @@
     },
     "vermont.meg": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-09"
+      ]
     },
     "vermontparksforever": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-09"
+      ]
     },
     "vermontphotog": {
       "following": true,
@@ -7336,7 +7366,10 @@
     },
     "wallywallsadv": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-09"
+      ]
     },
     "waltnpeppa": {
       "following": true,
@@ -7449,7 +7482,10 @@
     },
     "wheeelie_g": {
       "following": true,
-      "following_since": "2026-05-27"
+      "following_since": "2026-05-27",
+      "recommended": [
+        "2026-11-09"
+      ]
     },
     "wheeldernessguy": {
       "follower": true,
@@ -8013,6 +8049,24 @@
         "riverbottombikes"
       ],
       "order": "oldest"
+    },
+    {
+      "date": "2026-11-09",
+      "handles": [
+        "see_quinn_go",
+        "stevewrx",
+        "tylertray",
+        "tyrelellis",
+        "vermont.meg",
+        "vermontparksforever",
+        "wallywallsadv",
+        "wheeelie_g",
+        "abby_noelle_",
+        "akschaidle",
+        "amanda.and.myles.and.miles",
+        "amycoyotevt"
+      ],
+      "order": "oldest"
     }
   ],
   "imports": [
@@ -8023,6 +8077,6 @@
       "source": "/home/jkc/Downloads/instagram-rangerly.app-2026-11-01-Ni1r2IV4.zip"
     }
   ],
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "version": 1
 }
