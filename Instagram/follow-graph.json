@@ -533,7 +533,10 @@
     },
     "andersonhealthandfitness": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-12"
+      ]
     },
     "andrea.sambinello": {
       "following": true,
@@ -541,7 +544,10 @@
     },
     "andreadl": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-12"
+      ]
     },
     "andrew.campbel1": {
       "following": true,
@@ -650,7 +656,10 @@
     },
     "arkansasmoves": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-12"
+      ]
     },
     "arlo_bikes": {
       "follower": true,
@@ -1053,11 +1062,17 @@
     },
     "bikawright": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-12"
+      ]
     },
     "bike_drmz": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-12"
+      ]
     },
     "bikebombcity": {
       "following": true,
@@ -1471,7 +1486,10 @@
     },
     "carrie_bax": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-12"
+      ]
     },
     "carter_faulknier16": {
       "following": true,
@@ -1549,7 +1567,10 @@
     },
     "chanb_217": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-12"
+      ]
     },
     "charlesblackdh": {
       "following": true,
@@ -1725,7 +1746,10 @@
     },
     "coachchristine1": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-12"
+      ]
     },
     "coachkellim": {
       "following": true,
@@ -1905,7 +1929,10 @@
     },
     "crews.ishee": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-12"
+      ]
     },
     "crnemba": {
       "following": true,
@@ -1993,11 +2020,17 @@
     },
     "cyclingwiththomas": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-12"
+      ]
     },
     "cycoinvt": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-12"
+      ]
     },
     "cyruskidder": {
       "following": true,
@@ -2584,7 +2617,10 @@
     },
     "fitforlife_mike": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-12"
+      ]
     },
     "fitpedals890": {
       "follower": true,
@@ -8499,6 +8535,24 @@
         "amycoyotevt"
       ],
       "order": "oldest"
+    },
+    {
+      "date": "2026-11-12",
+      "handles": [
+        "andersonhealthandfitness",
+        "andreadl",
+        "arkansasmoves",
+        "bikawright",
+        "bike_drmz",
+        "carrie_bax",
+        "chanb_217",
+        "coachchristine1",
+        "crews.ishee",
+        "cyclingwiththomas",
+        "cycoinvt",
+        "fitforlife_mike"
+      ],
+      "order": "oldest"
     }
   ],
   "imports": [
@@ -8509,6 +8563,6 @@
       "source": "/home/jkc/Downloads/instagram-rangerly.app-2026-11-01-Ni1r2IV4.zip"
     }
   ],
-  "updated": "2026-11-09",
+  "updated": "2026-11-12",
   "version": 1
 }
