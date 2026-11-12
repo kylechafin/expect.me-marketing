@@ -48,6 +48,14 @@
       "following": true,
       "following_since": "2026-06-03"
     },
+    "3lrmtb": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "423/698, posted 2026-11-04, MTB/DH, Air Force vet, Chimney Gulch = Golden CO",
+      "source": "amyloualwaysblue",
+      "verdict": "follow"
+    },
     "3retts": {
       "following": true,
       "following_since": "2026-06-09"
@@ -55,6 +63,14 @@
     "4dcyclingllc": {
       "following": true,
       "following_since": "2026-06-16"
+    },
+    "4mtnsd4": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "no grid visible, 92/160, no bio",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
     },
     "802_outsiders": {
       "following": true,
@@ -146,6 +162,14 @@
     "_taraahldb": {
       "following": true,
       "following_since": "2026-06-09"
+    },
+    "_tripandtrail": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: Poland",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
     },
     "_val_mtb": {
       "following": true,
@@ -914,6 +938,14 @@
       "following": true,
       "following_since": "2026-06-03"
     },
+    "benjamming.mtb": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: ratio 1915/7625; FL eMTB",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
+    },
     "benmcgranaghan": {
       "following": true,
       "following_since": "2026-05-27",
@@ -953,9 +985,25 @@
       "following": true,
       "following_since": "2026-10-22"
     },
+    "best_trails": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: Swiss tour co",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
+    },
     "beta.believe.922": {
       "following": true,
       "following_since": "2026-06-08"
+    },
+    "bethie.mtb": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "48/53, posted 2026-10-26, MTB rides, Moreau Lake SP NY",
+      "source": "amyloualwaysblue",
+      "verdict": "follow"
     },
     "bethsikorski": {
       "following": true,
@@ -990,6 +1038,14 @@
       "recommended": [
         "2026-11-01"
       ]
+    },
+    "bigolgeo": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: ratio 647/10761",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
     },
     "bihnbikesboston": {
       "following": true,
@@ -1560,6 +1616,14 @@
       "following": true,
       "following_since": "2026-06-11"
     },
+    "chris_guynn78": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: bodybuilding, ratio 0.32",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
+    },
     "chris_mkc1": {
       "following": true,
       "following_since": "2026-06-09"
@@ -1798,6 +1862,14 @@
       "following": true,
       "following_since": "2026-06-09"
     },
+    "corey.p80": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: ratio 3013/9254",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
+    },
     "coreyswartz603": {
       "following": true,
       "following_since": "2026-05-25",
@@ -1941,6 +2013,14 @@
       "following": true,
       "following_since": "2026-06-09"
     },
+    "dan_and_the_nomad": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: UK",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
+    },
     "danaambrosejr": {
       "following": true,
       "following_since": "2026-10-23"
@@ -2004,6 +2084,14 @@
     "deepwoodskier": {
       "following": true,
       "following_since": "2026-06-03"
+    },
+    "demarck": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: Brazil, private",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
     },
     "deniseh_chc": {
       "following": true,
@@ -2118,6 +2206,14 @@
       "following": true,
       "following_since": "2026-06-09"
     },
+    "doug.trailbound": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "private; WA, 1412/2383, content not visible",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
+    },
     "downhillpictures": {
       "following": true,
       "following_since": "2026-06-03"
@@ -2127,6 +2223,14 @@
       "follower_since": "2026-06-08",
       "following": true,
       "following_since": "2026-06-08"
+    },
+    "downrangebikeworks": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "1833/1229, posted 2026-11-01, MTB shop (Norco), West Jordan UT",
+      "source": "amyloualwaysblue",
+      "verdict": "follow"
     },
     "downvalleybikes": {
       "following": true,
@@ -2241,6 +2345,14 @@
     "echromeo": {
       "following": true,
       "following_since": "2026-06-10"
+    },
+    "eco.pedaler": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: Turkey",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
     },
     "edoardobrigidi": {
       "following": true,
@@ -2375,11 +2487,27 @@
       "following": true,
       "following_since": "2026-06-08"
     },
+    "evelrider_44": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: ratio 245/1182, private",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
+    },
     "event_support_professionals": {
       "follower": true,
       "follower_since": "2026-09-28",
       "following": true,
       "following_since": "2026-06-03"
+    },
+    "everettpops": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: skateshop, no MTB",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
     },
     "everyday.bikes": {
       "following": true,
@@ -2427,6 +2555,14 @@
     "fellowmason": {
       "following": true,
       "following_since": "2026-06-08"
+    },
+    "feralfreckles": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: ratio 1100/5370, private; NH rider",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
     },
     "festivusofgravel": {
       "following": true,
@@ -2552,6 +2688,14 @@
       "following": true,
       "following_since": "2026-05-26"
     },
+    "fryy_tek": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: trail running, likely Poland, private",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
+    },
     "fullpullgravityracing": {
       "follower": true,
       "follower_since": "2026-06-04",
@@ -2671,6 +2815,14 @@
     "gearsofjoycycling": {
       "following": true,
       "following_since": "2026-06-09"
+    },
+    "geoff_oseman": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: UK/Scotland",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
     },
     "gerardoescobar76": {
       "follower": true,
@@ -2889,6 +3041,14 @@
       "following": true,
       "following_since": "2026-06-09"
     },
+    "grocejessika": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: 0 posts",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
+    },
     "gryphon_gh": {
       "following": true,
       "following_since": "2026-06-09"
@@ -2900,6 +3060,14 @@
     "gsl.vrmntrl": {
       "following": true,
       "following_since": "2026-05-28"
+    },
+    "gspringer2610": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: last post 2022, ratio 0.26",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
     },
     "guillermoluismolina": {
       "following": true,
@@ -3148,6 +3316,14 @@
       "following": true,
       "following_since": "2026-06-27"
     },
+    "igraveleverywhere": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: Sweden",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
+    },
     "ilovevanlife": {
       "investigated": [
         "2026-11-02"
@@ -3352,6 +3528,14 @@
       "following": true,
       "following_since": "2026-06-08"
     },
+    "jared_pardi": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: ratio 378/1486",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
+    },
     "jaseptak": {
       "following": true,
       "following_since": "2026-06-24"
@@ -3458,6 +3642,14 @@
       "following": true,
       "following_since": "2026-06-02"
     },
+    "jessi.goes.fitti": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: Germany, fitness",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
+    },
     "jessicaclaren": {
       "following": true,
       "following_since": "2026-10-17"
@@ -3495,6 +3687,22 @@
       "following": true,
       "following_since": "2026-05-28"
     },
+    "jlpjr_": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: ratio 1294/5119, private",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
+    },
+    "jmddascoli": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: France, road",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
+    },
     "jmg2831": {
       "following": true,
       "following_since": "2026-06-19"
@@ -3517,6 +3725,14 @@
         "2026-11-04"
       ]
     },
+    "joey_mtb_adventures": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "5561/3235, posted 2026-11-05, MTB/bikepacking, southern Utah",
+      "source": "amyloualwaysblue",
+      "verdict": "follow"
+    },
     "joeygoodpies": {
       "following": true,
       "following_since": "2026-06-08"
@@ -3536,6 +3752,14 @@
     "johnfennellofficial": {
       "following": true,
       "following_since": "2026-06-04"
+    },
+    "johnny.freeman.35": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: ratio 2264/7625, private",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
     },
     "johnny_bihun": {
       "following": true,
@@ -3655,6 +3879,14 @@
       "following": true,
       "following_since": "2026-06-11"
     },
+    "justalittlecycle": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "private; 2544/1658, no location",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
+    },
     "justice_jax_berry": {
       "following": true,
       "following_since": "2026-06-01"
@@ -3720,6 +3952,14 @@
     "katemg2": {
       "following": true,
       "following_since": "2026-06-22"
+    },
+    "kathleenpalmermn": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: ratio 15.1k/5861 (2.6); MN MTB/fatbike, active",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
     },
     "katiepanic79": {
       "following": true,
@@ -3839,6 +4079,14 @@
     "kirkkardashian": {
       "following": true,
       "following_since": "2026-06-02"
+    },
+    "kjduffy_1973": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: ratio 107/3399, private",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
     },
     "kjskierrunner": {
       "following": true,
@@ -4282,6 +4530,14 @@
       "following": true,
       "following_since": "2026-10-23"
     },
+    "marcstein": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "private; Issaquah WA, 417/758, content not visible",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
+    },
     "mariaemcamargo": {
       "following": true,
       "following_since": "2026-06-22"
@@ -4401,6 +4657,14 @@
       "following": true,
       "following_since": "2026-06-23"
     },
+    "mattorcycle": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: motorcycles/skating, no MTB",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
+    },
     "mattsebas38": {
       "following": true,
       "following_since": "2026-06-04"
@@ -4506,6 +4770,14 @@
     "michefdevo": {
       "following": true,
       "following_since": "2026-06-23"
+    },
+    "michele_outdoors": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: Germany, hiking",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
     },
     "michelle.hilton88": {
       "following": true,
@@ -4613,6 +4885,14 @@
       "following": true,
       "following_since": "2026-06-10"
     },
+    "mittenmod": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: ratio 320/847 (0.38); otherwise good MI MTB, posted 2026-09-14",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
+    },
     "mjbruiser": {
       "following": true,
       "following_since": "2026-05-28"
@@ -4664,6 +4944,14 @@
     "motivatedprocrastinator": {
       "following": true,
       "following_since": "2026-06-22"
+    },
+    "mr.deltoid": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: UK road, private",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
     },
     "mr.t_cyco_mama": {
       "following": true,
@@ -5485,6 +5773,14 @@
       "following": true,
       "following_since": "2026-06-09"
     },
+    "pnwning": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "1008/791, posted 2026-10-22, enduro/DH, Japanese Gulch WA",
+      "source": "amyloualwaysblue",
+      "verdict": "follow"
+    },
     "poplar_bluff_hellbenders": {
       "following": true,
       "following_since": "2026-05-28"
@@ -5499,6 +5795,14 @@
       "recommended": [
         "2026-11-03"
       ]
+    },
+    "powered_by_pedals": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: ratio 624/2022; MTB, BC, active",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
     },
     "pr_nemba": {
       "following": true,
@@ -5572,6 +5876,14 @@
       "following": true,
       "following_since": "2026-06-08"
     },
+    "puncheurchronicles": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: UK, ratio 0.35",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
+    },
     "punky.brewster88": {
       "following": true,
       "following_since": "2026-06-11"
@@ -5619,6 +5931,14 @@
       "following": true,
       "following_since": "2026-06-04"
     },
+    "ralphtravelsaround": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: Netherlands",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
+    },
     "ramblexroam": {
       "following": true,
       "following_since": "2026-05-24",
@@ -5661,6 +5981,14 @@
     "red_bird_crest_80k": {
       "following": true,
       "following_since": "2026-06-04"
+    },
+    "redbeard_and_t": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "5174/5238, posted 2026-11-02, MTB Mountain Creek NJ, Port Jervis NY",
+      "source": "amyloualwaysblue",
+      "verdict": "follow"
     },
     "redstoneharley": {
       "following": true,
@@ -5764,6 +6092,14 @@
       "follower_since": "2026-06-01",
       "following": true,
       "following_since": "2026-05-30"
+    },
+    "ridelinez": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: Belgium",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
     },
     "rider4life88": {
       "following": true,
@@ -5961,6 +6297,14 @@
       "following": true,
       "following_since": "2026-06-09"
     },
+    "run.lift.ride.climb.etc": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "2628/2307, posted 2026-10-26, MTB Moab + Flagstaff",
+      "source": "amyloualwaysblue",
+      "verdict": "follow"
+    },
     "runner_zaaky": {
       "following": true,
       "following_since": "2026-10-21"
@@ -5968,6 +6312,14 @@
     "running_with_rankin": {
       "following": true,
       "following_since": "2026-06-11"
+    },
+    "rustik_cruising": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: ratio 1319/8167",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
     },
     "rvollmar992": {
       "following": true,
@@ -6171,6 +6523,14 @@
       "following": true,
       "following_since": "2026-10-22"
     },
+    "shreddelicious_mtb": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: Europe (NL)",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
+    },
     "shredders_devo": {
       "following": true,
       "following_since": "2026-05-26",
@@ -6201,6 +6561,14 @@
     "sincity_mtb": {
       "following": true,
       "following_since": "2026-06-08"
+    },
+    "single_track__slayer": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: ratio 576/2885; WA MTB, active",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
     },
     "singletracktrev_": {
       "follower": true,
@@ -6324,6 +6692,14 @@
     "softrockhardtimes": {
       "following": true,
       "following_since": "2026-06-22"
+    },
+    "solobikegalavants": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: UK, ratio 0.30",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
     },
     "sommjuice": {
       "following": true,
@@ -6537,6 +6913,14 @@
       "following": true,
       "following_since": "2026-06-08"
     },
+    "stuart_cycles": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: UK (Kent), road",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
+    },
     "studio_bywater": {
       "following": true,
       "following_since": "2026-06-08"
@@ -6724,6 +7108,14 @@
       "following": true,
       "following_since": "2026-10-23"
     },
+    "the_amyfromearth": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: 3 posts, private, ratio 34/382",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
+    },
     "the_backwoods_creature": {
       "following": true,
       "following_since": "2026-06-09"
@@ -6793,6 +7185,14 @@
     "thehappymamil": {
       "following": true,
       "following_since": "2026-06-09"
+    },
+    "theislandcyclist": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: Sweden road/gravel",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
     },
     "thejoshsalvo": {
       "following": true,
@@ -7002,6 +7402,14 @@
     "tonisyarifudin": {
       "following": true,
       "following_since": "2026-05-29"
+    },
+    "tony_evolvecima": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: likely Europe (German sponsor), no NA location",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
     },
     "top_right_racing": {
       "following": true,
@@ -7540,6 +7948,14 @@
       "following": true,
       "following_since": "2026-06-04"
     },
+    "williamsburgonwheels": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: Segway/e-bike tour biz, no MTB",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
+    },
     "willpower_energy": {
       "following": true,
       "following_since": "2026-06-09"
@@ -7590,6 +8006,14 @@
       "follower_since": "2026-05-24",
       "following": true,
       "following_since": "2026-05-24"
+    },
+    "wurple_smurple": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: drawings, no MTB, ratio 27/181",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
     },
     "wv_shredneck": {
       "following": true,
@@ -7645,6 +8069,14 @@
     "yaaake__": {
       "following": true,
       "following_since": "2026-06-27"
+    },
+    "yetiqwest": {
+      "investigated": [
+        "2026-11-05"
+      ],
+      "note": "rejected: ratio 999/3361, private",
+      "source": "amyloualwaysblue",
+      "verdict": "unclear"
     },
     "yoftalarocque_": {
       "following": true,
