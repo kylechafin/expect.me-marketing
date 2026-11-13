@@ -371,6 +371,14 @@
       "following": true,
       "following_since": "2026-06-08"
     },
+    "ajpike19": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "rejected: ratio 558/1781, private",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
+    },
     "akschaidle": {
       "following": true,
       "following_since": "2026-05-28",
@@ -717,7 +725,13 @@
     },
     "aslongasyoupedal": {
       "following": true,
-      "following_since": "2026-06-18"
+      "following_since": "2026-06-18",
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "rejected: ratio 0.48, urban cycling Bronx",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
     },
     "atbdesign": {
       "following": true,
@@ -774,7 +788,13 @@
       "follower": true,
       "follower_since": "2026-10-05",
       "following": true,
-      "following_since": "2026-06-08"
+      "following_since": "2026-06-08",
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "1616/1927, posted 2026-11-04, MTB dad, Colorado/US trail travel",
+      "source": "downrangebikeworks",
+      "verdict": "follow"
     },
     "b2vt.ride": {
       "following": true,
@@ -1227,6 +1247,14 @@
       "following": true,
       "following_since": "2026-06-23"
     },
+    "blissrider": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "392/706, active; MTB and location unclear",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
+    },
     "bluehills_ski_patrol": {
       "following": true,
       "following_since": "2026-05-16",
@@ -1353,6 +1381,14 @@
       "following": true,
       "following_since": "2026-06-08"
     },
+    "bssam.mtb": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "rejected: ratio 601/6014",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
+    },
     "buffalo.devo": {
       "following": true,
       "following_since": "2026-05-27",
@@ -1431,7 +1467,13 @@
     },
     "canefanmtb": {
       "following": true,
-      "following_since": "2026-06-09"
+      "following_since": "2026-06-09",
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "rejected: ratio 728/1724",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
     },
     "canterburynh2": {
       "follower": true,
@@ -1441,7 +1483,13 @@
     },
     "cape_mobile_bike_repair": {
       "following": true,
-      "following_since": "2026-06-02"
+      "following_since": "2026-06-02",
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "98/137, posted 2026-11-03, mobile bike repair + trail rides, Moab, US",
+      "source": "downrangebikeworks",
+      "verdict": "follow"
     },
     "capecodnemba": {
       "following": true,
@@ -1532,7 +1580,13 @@
     },
     "cb_2735": {
       "following": true,
-      "following_since": "2026-06-24"
+      "following_since": "2026-06-24",
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "rejected: minor (SHS 2029); also ratio 437/2916",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
     },
     "cbccrace": {
       "following": true,
@@ -1608,6 +1662,14 @@
     "chasingasa76": {
       "following": true,
       "following_since": "2026-06-08"
+    },
+    "cheffy_mtb": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "1381/1610, posted 2026-11-01, DH/bike parks LA + Colorado, adult",
+      "source": "downrangebikeworks",
+      "verdict": "follow"
     },
     "chefjoerock": {
       "investigated": [
@@ -2093,6 +2155,14 @@
       "following": true,
       "following_since": "2026-06-09"
     },
+    "daybreakcyclingclub": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "rejected: road cycling club",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
+    },
     "dcskier025": {
       "following": true,
       "following_since": "2026-06-09"
@@ -2142,6 +2212,14 @@
     "derek.boyle": {
       "following": true,
       "following_since": "2026-06-09"
+    },
+    "derek_j_steele": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "private, Utah, 575/827; content not visible",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
     },
     "derekgeno": {
       "following": true,
@@ -2343,9 +2421,25 @@
       "following": true,
       "following_since": "2026-06-09"
     },
+    "dust_pov": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "rejected: last post 2026-08-11; AZ MTB otherwise fits",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
+    },
     "dustin_does_it": {
       "following": true,
       "following_since": "2026-06-19"
+    },
+    "dustyberms": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "106/90, posted 2026-11-06, social enduro MTB club, Utah",
+      "source": "downrangebikeworks",
+      "verdict": "follow"
     },
     "dwfunk_racing": {
       "following": true,
@@ -2568,6 +2662,22 @@
       "following": true,
       "following_since": "2026-09-29"
     },
+    "fastkidsdad_timmy": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "rejected: last post 2026-05-09",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
+    },
+    "fastlaneripper": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "rejected: ratio 559/1595",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
+    },
     "fcnemba": {
       "following": true,
       "following_since": "2026-04-28",
@@ -2642,7 +2752,13 @@
     },
     "flowsocietymtb": {
       "following": true,
-      "following_since": "2026-10-22"
+      "following_since": "2026-10-22",
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "329/371, posted 2026-10-26, Colorado MTB bike parks/jumps, adult",
+      "source": "downrangebikeworks",
+      "verdict": "follow"
     },
     "flowstatemtbfest": {
       "following": true,
@@ -2952,6 +3068,14 @@
         "2026-11-01"
       ]
     },
+    "gotmunsoned": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "rejected: last post 2026-08-09",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
+    },
     "gpnemba": {
       "following": true,
       "following_since": "2026-04-28",
@@ -2995,6 +3119,14 @@
     "gravitysportsfitness": {
       "following": true,
       "following_since": "2026-06-09"
+    },
+    "gravyridesbikes": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "rejected: ratio 214/583; OK dirt therapy chapter lead",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
     },
     "greada_treaty": {
       "following": true,
@@ -3260,6 +3392,14 @@
       "recommended": [
         "2026-11-01"
       ]
+    },
+    "hitman_actual": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "rejected: ratio 78/245, private",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
     },
     "hoes_hu_bike": {
       "following": true,
@@ -3719,6 +3859,14 @@
       "following": true,
       "following_since": "2026-06-08"
     },
+    "jl_crestone": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "private, 456/426, no location",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
+    },
     "jlee_5013": {
       "following": true,
       "following_since": "2026-05-28"
@@ -4141,7 +4289,13 @@
     },
     "knobbyrobbybike": {
       "following": true,
-      "following_since": "2026-06-03"
+      "following_since": "2026-06-03",
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "MTB tool maker, 2062/3730 (0.55), active; no location",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
     },
     "kopeus": {
       "following": true,
@@ -4364,6 +4518,14 @@
       "following": true,
       "following_since": "2026-06-03"
     },
+    "lonerider310": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "408/335, posted 2026-11-11, MTB Soquel Demo Forest CA",
+      "source": "downrangebikeworks",
+      "verdict": "follow"
+    },
     "loomcitycycles": {
       "following": true,
       "following_since": "2026-05-27",
@@ -4436,7 +4598,13 @@
     },
     "luisochoa_mtb": {
       "following": true,
-      "following_since": "2026-06-09"
+      "following_since": "2026-06-09",
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "rejected: Mexico (CDMX)",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
     },
     "lukas.diaz25": {
       "following": true,
@@ -4951,6 +5119,14 @@
       "following": true,
       "following_since": "2026-06-16"
     },
+    "monster_medic_911": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "rejected: bodybuilding, private",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
+    },
     "monsterkyle21": {
       "following": true,
       "following_since": "2026-06-04"
@@ -5010,6 +5186,22 @@
       "following": true,
       "following_since": "2026-06-08"
     },
+    "mtb.trailpassion": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "rejected: Germany (NRW)",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
+    },
+    "mtb_aztrails": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "2404/1283 (1.87), posted 2026-10-19, MTB South Mountain/Mesa AZ",
+      "source": "downrangebikeworks",
+      "verdict": "follow"
+    },
     "mtb_clips_scotland_": {
       "following": true,
       "following_since": "2026-10-22"
@@ -5020,11 +5212,25 @@
     },
     "mtb_jenny_c": {
       "following": true,
-      "following_since": "2026-10-22"
+      "following_since": "2026-10-22",
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "rejected: ratio 1504/3292 (0.46); Riverside CA MTB guide, active",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
     },
     "mtb_leah": {
       "following": true,
       "following_since": "2026-06-10"
+    },
+    "mtb_life_dirtdonthurt": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "rejected: high school NICA varsity racer, says 18 - ambiguous minor",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
     },
     "mtb_nativos": {
       "follower": true,
@@ -5038,6 +5244,14 @@
       "following": true,
       "following_since": "2026-06-11"
     },
+    "mtb_zoomies": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "60/49, active MTB; no location, possibly teen (asks for jump advice) - excluded",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
+    },
     "mtbaz_fit": {
       "following": true,
       "following_since": "2026-10-23"
@@ -5045,6 +5259,14 @@
     "mtbb.rody": {
       "following": true,
       "following_since": "2026-06-10"
+    },
+    "mtbcorey012": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "rejected: ratio 182/14852, private",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
     },
     "mtbcp": {
       "following": true,
@@ -5067,6 +5289,14 @@
       "following": true,
       "following_since": "2026-06-08"
     },
+    "mtbfun60": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "583/712, posted 2026-11-10, MTB jumps; no location",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
+    },
     "mtbgirlsmag": {
       "following": true,
       "following_since": "2026-06-03"
@@ -5078,6 +5308,14 @@
     "mtbjakee": {
       "following": true,
       "following_since": "2026-06-08"
+    },
+    "mtbjonnyb": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "323/273, posted 2026-09-18, DH, age 43, Snow Summit/Haskell Canyon SoCal",
+      "source": "downrangebikeworks",
+      "verdict": "follow"
     },
     "mtbpeteinthepeaks": {
       "following": true,
@@ -5345,7 +5583,13 @@
     },
     "nobler1der": {
       "following": true,
-      "following_since": "2026-10-22"
+      "following_since": "2026-10-22",
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "rejected: ratio 656/2454",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
     },
     "noframo_bros": {
       "following": true,
@@ -5401,6 +5645,14 @@
       "following": true,
       "following_since": "2026-05-28"
     },
+    "nova.mtb": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "556/458, posted 2026-11-07, MTB nonprofit, Phoenix AZ",
+      "source": "downrangebikeworks",
+      "verdict": "follow"
+    },
     "nspeastbike": {
       "follower": true,
       "follower_since": "2026-05-27",
@@ -5451,7 +5703,13 @@
     },
     "ohiomtnbikr": {
       "following": true,
-      "following_since": "2026-06-12"
+      "following_since": "2026-06-12",
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "846/1063, posted 2026-11-10, Ohio MTB (Horns Hill, Star Hill)",
+      "source": "downrangebikeworks",
+      "verdict": "follow"
     },
     "oiseauxexotiques": {
       "following": true,
@@ -5551,6 +5809,14 @@
       "following": true,
       "following_since": "2026-06-24"
     },
+    "owen.orgill": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "rejected: ratio 92/1227, private",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
+    },
     "owenintha8": {
       "follower": true,
       "follower_since": "2026-06-25",
@@ -5587,6 +5853,14 @@
     "p_d_mitchell_": {
       "following": true,
       "following_since": "2026-05-30"
+    },
+    "padyakaz": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "360/359, posted 2026-10-12, Filipino MTB group, Arizona",
+      "source": "downrangebikeworks",
+      "verdict": "follow"
     },
     "painisjustapopsicle": {
       "follower": true,
@@ -6000,6 +6274,14 @@
         "2026-11-01"
       ]
     },
+    "rattailed_jimmy": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "rejected: ratio 521/2543",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
+    },
     "rdbocomin": {
       "following": true,
       "following_since": "2026-06-22"
@@ -6041,6 +6323,14 @@
     "reggie_iceman_bmx": {
       "following": true,
       "following_since": "2026-06-08"
+    },
+    "regulardad85": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "rejected: ratio 171/584; Colorado MTB",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
     },
     "reid_curry": {
       "following": true,
@@ -6102,6 +6392,14 @@
       "following": true,
       "following_since": "2026-06-09"
     },
+    "ride_free_project": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "youth bikes nonprofit, 291/181; MTB/location unclear",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
+    },
     "ride_lpb": {
       "following": true,
       "following_since": "2026-06-04"
@@ -6110,7 +6408,13 @@
       "follower": true,
       "follower_since": "2026-10-22",
       "following": true,
-      "following_since": "2026-10-22"
+      "following_since": "2026-10-22",
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "126/240 (0.53), posted 2026-11-11, MTB Brown's Ranch + Hawes AZ",
+      "source": "downrangebikeworks",
+      "verdict": "follow"
     },
     "ridebadmoon": {
       "following": true,
@@ -6383,6 +6687,14 @@
       "following": true,
       "following_since": "2026-05-25"
     },
+    "saltysummit_bike": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "rejected: ratio 483/100 (brand)",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
+    },
     "sam.faulkner5": {
       "following": true,
       "following_since": "2026-06-04"
@@ -6580,6 +6892,14 @@
       "following": true,
       "following_since": "2026-06-08"
     },
+    "sik_mtb": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "818/806, posted 2026-10-29, MTB San Diego",
+      "source": "downrangebikeworks",
+      "verdict": "follow"
+    },
     "silas.mtb17": {
       "following": true,
       "following_since": "2026-06-04"
@@ -6610,7 +6930,13 @@
       "follower": true,
       "follower_since": "2026-10-23",
       "following": true,
-      "following_since": "2026-10-23"
+      "following_since": "2026-10-23",
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "rejected: ratio 393/932",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
     },
     "sitota_larocque21": {
       "following": true,
@@ -6861,6 +7187,14 @@
       "following": true,
       "following_since": "2026-06-03"
     },
+    "stevemccorm80": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "rejected: 0 posts",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
+    },
     "stevethephotog": {
       "follower": true,
       "follower_since": "2026-06-03",
@@ -6888,7 +7222,13 @@
     },
     "stgeorgemtb": {
       "following": true,
-      "following_since": "2026-06-08"
+      "following_since": "2026-06-08",
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "1240/1281, posted 2026-10-22, MTB community, St. George UT",
+      "source": "downrangebikeworks",
+      "verdict": "follow"
     },
     "stickytrail2.0": {
       "follower": true,
@@ -6996,6 +7336,14 @@
     "susiedouglasmtb": {
       "following": true,
       "following_since": "2026-06-27"
+    },
+    "suspension_rx": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "512/741, posted 2026-11-10, MTB suspension service, Fullerton CA",
+      "source": "downrangebikeworks",
+      "verdict": "follow"
     },
     "swampdonkeydash": {
       "following": true,
@@ -7134,7 +7482,13 @@
     },
     "that2wheelfeel_": {
       "following": true,
-      "following_since": "2026-10-21"
+      "following_since": "2026-10-21",
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "rejected: ratio 523/2007; Utah",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
     },
     "that_z32guy": {
       "following": true,
@@ -7204,7 +7558,13 @@
     },
     "theclydesdalerider": {
       "following": true,
-      "following_since": "2026-06-27"
+      "following_since": "2026-06-27",
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "rejected: last post 2026-03-31",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
     },
     "thecommuterprojecttoledo": {
       "following": true,
@@ -7945,7 +8305,13 @@
       "follower": true,
       "follower_since": "2026-06-10",
       "following": true,
-      "following_since": "2026-06-10"
+      "following_since": "2026-06-10",
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "rejected: ratio 976/2238 (0.44); upstate NY USMC vet MTB",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
     },
     "whiteboyj_88": {
       "follower": true,
@@ -8105,6 +8471,22 @@
     "yaaake__": {
       "following": true,
       "following_since": "2026-06-27"
+    },
+    "yeet_and_repeat_mtb": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "rejected: ratio 62/165; Las Vegas MTB",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
+    },
+    "yeti.rider": {
+      "investigated": [
+        "2026-11-12"
+      ],
+      "note": "rejected: ratio 424/1374",
+      "source": "downrangebikeworks",
+      "verdict": "unclear"
     },
     "yetiqwest": {
       "investigated": [
