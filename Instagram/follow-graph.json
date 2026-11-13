@@ -3227,7 +3227,10 @@
     },
     "gsl.vrmntrl": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-13"
+      ]
     },
     "gspringer2610": {
       "investigated": [
@@ -3247,7 +3250,10 @@
     },
     "halellms": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-13"
+      ]
     },
     "hammphoto": {
       "follower": true,
@@ -3257,7 +3263,10 @@
     },
     "happytobehere_media": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-13"
+      ]
     },
     "hardwickmtbtrails": {
       "following": true,
@@ -3438,7 +3447,10 @@
     },
     "huffyusa": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-13"
+      ]
     },
     "humanistic_coaching": {
       "following": true,
@@ -3454,7 +3466,10 @@
     },
     "huskyfargo": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-13"
+      ]
     },
     "hvnemba": {
       "following": true,
@@ -3510,7 +3525,10 @@
     },
     "ilyaburmatov": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-13"
+      ]
     },
     "imbrogli.o": {
       "following": true,
@@ -3548,7 +3566,10 @@
     },
     "isaaccyclist": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-13"
+      ]
     },
     "isaak_josua": {
       "following": true,
@@ -3593,7 +3614,10 @@
     },
     "j.bstudios": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-13"
+      ]
     },
     "j.likes.bikes": {
       "follower": true,
@@ -3748,7 +3772,10 @@
     },
     "jebphoto": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-13"
+      ]
     },
     "jeddie_adventure": {
       "following": true,
@@ -3869,7 +3896,10 @@
     },
     "jlee_5013": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-13"
+      ]
     },
     "jlpjr_": {
       "investigated": [
@@ -3995,7 +4025,10 @@
     },
     "josh.saxe": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-13"
+      ]
     },
     "josh__probst": {
       "following": true,
@@ -4041,7 +4074,10 @@
     },
     "joypoweradventures": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-13"
+      ]
     },
     "jrglaab1": {
       "following": true,
@@ -8935,6 +8971,24 @@
         "fitforlife_mike"
       ],
       "order": "oldest"
+    },
+    {
+      "date": "2026-11-13",
+      "handles": [
+        "gsl.vrmntrl",
+        "halellms",
+        "happytobehere_media",
+        "huffyusa",
+        "huskyfargo",
+        "ilyaburmatov",
+        "isaaccyclist",
+        "j.bstudios",
+        "jebphoto",
+        "jlee_5013",
+        "josh.saxe",
+        "joypoweradventures"
+      ],
+      "order": "oldest"
     }
   ],
   "imports": [
@@ -8945,6 +8999,6 @@
       "source": "/home/jkc/Downloads/instagram-rangerly.app-2026-11-01-Ni1r2IV4.zip"
     }
   ],
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "version": 1
 }
