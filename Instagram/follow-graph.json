@@ -4400,7 +4400,10 @@
     },
     "labike2028": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-13"
+      ]
     },
     "ladymad1": {
       "following": true,
@@ -4788,7 +4791,10 @@
     },
     "marionbast": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-13"
+      ]
     },
     "markjwoodworth": {
       "following": true,
@@ -4943,7 +4949,10 @@
     },
     "maximusmedvesky": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-13"
+      ]
     },
     "maxplayswithdirt": {
       "following": true,
@@ -5135,7 +5144,10 @@
     },
     "mjbruiser": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-13"
+      ]
     },
     "mlr.works": {
       "following": true,
@@ -5402,7 +5414,10 @@
     },
     "mtn_queen_colleen": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-13"
+      ]
     },
     "mtn_trail_paddle_board_bikes": {
       "following": true,
@@ -5679,7 +5694,10 @@
     },
     "northwest.arkansas": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-13"
+      ]
     },
     "nova.mtb": {
       "investigated": [
@@ -5701,7 +5719,10 @@
     },
     "oatmealnelson": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-13"
+      ]
     },
     "ocgravel": {
       "follower": true,
@@ -5773,7 +5794,10 @@
     },
     "oldmanmountainracks": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-13"
+      ]
     },
     "omc_fishing72": {
       "follower": true,
@@ -5884,7 +5908,10 @@
     },
     "oztrailsnwa": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-13"
+      ]
     },
     "p_d_mitchell_": {
       "following": true,
@@ -6026,7 +6053,10 @@
     },
     "perezangeljrivera": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-13"
+      ]
     },
     "perryhilltrailgnome": {
       "following": true,
@@ -6082,7 +6112,10 @@
     },
     "pinyonspinesbikepackingrace": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-13"
+      ]
     },
     "piotrek.wwa": {
       "following": true,
@@ -6129,7 +6162,10 @@
     },
     "poplar_bluff_hellbenders": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-13"
+      ]
     },
     "portesharvey": {
       "following": true,
@@ -8987,6 +9023,24 @@
         "jlee_5013",
         "josh.saxe",
         "joypoweradventures"
+      ],
+      "order": "oldest"
+    },
+    {
+      "date": "2026-11-13",
+      "handles": [
+        "labike2028",
+        "marionbast",
+        "maximusmedvesky",
+        "mjbruiser",
+        "mtn_queen_colleen",
+        "northwest.arkansas",
+        "oatmealnelson",
+        "oldmanmountainracks",
+        "oztrailsnwa",
+        "perezangeljrivera",
+        "pinyonspinesbikepackingrace",
+        "poplar_bluff_hellbenders"
       ],
       "order": "oldest"
     }
