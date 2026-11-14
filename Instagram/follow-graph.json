@@ -6485,7 +6485,10 @@
     },
     "project_porter": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-14"
+      ]
     },
     "projectnortheast": {
       "following": true,
@@ -7501,7 +7504,10 @@
     },
     "spokesandsaguaros": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-14"
+      ]
     },
     "sprucecycles": {
       "following": true,
@@ -7525,7 +7531,10 @@
     },
     "stacy._ritchie": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-14"
+      ]
     },
     "stankbait68": {
       "following": true,
@@ -7703,7 +7712,10 @@
     },
     "surly_bike_romancer": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-14"
+      ]
     },
     "susarmstrong": {
       "following": true,
@@ -8012,7 +8024,10 @@
     },
     "themonkeywrench": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-14"
+      ]
     },
     "themtbchef": {
       "follower": true,
@@ -8059,7 +8074,10 @@
     },
     "theseabassventures": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-14"
+      ]
     },
     "thespeedofbike": {
       "following": true,
@@ -8281,7 +8299,10 @@
     },
     "travels_withterry": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-14"
+      ]
     },
     "travis_cycles": {
       "following": true,
@@ -8339,7 +8360,10 @@
     },
     "tshep0917": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-14"
+      ]
     },
     "tuc_ker26": {
       "investigated": [
@@ -8596,7 +8620,10 @@
     },
     "wajertiffintrobee": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-14"
+      ]
     },
     "waldmanlindsey": {
       "investigated": [
@@ -8636,7 +8663,10 @@
     },
     "wandering_wheels.usa": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-14"
+      ]
     },
     "wanderoutdooradventurehub": {
       "following": true,
@@ -8651,7 +8681,10 @@
     },
     "watchjensrun": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-14"
+      ]
     },
     "waxtoothgrin": {
       "follower": true,
@@ -8696,7 +8729,10 @@
     },
     "wellscornette": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-14"
+      ]
     },
     "wendecragg12": {
       "following": true,
@@ -9441,6 +9477,24 @@
         "perezangeljrivera",
         "pinyonspinesbikepackingrace",
         "poplar_bluff_hellbenders"
+      ],
+      "order": "oldest"
+    },
+    {
+      "date": "2026-11-14",
+      "handles": [
+        "project_porter",
+        "spokesandsaguaros",
+        "stacy._ritchie",
+        "surly_bike_romancer",
+        "themonkeywrench",
+        "theseabassventures",
+        "travels_withterry",
+        "tshep0917",
+        "wajertiffintrobee",
+        "wandering_wheels.usa",
+        "watchjensrun",
+        "wellscornette"
       ],
       "order": "oldest"
     }
