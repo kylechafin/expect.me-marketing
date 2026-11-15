@@ -139,7 +139,10 @@
     },
     "_kate_northcott": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-15"
+      ]
     },
     "_lawrence_sereduck_": {
       "following": true,
@@ -249,7 +252,10 @@
     },
     "about.amber": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-15"
+      ]
     },
     "abqmtnrescue": {
       "following": true,
@@ -648,11 +654,17 @@
     },
     "anja_meichsner": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-15"
+      ]
     },
     "anna.d.schaal": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-15"
+      ]
     },
     "anthony_l4rp": {
       "following": true,
@@ -694,7 +706,10 @@
     },
     "aqueducttrails": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-15"
+      ]
     },
     "ariannakharizz": {
       "follower": true,
@@ -882,7 +897,10 @@
     },
     "barn_wah": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-15"
+      ]
     },
     "bartolomeo_manueldi.mtb_": {
       "follower": true,
@@ -956,7 +974,10 @@
     },
     "beardcontestwinner": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-15"
+      ]
     },
     "bearded_ginger_man": {
       "following": true,
@@ -999,7 +1020,10 @@
     },
     "bella.robinsonhall": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-15"
+      ]
     },
     "bellisfarmer": {
       "following": true,
@@ -1021,7 +1045,10 @@
     },
     "ben__bardwell": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-15"
+      ]
     },
     "ben_trib": {
       "following": true,
@@ -1167,7 +1194,10 @@
     },
     "bikeborderlands": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-15"
+      ]
     },
     "bikecamphikegirl": {
       "following": true,
@@ -8231,7 +8261,10 @@
     },
     "tonisyarifudin": {
       "following": true,
-      "following_since": "2026-05-29"
+      "following_since": "2026-05-29",
+      "recommended": [
+        "2026-11-15"
+      ]
     },
     "tony_evolvecima": {
       "investigated": [
@@ -9044,7 +9077,10 @@
     },
     "zucchiniling": {
       "following": true,
-      "following_since": "2026-05-28"
+      "following_since": "2026-05-28",
+      "recommended": [
+        "2026-11-15"
+      ]
     }
   },
   "batches": [
@@ -9497,6 +9533,24 @@
         "wellscornette"
       ],
       "order": "oldest"
+    },
+    {
+      "date": "2026-11-15",
+      "handles": [
+        "zucchiniling",
+        "tonisyarifudin",
+        "_kate_northcott",
+        "about.amber",
+        "anja_meichsner",
+        "anna.d.schaal",
+        "aqueducttrails",
+        "barn_wah",
+        "beardcontestwinner",
+        "bella.robinsonhall",
+        "ben__bardwell",
+        "bikeborderlands"
+      ],
+      "order": "oldest"
     }
   ],
   "imports": [
@@ -9507,6 +9561,6 @@
       "source": "/home/jkc/Downloads/instagram-rangerly.app-2026-11-01-Ni1r2IV4.zip"
     }
   ],
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "version": 1
 }
