@@ -1415,7 +1415,10 @@
     },
     "brandonfixesthings": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-16"
+      ]
     },
     "bret.mccormick": {
       "follower": true,
@@ -1429,7 +1432,10 @@
     },
     "brianbarthelmes": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-16"
+      ]
     },
     "brianmcgloin": {
       "follower": true,
@@ -1547,7 +1553,10 @@
     },
     "calebrichter": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-16"
+      ]
     },
     "calebwheel": {
       "following": true,
@@ -1883,7 +1892,10 @@
     },
     "chubbs_peterson69": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-16"
+      ]
     },
     "chuckypitts": {
       "following": true,
@@ -1902,7 +1914,10 @@
     },
     "claimthelanefilm": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-16"
+      ]
     },
     "class4cycling": {
       "following": true,
@@ -2752,7 +2767,10 @@
     },
     "emilegiroux": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-16"
+      ]
     },
     "emilylevens": {
       "following": true,
@@ -2824,7 +2842,10 @@
     },
     "excitement_wheelworks": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-16"
+      ]
     },
     "extreme_vintage": {
       "following": true,
@@ -2952,7 +2973,10 @@
     },
     "flowstatemtbfest": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-16"
+      ]
     },
     "fluorescentbug": {
       "following": true,
@@ -3160,7 +3184,10 @@
     },
     "gear_inches": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-16"
+      ]
     },
     "gearsofjoycycling": {
       "following": true,
@@ -3295,7 +3322,10 @@
     },
     "graniteoutdoor": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-16"
+      ]
     },
     "grassrootscycles": {
       "following": true,
@@ -3309,7 +3339,10 @@
     },
     "gravelboston": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-16"
+      ]
     },
     "gravity_alliance": {
       "following": true,
@@ -3336,7 +3369,10 @@
     },
     "greada_treaty": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-16"
+      ]
     },
     "greasychainbookandbikeclub": {
       "following": true,
@@ -9551,6 +9587,24 @@
         "bikeborderlands"
       ],
       "order": "oldest"
+    },
+    {
+      "date": "2026-11-16",
+      "handles": [
+        "brandonfixesthings",
+        "brianbarthelmes",
+        "calebrichter",
+        "chubbs_peterson69",
+        "claimthelanefilm",
+        "emilegiroux",
+        "excitement_wheelworks",
+        "flowstatemtbfest",
+        "gear_inches",
+        "graniteoutdoor",
+        "gravelboston",
+        "greada_treaty"
+      ],
+      "order": "oldest"
     }
   ],
   "imports": [
@@ -9561,6 +9615,6 @@
       "source": "/home/jkc/Downloads/instagram-rangerly.app-2026-11-01-Ni1r2IV4.zip"
     }
   ],
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "version": 1
 }
