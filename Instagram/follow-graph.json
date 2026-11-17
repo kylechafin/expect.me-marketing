@@ -3643,7 +3643,10 @@
     },
     "hillside_designworks": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-17"
+      ]
     },
     "hitchhikerbikeshop": {
       "following": true,
@@ -4707,7 +4710,10 @@
     },
     "laststopbike": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-17"
+      ]
     },
     "leachman21": {
       "following": true,
@@ -4784,11 +4790,17 @@
     },
     "lightinnewengland": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-17"
+      ]
     },
     "lilsenders.neyc": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-17"
+      ]
     },
     "limmerboots": {
       "following": true,
@@ -4923,7 +4935,10 @@
     },
     "lugsnotdrugs": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-17"
+      ]
     },
     "luisochoa_mtb": {
       "following": true,
@@ -5465,7 +5480,10 @@
     },
     "molahoods": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-17"
+      ]
     },
     "monkeyloob": {
       "follower": true,
@@ -5738,7 +5756,10 @@
     },
     "mvojtko48": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-17"
+      ]
     },
     "mwacenter": {
       "following": true,
@@ -5980,7 +6001,10 @@
     },
     "noonanpatrick9": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-17"
+      ]
     },
     "noreasterbackcountry": {
       "following": true,
@@ -6229,7 +6253,10 @@
     },
     "p_d_mitchell_": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-17"
+      ]
     },
     "padyakaz": {
       "investigated": [
@@ -6958,7 +6985,10 @@
     },
     "robbikes": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-17"
+      ]
     },
     "robeastunder_": {
       "following": true,
@@ -7173,7 +7203,10 @@
     },
     "saskadenasix": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-17"
+      ]
     },
     "scarlet_mtb": {
       "follower": true,
@@ -7727,7 +7760,10 @@
     },
     "stowe_mtn_bike_academy": {
       "following": true,
-      "following_since": "2026-05-30"
+      "following_since": "2026-05-30",
+      "recommended": [
+        "2026-11-17"
+      ]
     },
     "stowetrails": {
       "following": true,
@@ -9605,6 +9641,24 @@
         "greada_treaty"
       ],
       "order": "oldest"
+    },
+    {
+      "date": "2026-11-17",
+      "handles": [
+        "hillside_designworks",
+        "laststopbike",
+        "lightinnewengland",
+        "lilsenders.neyc",
+        "lugsnotdrugs",
+        "molahoods",
+        "mvojtko48",
+        "noonanpatrick9",
+        "p_d_mitchell_",
+        "robbikes",
+        "saskadenasix",
+        "stowe_mtn_bike_academy"
+      ],
+      "order": "oldest"
     }
   ],
   "imports": [
@@ -9615,6 +9669,6 @@
       "source": "/home/jkc/Downloads/instagram-rangerly.app-2026-11-01-Ni1r2IV4.zip"
     }
   ],
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "version": 1
 }
