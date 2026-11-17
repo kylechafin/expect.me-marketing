@@ -513,6 +513,14 @@
       "following": true,
       "following_since": "2026-06-03"
     },
+    "alpine_boii": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: no MTB content",
+      "source": "laststopbike",
+      "verdict": "unclear"
+    },
     "alpine_flows": {
       "following": true,
       "following_since": "2026-06-24"
@@ -879,6 +887,14 @@
       "following": true,
       "following_since": "2026-05-16"
     },
+    "backwoods_goddess": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: private, 134/437",
+      "source": "laststopbike",
+      "verdict": "unclear"
+    },
     "badgercyclist": {
       "following": true,
       "following_since": "2026-06-18"
@@ -928,6 +944,14 @@
       "recommended": [
         "2026-11-01"
       ]
+    },
+    "battle.road.bikes": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: ratio 1561/344",
+      "source": "laststopbike",
+      "verdict": "unclear"
     },
     "bauer50km": {
       "following": true,
@@ -999,6 +1023,14 @@
     "beauclark446": {
       "following": true,
       "following_since": "2026-06-24"
+    },
+    "beccaskis": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: private, 488/3051",
+      "source": "laststopbike",
+      "verdict": "unclear"
     },
     "beerbikestacos": {
       "following": true,
@@ -1105,6 +1137,14 @@
       "following": true,
       "following_since": "2026-10-22"
     },
+    "best_ride_ever_mtb": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: private, 191/803",
+      "source": "laststopbike",
+      "verdict": "unclear"
+    },
     "best_trails": {
       "investigated": [
         "2026-11-05"
@@ -1207,6 +1247,14 @@
       "following": true,
       "following_since": "2026-06-08"
     },
+    "bikelikeagurl": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: stale 2021",
+      "source": "laststopbike",
+      "verdict": "unclear"
+    },
     "bikenthings": {
       "following": true,
       "following_since": "2026-06-10"
@@ -1235,6 +1283,14 @@
       "follower_since": "2026-06-22",
       "following": true,
       "following_since": "2026-06-22"
+    },
+    "bikerando_official_": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: Italy, last post 2026-05",
+      "source": "laststopbike",
+      "verdict": "unclear"
     },
     "bikerbrad_": {
       "following": true,
@@ -1347,6 +1403,14 @@
       ],
       "note": "392/706, active; MTB and location unclear",
       "source": "downrangebikeworks",
+      "verdict": "unclear"
+    },
+    "bluegrassbicyclecompany": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: ratio 901/307",
+      "source": "laststopbike",
       "verdict": "unclear"
     },
     "bluehills_ski_patrol": {
@@ -1575,6 +1639,14 @@
     "canadianshieldbikepacking": {
       "following": true,
       "following_since": "2026-06-27"
+    },
+    "cancanogravel": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: Italy, stale 2023",
+      "source": "laststopbike",
+      "verdict": "unclear"
     },
     "canefanmtb": {
       "following": true,
@@ -1901,6 +1973,14 @@
       "following": true,
       "following_since": "2026-06-04"
     },
+    "cicadence": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: stale 2026-02",
+      "source": "laststopbike",
+      "verdict": "unclear"
+    },
     "cindy.pruce": {
       "following": true,
       "following_since": "2026-06-08"
@@ -1932,6 +2012,14 @@
       "recommended": [
         "2026-11-08"
       ]
+    },
+    "clipclop.ebike": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: overseas e-bike OEM",
+      "source": "laststopbike",
+      "verdict": "unclear"
     },
     "cltmtbcoach": {
       "follower": true,
@@ -1977,6 +2065,14 @@
     "cody_stuntz91": {
       "following": true,
       "following_since": "2026-10-22"
+    },
+    "coffe.and.bike": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: stale 2024-01",
+      "source": "laststopbike",
+      "verdict": "unclear"
     },
     "coggstwinports": {
       "following": true,
@@ -2054,6 +2150,14 @@
         "2026-11-04"
       ]
     },
+    "connecticut_mtbiking": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: stale 2023",
+      "source": "laststopbike",
+      "verdict": "unclear"
+    },
     "connor.nickel": {
       "following": true,
       "following_since": "2026-06-11"
@@ -2068,6 +2172,14 @@
       "recommended": [
         "2026-11-01"
       ]
+    },
+    "connors.adventures": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: ski mountaineering, no MTB",
+      "source": "laststopbike",
+      "verdict": "unclear"
     },
     "cont_k.62": {
       "following": true,
@@ -2208,6 +2320,14 @@
       "following": true,
       "following_since": "2026-06-27"
     },
+    "cyclesetc": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: last post 2026-05-24",
+      "source": "laststopbike",
+      "verdict": "unclear"
+    },
     "cyclesnack": {
       "following": true,
       "following_since": "2026-06-22"
@@ -2268,6 +2388,14 @@
       "follower_since": "2026-07-22",
       "following": true,
       "following_since": "2026-06-16"
+    },
+    "d_a_butler": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: private, 354/1311",
+      "source": "laststopbike",
+      "verdict": "unclear"
     },
     "dadridesmtb": {
       "investigated": [
@@ -2347,6 +2475,14 @@
     "dcskier025": {
       "following": true,
       "following_since": "2026-06-09"
+    },
+    "deadeye_gearloose": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: stale 2023",
+      "source": "laststopbike",
+      "verdict": "unclear"
     },
     "deajohns": {
       "following": true,
@@ -2614,6 +2750,14 @@
       "following": true,
       "following_since": "2026-06-09"
     },
+    "dumonde.tech.bicycle.usa": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "1099/1564, posted 2026-11-13, US chain-lube brand; generic cycling, MTB only incidental",
+      "source": "laststopbike",
+      "verdict": "unclear"
+    },
     "dupontthorsten": {
       "following": true,
       "following_since": "2026-06-09"
@@ -2685,6 +2829,14 @@
     "edwardcarson14": {
       "following": true,
       "following_since": "2026-10-22"
+    },
+    "efficientvelo": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: ratio 8917/2687",
+      "source": "laststopbike",
+      "verdict": "unclear"
     },
     "ejinlp": {
       "following": true,
@@ -2856,6 +3008,14 @@
       "follower_since": "2026-06-03",
       "following": true,
       "following_since": "2026-06-03"
+    },
+    "fanatics_bike_nh": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: stale 2023",
+      "source": "laststopbike",
+      "verdict": "unclear"
     },
     "farmdogsaresprinttraining": {
       "following": true,
@@ -3337,6 +3497,14 @@
       "following": true,
       "following_since": "2026-06-09"
     },
+    "gravel_hunt": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: Japan",
+      "source": "laststopbike",
+      "verdict": "unclear"
+    },
     "gravelboston": {
       "following": true,
       "following_since": "2026-05-30",
@@ -3663,9 +3831,33 @@
       "source": "downrangebikeworks",
       "verdict": "unclear"
     },
+    "hobbitholebikeworks": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: stale 2022",
+      "source": "laststopbike",
+      "verdict": "unclear"
+    },
     "hoes_hu_bike": {
       "following": true,
       "following_since": "2026-06-03"
+    },
+    "hold.fast.cycling": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: last post 2026-07-01",
+      "source": "laststopbike",
+      "verdict": "unclear"
+    },
+    "holderness_mtn_biking": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: stale 2025-02, 377/19, school team",
+      "source": "laststopbike",
+      "verdict": "unclear"
     },
     "homeless_in_training": {
       "following": true,
@@ -4201,6 +4393,14 @@
       "following": true,
       "following_since": "2026-06-09"
     },
+    "joeskisfast": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: last post 2026-03",
+      "source": "laststopbike",
+      "verdict": "unclear"
+    },
     "joey_bananas_66": {
       "following": true,
       "following_since": "2026-05-26",
@@ -4255,6 +4455,14 @@
     "johnny_makes_photography": {
       "following": true,
       "following_since": "2026-06-08"
+    },
+    "jojosnextadventure": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: private, 179/444",
+      "source": "laststopbike",
+      "verdict": "unclear"
     },
     "jon_left": {
       "following": true,
@@ -4477,6 +4685,14 @@
         "2026-11-02"
       ]
     },
+    "kcoffcycles": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: private",
+      "source": "laststopbike",
+      "verdict": "unclear"
+    },
     "kdedora": {
       "following": true,
       "following_since": "2026-06-03"
@@ -4585,6 +4801,14 @@
       "source": "amyloualwaysblue",
       "verdict": "unclear"
     },
+    "kjs_top_notch_tuning": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: ski tune shop, stale 2023",
+      "source": "laststopbike",
+      "verdict": "unclear"
+    },
     "kjskierrunner": {
       "following": true,
       "following_since": "2026-06-18"
@@ -4621,6 +4845,14 @@
       "following": true,
       "following_since": "2026-06-03"
     },
+    "krankcyclesmaui": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: ratio 4135/798",
+      "source": "laststopbike",
+      "verdict": "unclear"
+    },
     "kristin.motley": {
       "following": true,
       "following_since": "2026-05-25",
@@ -4634,6 +4866,22 @@
       "recommended": [
         "2026-11-01"
       ]
+    },
+    "ktthecyclist": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "290/393, posted 2026-11-15, full-sus MTB on NH forest trails, adult",
+      "source": "laststopbike",
+      "verdict": "follow"
+    },
+    "kurtois": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: 0 posts",
+      "source": "laststopbike",
+      "verdict": "unclear"
     },
     "kyle.chafin": {
       "follower": true,
@@ -4714,6 +4962,14 @@
       "recommended": [
         "2026-11-17"
       ]
+    },
+    "laststopstl": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: ratio 429/1052",
+      "source": "laststopbike",
+      "verdict": "unclear"
     },
     "leachman21": {
       "following": true,
@@ -4974,6 +5230,14 @@
       "recommended": [
         "2026-11-02"
       ]
+    },
+    "lunch_break_brazing": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: ratio 1372/628, cyclocross MN",
+      "source": "laststopbike",
+      "verdict": "unclear"
     },
     "lundebrad": {
       "following": true,
@@ -5447,6 +5711,14 @@
       "following": true,
       "following_since": "2026-06-08"
     },
+    "misterjefe_": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: private, 583/1506",
+      "source": "laststopbike",
+      "verdict": "unclear"
+    },
     "mistieboule": {
       "following": true,
       "following_since": "2026-06-09"
@@ -5507,6 +5779,14 @@
       "following": true,
       "following_since": "2026-06-13"
     },
+    "moontowerbikeco": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "1572/2307, posted 2026-10-20, MTB hardtails + frame building, Austin TX",
+      "source": "laststopbike",
+      "verdict": "follow"
+    },
     "moralesmorka1306": {
       "follower": true,
       "follower_since": "2026-06-10",
@@ -5529,6 +5809,22 @@
       "following": true,
       "following_since": "2026-06-22"
     },
+    "mountain.exposure": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "331/678 (0.49, just under), posted 2026-11-11, bike park day, White Mtns NH, dad",
+      "source": "laststopbike",
+      "verdict": "unclear"
+    },
+    "mountainhighfly": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: stale 2024, fly shop",
+      "source": "laststopbike",
+      "verdict": "unclear"
+    },
     "mr.deltoid": {
       "investigated": [
         "2026-11-05"
@@ -5546,6 +5842,14 @@
       "follower_since": "2026-06-04",
       "following": true,
       "following_since": "2026-06-04"
+    },
+    "mtb.ct": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: stale 2021",
+      "source": "laststopbike",
+      "verdict": "unclear"
     },
     "mtb.jen": {
       "following": true,
@@ -5631,6 +5935,14 @@
     "mtbb.rody": {
       "following": true,
       "following_since": "2026-06-10"
+    },
+    "mtbben603": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "888/951, posted 2026-10-12, NE Dirt MTB podcast, NH (603), father of 3",
+      "source": "laststopbike",
+      "verdict": "follow"
     },
     "mtbcorey012": {
       "investigated": [
@@ -5838,6 +6150,14 @@
       "following": true,
       "following_since": "2026-06-10"
     },
+    "ne_dirt_podcast": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: stale 2025-05, 403/75",
+      "source": "laststopbike",
+      "verdict": "unclear"
+    },
     "necoutdooreducation": {
       "following": true,
       "following_since": "2026-05-16",
@@ -5874,9 +6194,33 @@
       "following": true,
       "following_since": "2026-09-29"
     },
+    "newhamhiker": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: MLM, stale 2021",
+      "source": "laststopbike",
+      "verdict": "unclear"
+    },
+    "newhampshred": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: private, 2965/5710",
+      "source": "laststopbike",
+      "verdict": "unclear"
+    },
     "newhavenbikeclub": {
       "following": true,
       "following_since": "2026-06-22"
+    },
+    "nh_mountainmama": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: private",
+      "source": "laststopbike",
+      "verdict": "unclear"
     },
     "nhbcpatrol": {
       "follower": true,
@@ -6137,6 +6481,14 @@
         "2026-11-13"
       ]
     },
+    "oldspokeshome": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: ratio 6311/1015",
+      "source": "laststopbike",
+      "verdict": "unclear"
+    },
     "omc_fishing72": {
       "follower": true,
       "follower_since": "2026-06-05",
@@ -6149,6 +6501,14 @@
       "recommended": [
         "2026-11-01"
       ]
+    },
+    "oneseventy7": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: private, 152/985",
+      "source": "laststopbike",
+      "verdict": "unclear"
     },
     "onespdtandem": {
       "follower": true,
@@ -6189,6 +6549,14 @@
     "outlive_collective": {
       "following": true,
       "following_since": "2026-06-24"
+    },
+    "outsetcycles": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: stale 2023",
+      "source": "laststopbike",
+      "verdict": "unclear"
     },
     "outside_joe": {
       "follower": true,
@@ -6311,6 +6679,14 @@
       "recommended": [
         "2026-11-02"
       ]
+    },
+    "pathslesswandered": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: ratio 272/868",
+      "source": "laststopbike",
+      "verdict": "unclear"
     },
     "patrolpenguins": {
       "following": true,
@@ -6458,6 +6834,14 @@
       "follower_since": "2026-06-02",
       "following": true,
       "following_since": "2026-06-02"
+    },
+    "pinelineoutdoors": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: stale 2023",
+      "source": "laststopbike",
+      "verdict": "unclear"
     },
     "pinyonspinesbikepackingrace": {
       "following": true,
@@ -6731,6 +7115,14 @@
       "note": "5174/5238, posted 2026-11-02, MTB Mountain Creek NJ, Port Jervis NY",
       "source": "amyloualwaysblue",
       "verdict": "follow"
+    },
+    "redneckboarder": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: private, 266/1910",
+      "source": "laststopbike",
+      "verdict": "unclear"
     },
     "redstoneharley": {
       "following": true,
@@ -7027,6 +7419,14 @@
       "following": true,
       "following_since": "2026-06-10"
     },
+    "rosiejaneadventures": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: stale 2021",
+      "source": "laststopbike",
+      "verdict": "unclear"
+    },
     "ross_mcdo": {
       "following": true,
       "following_since": "2026-06-04"
@@ -7087,6 +7487,14 @@
     "rueler37": {
       "following": true,
       "following_since": "2026-06-09"
+    },
+    "run.climb.ride": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "775/634, posted 2026-11-01, MTB+climbing, Wapack/NEK VT/Franconia, adult",
+      "source": "laststopbike",
+      "verdict": "follow"
     },
     "run.lift.ride.climb.etc": {
       "investigated": [
@@ -7289,6 +7697,14 @@
       "following": true,
       "following_since": "2026-06-08"
     },
+    "serenadebikes": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: location unstated, carbon wheel maker",
+      "source": "laststopbike",
+      "verdict": "unclear"
+    },
     "service_tonybike": {
       "following": true,
       "following_since": "2026-06-09"
@@ -7370,6 +7786,14 @@
       "following": true,
       "following_since": "2026-06-08"
     },
+    "shredward_shredrickson": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: private, 288/842",
+      "source": "laststopbike",
+      "verdict": "unclear"
+    },
     "sik_mtb": {
       "investigated": [
         "2026-11-12"
@@ -7431,6 +7855,14 @@
       "following": true,
       "following_since": "2026-09-29"
     },
+    "ski.local": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: ski shop, no MTB",
+      "source": "laststopbike",
+      "verdict": "unclear"
+    },
     "ski_you_later_": {
       "following": true,
       "following_since": "2026-05-16",
@@ -7476,6 +7908,14 @@
       "recommended": [
         "2026-11-01"
       ]
+    },
+    "slickrockmedia": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: private",
+      "source": "laststopbike",
+      "verdict": "unclear"
     },
     "sluggloverr": {
       "following": true,
@@ -7607,6 +8047,14 @@
       "recommended": [
         "2026-11-14"
       ]
+    },
+    "spokingofbikes": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: stale 2024-05, 112/991",
+      "source": "laststopbike",
+      "verdict": "unclear"
     },
     "sprucecycles": {
       "following": true,
@@ -7800,6 +8248,14 @@
       "following": true,
       "following_since": "2026-06-09"
     },
+    "sudarcyclecraft": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: ratio 188/431",
+      "source": "laststopbike",
+      "verdict": "unclear"
+    },
     "summerr_melonz": {
       "following": true,
       "following_since": "2026-06-18"
@@ -7834,6 +8290,14 @@
       "note": "512/741, posted 2026-11-10, MTB suspension service, Fullerton CA",
       "source": "downrangebikeworks",
       "verdict": "follow"
+    },
+    "susumu.bike.trout": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: stale 2025-07, Japan",
+      "source": "laststopbike",
+      "verdict": "unclear"
     },
     "swamp_fox1": {
       "investigated": [
@@ -8035,6 +8499,14 @@
         "2026-11-03"
       ]
     },
+    "the_gnarbus": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: stale 2022",
+      "source": "laststopbike",
+      "verdict": "unclear"
+    },
     "the_jibstagram": {
       "following": true,
       "following_since": "2026-06-13"
@@ -8137,6 +8609,14 @@
       "following": true,
       "following_since": "2026-10-22"
     },
+    "thenotchcyclery": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "1643/922, posted 2026-11-06, Santa Cruz/Pivot/Orbea dealer, Campton NH",
+      "source": "laststopbike",
+      "verdict": "follow"
+    },
     "thenwanative": {
       "follower": true,
       "follower_since": "2026-06-01",
@@ -8180,6 +8660,14 @@
       "recommended": [
         "2026-11-14"
       ]
+    },
+    "theshredvan": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: stale 2024-09",
+      "source": "laststopbike",
+      "verdict": "unclear"
     },
     "thespeedofbike": {
       "following": true,
@@ -8261,6 +8749,14 @@
       "recommended": [
         "2026-11-05"
       ]
+    },
+    "tiredcranksmtb": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: stale 2025-01, 310/832",
+      "source": "laststopbike",
+      "verdict": "unclear"
     },
     "titanium.talaria": {
       "follower": true,
@@ -8395,6 +8891,14 @@
     "trailreadymtb": {
       "following": true,
       "following_since": "2026-10-22"
+    },
+    "trailsidestays": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: ratio 2133/187",
+      "source": "laststopbike",
+      "verdict": "unclear"
     },
     "trailworking_hiker": {
       "follower": true,
@@ -8634,6 +9138,14 @@
       "following": true,
       "following_since": "2026-05-30"
     },
+    "velodramatick": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: fly fishing, no riding",
+      "source": "laststopbike",
+      "verdict": "unclear"
+    },
     "veloeros": {
       "following": true,
       "following_since": "2026-06-04"
@@ -8707,6 +9219,14 @@
       "recommended": [
         "2026-11-01"
       ]
+    },
+    "vtbikeandbrew": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: road e-bike tours, no MTB",
+      "source": "laststopbike",
+      "verdict": "unclear"
     },
     "vtboulders": {
       "following": true,
@@ -8920,6 +9440,14 @@
       "following": true,
       "following_since": "2026-10-22"
     },
+    "whitemountainpeakperformance": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: ratio 264/591",
+      "source": "laststopbike",
+      "verdict": "unclear"
+    },
     "wickedwoolly": {
       "following": true,
       "following_since": "2026-05-25",
@@ -9131,6 +9659,14 @@
     "zackpizzabikes": {
       "following": true,
       "following_since": "2026-06-27"
+    },
+    "zerodebikesus": {
+      "investigated": [
+        "2026-11-17"
+      ],
+      "note": "rejected: stale 2022",
+      "source": "laststopbike",
+      "verdict": "unclear"
     },
     "zerodebikesusa": {
       "following": true,
